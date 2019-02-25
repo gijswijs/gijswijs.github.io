@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: layout.njk
 ---
 
 <h2>Read what I have to say</h2>
