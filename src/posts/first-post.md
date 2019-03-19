@@ -7,3 +7,8 @@ layout: post.njk
 Hello, Newman.
 
 2e file!! Werkt dit, woop woop!
+
+Werkt dit?
+Werkt dit
+
+Dubbel enter?
