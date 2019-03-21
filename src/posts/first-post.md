@@ -8,7 +8,4 @@ Hello, Newman.
 
 2e file!! Werkt dit, woop woop!
 
-Werkt dit?
-Werkt dit
-
-Dubbel enter?
+Zo dan!!
