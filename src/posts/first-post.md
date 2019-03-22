@@ -6,6 +6,4 @@ layout: post.njk
 
 Hello, Newman.
 
-2e file!! Werkt dit, woop woop!
-
-Zo dan!!
+Het was een behoorlijke klus om dit aan de praat te krijgen!
