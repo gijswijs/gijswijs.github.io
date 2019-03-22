@@ -5,5 +5,4 @@ layout: post.njk
 ---
 
 Hello, Newman!!!
-Kan ik nu gewoon doorwerken?
-En wat gebeurt er nu?
+Kan ik nu gewoon doorwerken??
