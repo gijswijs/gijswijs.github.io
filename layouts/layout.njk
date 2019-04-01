@@ -34,61 +34,21 @@
     </header>
     <main>
       <ul>
+        {% for post in collections.posts %}
         <li>
           <article>
             <header>
-              <h1>Optimal selfish mining strategies in bitcoin</h1>
+              <h1>{{ post.title }}</h1>
               <p><time datetime="2019-03-27">March 27, 2019</time></p>
             </header>
             <section>
-              {{ contents | safe }}
-              <p>
-                The success of Bitcoin, the worldÃ¢ÂÂs first distributed
-                cryptocurrency, has shed light on its shortcomings. One of these
-                shortcomings is the low throughput of 3 to 7 transactions per
-                second. To make Bitcoin a feasible candidate for a global
-                payment network, these numbers have to increase dramatically.
+                <p>
+                TEST
               </p>
             </section>
           </article>
         </li>
-        <li>
-          <article>
-            <header>
-              <h1>Deanonymisation of clients in Bitcoin P2P network</h1>
-              <p><time datetime="2019-03-27">March 27, 2019</time></p>
-            </header>
-            <section>
-              <p>
-                The success of Bitcoin, the worldÃ¢ÂÂs first distributed
-                cryptocurrency, has shed light on its shortcomings. One of these
-                shortcomings is the low throughput of 3 to 7 transactions per
-                second. To make Bitcoin a feasible candidate for a global
-                payment network, these numbers have to increase dramatically.
-              </p>
-            </section>
-          </article>
-        </li>
-        <li>
-          <article>
-            <header>
-              <h1>
-                Decentralized Consensus for Edge-Centric Internet of Things: A
-                Review, Taxonomy, and Research Issues
-              </h1>
-              <p><time datetime="2019-03-27">March 27, 2019</time></p>
-            </header>
-            <section>
-              <p>
-                The success of Bitcoin, the worldÃ¢ÂÂs first distributed
-                cryptocurrency, has shed light on its shortcomings. One of these
-                shortcomings is the low throughput of 3 to 7 transactions per
-                second. To make Bitcoin a feasible candidate for a global
-                payment network, these numbers have to increase dramatically.
-              </p>
-            </section>
-          </article>
-        </li>
+        {% endfor %}
       </ul>
       <aside>
         <h2>About</h2>
