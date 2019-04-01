@@ -1,37 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,shrink-to-fit=no"
-    />
-    <meta name="description" content="{{ description }}">
-    <title>{{ title }}</title>
-    <link
-      href="styles/vendor.css"
-      rel="stylesheet"
-      integrity="sha384-7GZOiJ7WwbJ2PKz3iZ2Vt/NHNz65guUjQZ/uo6o2LYkbO/Al8pImelhUBJCReJw+"
-      crossorigin="anonymous"
-    />
-    <link
-      href="styles/app.css"
-      rel="stylesheet"
-      integrity="sha384-CmbISrdkuaE0Ligj91r5O19gln9DlEZPJlD/mLE3ZPUb74pjVOKtM+llu2Q+eLXC"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body class="article">
-    <header>
-      <h1>{{ title }}</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Archive</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </nav>
-    </header>
+{% set body_class = "home" %}
+{% extends "_layout.njk" %}
+
+{% block content %}
     <main>
       <article>
         <header>
@@ -48,16 +18,5 @@
         </section>
       </article>
     </main>
-    <script
-      src="scripts/vendor.js"
-      integrity="sha384-oGZCtcdYH4NJe/B3mJy/ZVvW066fCDDq+vlnU8JUvXfMVKE78U4yuXWwGx2Ub0Qe"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="scripts/app.js"
-      integrity="sha384-pVxaHa6yv+Q3QHVuK2ODYzW1+Htg+vq6pI/t0euNJoeo1WYAerlah5+pWyWc7j9U"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+{% endblock %} 
 
