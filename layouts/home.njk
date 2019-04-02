@@ -9,7 +9,7 @@
       <article>
         <header>
           <h1>{{ post.title }}</h1>
-          <p><time datetime="2019-03-27">{{ post.date }}</time></p>
+          <p><time datetime="{{ post.date | date("YYYY-MM-DD") }}">{{ post.date | date("MMMM D, YYYY") }}</time></p>
         </header>
         <section>
             <p>
