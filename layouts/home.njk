@@ -1,6 +1,10 @@
 {% set body_class = "home" %}
 {% extends "_layout.njk" %}
 
+{% block title %}
+{{ name }}
+{% endblock %}
+
 {% block content %}
 <main>
   <ul>
@@ -8,12 +12,12 @@
     <li>
       <article>
         <header>
-          <h1>{{ post.title }}</h1>
-          <p><time datetime="2019-03-27">March 27, 2019</time></p>
+          <h1><a href="/NeumannSSG/{{ post.path }}">{{ post.title }}</a></h1>
+          <p><time datetime="{{ post.date | date("YYYY-MM-DD") }}">{{ post.date | date("MMMM D, YYYY") }}</time></p>
         </header>
         <section>
             <p>
-            TEST
+            {{ post.excerpt | safe }}
           </p>
         </section>
       </article>
