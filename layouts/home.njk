@@ -9,7 +9,7 @@
     <li>
       <article>
         <header>
-          <h1><a href="/NeumannSSG/{{ post.path }}">{{ post.title }}</a></h1>
+          <h1><a href="{{ rootpath }}{{ post.path }}">{{ post.title }}</a></h1>
           <p><time datetime="{{ post.date | date("YYYY-MM-DD") }}">{{ post.date | date("MMMM D, YYYY") }}</time></p>
         </header>
         <section>

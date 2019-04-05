@@ -9,7 +9,7 @@
       </header>
       <ul>
         {% for file in pagination.files %}
-        <li>{{ file.title }}</li>
+        <li><a href="{{ rootpath }}{{ file.path }}">{{ file.title }}</a></li>
         {% endfor %}
       </ul>
     </main>
