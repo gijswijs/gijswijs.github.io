@@ -1,10 +1,6 @@
 <h2>Tags</h2>
 <ul>
-  <li><a href="#">Windows 10 (12)</a></li>
-  <li><a href="#">Bash (11)</a></li>
-  <li><a href="#">Java (8)</a></li>
-  <li><a href="#">Bitcoin (7)</a></li>
-  <li><a href="#">Politics (6)</a></li>
-  <li><a href="#">Visual Studio Code (2)</a></li>
-  <li><a href="#">Privacy (1)</a></li>
+{% for tag, posts in tags -%}
+  <li><a href="#">{{ tag }} ({{ posts.length }})</a></li>
+{% endfor -%}
 </ul>
