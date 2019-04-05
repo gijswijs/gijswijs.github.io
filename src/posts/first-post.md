@@ -8,7 +8,7 @@ tags:
 - Bash
 ---
 I've been following Bitcoin and more importantly the Blockchain from the sidelines for a few years now, but I wanted to get my hands dirty. Obviously I could just download the Bitcoin Core executables from bitcoin.org, but I always feel it gives me more insight if I build something myself. Also it's was a nice test case for Bash on Windows.
-
+<!-- more -->
 If you haven't done so already, you need to activate this feature for  Windows. It's only available on 64-bit Windows 10.
 You can follow the instructions for this on https://github.com/bitcoin/bitcoin/blob/master/doc/build-windows.md
 There's a catch, however. At the time of writing the Windows 10 bash feature comes with Ubuntu Xenial 16.04, which is exactly the Ubuntu version on which the build of Bitcoin Core is broken. So first check what version you are on.

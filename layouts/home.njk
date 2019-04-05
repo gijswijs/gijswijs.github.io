@@ -13,9 +13,7 @@
           <p><time datetime="{{ post.date | date("YYYY-MM-DD") }}">{{ post.date | date("MMMM D, YYYY") }}</time></p>
         </header>
         <section>
-            <p>
-            {{ post.excerpt | safe }}
-          </p>
+          {{ post.excerpt | safe }}
         </section>
       </article>
     </li>

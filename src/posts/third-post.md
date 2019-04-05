@@ -5,4 +5,5 @@ layout: post.njk
 ---
 
 Hello, Newman!!!
+<!-- more -->
 Kan ik nu gewoon doorwerken??

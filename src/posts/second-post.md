@@ -5,3 +5,4 @@ layout: post.njk
 ---
 
 Hello, Newman!
+<!-- more -->
