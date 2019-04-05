@@ -1,0 +1,16 @@
+{% set body_class = "tag" %}
+{% set page_title = "Post for " + tag %}
+{% extends "_layout.njk" %}
+
+{% block content %}
+    <main>
+      <header>
+        <h1>Posts for {{ tag }}</h1>
+      </header>
+      <ul>
+        {% for file in pagination.files %}
+        <li>file.title</li>
+        {% endfor %}
+      </ul>
+    </main>
+{% endblock %} 
