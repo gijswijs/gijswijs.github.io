@@ -9,11 +9,11 @@
     <meta name="description" content="{{ description }}">
     <title>{{ page_title }}</title>
     <link
-      href="/NeumannSSG/styles/vendor.css"
+      href="{{ rootpath }}styles/vendor.css"
       rel="stylesheet"
     />
     <link
-      href="/NeumannSSG/styles/app.css"
+      href="{{ rootpath }}styles/app.css"
       rel="stylesheet"
     />
   </head>
@@ -22,10 +22,10 @@
     {% block content %}
     {% endblock %}
     <script
-      src="/NeumannSSG/scripts/vendor.js"
+      src="{{ rootpath }}scripts/vendor.js"
     ></script>
     <script
-      src="/NeumannSSG/scripts/app.js"
+      src="{{ rootpath }}scripts/app.js"
     ></script>
   </body>
 </html>

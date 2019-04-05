@@ -1,4 +1,4 @@
-{% set body_class = "home" %}
+{% set body_class = "post" %}
 {% set page_title = title %}
 {% extends "_layout.njk" %}
 
@@ -9,9 +9,8 @@
           <h1>{{ title }}</h1>
           <p><time datetime="{{ date | date("YYYY-MM-DD") }}">{{ date | date("MMMM D, YYYY") }}</time></p>
           <ul>
-            <li><a href="#">keyword 1</a></li>
-            <li><a href="#">keyword 2</a></li>
-            <li><a href="#">keyword 3</a></li>
+            {% for tag in tags %}<li><a href="{{ rootpath }}topics/{{ tag.slug }}/">{{ tag.name }}</a></li>
+            {% endfor -%}
           </ul>
         </header>
         <section>
