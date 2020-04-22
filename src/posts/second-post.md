@@ -8,4 +8,4 @@ tags: test1, test2
 
 Hello, Newman!
 <!-- more -->
-Meer tekst
+Deze tekst is nu gewijzigd
