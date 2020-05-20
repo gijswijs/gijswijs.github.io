@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "version": "0.1",
+    "name": "Neumann SSG",
+    "description": "A demonstration static site built using Neumann SSG",
+    "author": "Gijs van Dam",
+    "contact": "https://twitter.com/gijswijs",
+    "domain": "gijswijs.github.io",
+    "rootpath": "/"
+  },
+  "source": "src",
+  "destination": "docs",
+  "clean": true,
+  "plugins": [
+    { "sourceUrl": { "dev": true } },
+    { "metalsmith-publish": { "draft": false, "private": false, "dev": true } },
+    {
+      "metalsmith-collections": {
+        "posts": {
+          "pattern": "posts/**/*.md",
+          "sortBy": "date",
+          "reverse": true
+        }
+      }
+    },
+    { "metalsmith-markdown": true },
+    {
+      "metalsmith-more": {
+        "key": "excerpt"
+      }
+    },
+    { "metalsmith-permalinks": true },
+    {
+      "metalsmith-tags": {
+        "handle": "tags",
+        "path": "topics/:tag/index.html",
+        "pathPage": "topics/:tag/:num/index.html",
+        "perPage": 6,
+        "layout": "/tag.njk",
+        "sortBy": "date",
+        "reverse": true,
+        "skipMetadata": false,
+        "slug": {
+          "mode": "rfc3986"
+        }
+      }
+    },
+    {
+      "metalsmith-layouts": {
+        "pattern": "**",
+        "engineOptions": {
+          "filters": {
+            "date": "nunjucks-date-filter"
+          },
+          "loaders": {
+            "async": true,
+            "getSource": { "dispatch": "github/getFile", "prefix": "layouts/" }
+          }
+        }
+      }
+    },
+    {
+      "metalsmith-feed": {
+        "collection": "posts",
+        "site_url": "https://gijswijs.github.io",
+        "title": "Neumann SSG test",
+        "description": "A demonstration static site built using Neumann SSG"
+      }
+    },
+    {
+      "metalsmith-mapsite": {
+        "hostname": "https://gijswijs.github.io",
+        "omitIndex": true
+      }
+    },
+    {
+      "metalsmith-assets": {
+        "source": "layouts/assets",
+        "destination": "/docs"
+      }
+    },
+    { "writeBuiltUrl": true, "dev": true },
+    {
+      "cssChangeUrl": {
+        "rootpath": "/"
+      }
+    },
+    {
+      "inlineSource": { "dev": true }
+    },
+    { "metalsmith-html-minifier": { "dev": false } }
+  ]
+}
