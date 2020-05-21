@@ -11,9 +11,13 @@
   "source": "src",
   "destination": "docs",
   "clean": true,
+  "devClean": false,
   "plugins": [
-    { "sourceUrl": { "dev": true } },
-    { "metalsmith-publish": { "draft": false, "private": false, "dev": true } },
+    { "sourceUrl": true, "dev": true },
+    {
+      "metalsmith-publish": { "draft": false, "private": false },
+      "dev": false
+    },
     {
       "metalsmith-collections": {
         "posts": {
@@ -86,8 +90,9 @@
       }
     },
     {
-      "inlineSource": { "dev": true }
+      "inlineSource": true,
+      "dev": true
     },
-    { "metalsmith-html-minifier": { "dev": false } }
+    { "metalsmith-html-minifier": true, "dev": false }
   ]
 }
