@@ -2,7 +2,7 @@
 layout: home.njk
 ---
 
-<h2>Kijk eens aan, wat een enorme, enorme klus was dat!</h2>
+<h2>Kijk eens aan, wat een enorme klus was dat!</h2>
 
 <a href="posts/first-post/">First post</a>
 
