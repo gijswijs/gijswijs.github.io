@@ -5,6 +5,6 @@ layout: post.njk
 tags: test1, test2
 ---
 
-Hello, Newman!
+NeumannSsg is a static site generator with a web based, built in CMS.
 <!-- more -->
 Deze tekst is nu gewijzigd
