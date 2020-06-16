@@ -4,9 +4,7 @@
     "name": "Neumann SSG",
     "description": "A demonstration static site built using Neumann SSG",
     "author": "Gijs van Dam",
-    "contact": "https://twitter.com/gijswijs",
-    "domain": "gijswijs.github.io",
-    "rootpath": "/"
+    "contact": "https://twitter.com/gijswijs"
   },
   "source": "src",
   "destination": "docs",
