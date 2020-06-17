@@ -35,8 +35,8 @@
     {
       "metalsmith-tags": {
         "handle": "tags",
-        "path": "_topics/:tag/index.html",
-        "pathPage": "_topics/:tag/:num/index.html",
+        "path": "topics/:tag/index.html",
+        "pathPage": "topics/:tag/:num/index.html",
         "perPage": 6,
         "layout": "/tag.njk",
         "sortBy": "date",
