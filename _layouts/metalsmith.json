@@ -7,7 +7,7 @@
     "contact": "https://twitter.com/gijswijs"
   },
   "source": "_src",
-  "destination": "",
+  "destination": "/",
   "clean": true,
   "devClean": false,
   "plugins": [
