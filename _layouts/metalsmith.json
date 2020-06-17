@@ -6,8 +6,8 @@
     "author": "Gijs van Dam",
     "contact": "https://twitter.com/gijswijs"
   },
-  "source": "src",
-  "destination": "docs",
+  "source": "_src",
+  "destination": "",
   "clean": true,
   "devClean": false,
   "plugins": [
@@ -19,7 +19,7 @@
     {
       "metalsmith-collections": {
         "posts": {
-          "pattern": "posts/**/*.md",
+          "pattern": "_posts/**/*.md",
           "sortBy": "date",
           "reverse": true
         }
@@ -35,8 +35,8 @@
     {
       "metalsmith-tags": {
         "handle": "tags",
-        "path": "topics/:tag/index.html",
-        "pathPage": "topics/:tag/:num/index.html",
+        "path": "_topics/:tag/index.html",
+        "pathPage": "_topics/:tag/:num/index.html",
         "perPage": 6,
         "layout": "/tag.njk",
         "sortBy": "date",
@@ -56,7 +56,7 @@
           },
           "loaders": {
             "async": true,
-            "getSource": { "dispatch": "github/getFile", "prefix": "layouts/" }
+            "getSource": { "dispatch": "github/getFile", "prefix": "_layouts/" }
           }
         }
       }
@@ -77,8 +77,8 @@
     },
     {
       "metalsmith-assets": {
-        "source": "layouts/assets",
-        "destination": "/docs"
+        "source": "_layouts/assets",
+        "destination": "/"
       }
     },
     { "writeBuiltUrl": true, "dev": true },
