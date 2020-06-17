@@ -19,7 +19,7 @@
     {
       "metalsmith-collections": {
         "posts": {
-          "pattern": "_posts/**/*.md",
+          "pattern": "posts/**/*.md",
           "sortBy": "date",
           "reverse": true
         }
