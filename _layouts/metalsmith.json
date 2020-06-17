@@ -49,6 +49,7 @@
     },
     {
       "metalsmith-layouts": {
+        "directory": "_layouts",
         "pattern": "**",
         "engineOptions": {
           "filters": {
