@@ -1,0 +1,24 @@
+{% set body_class = "home" %}
+{% set page_title = name %}
+{% extends "_layout.njk" %}
+
+{% block content %}
+<main>
+  <ul>
+    {% for post in collections.posts %}
+    <li>
+      <article>
+        <header>
+          <h1><a href="{{ rootpath }}{{ post.path }}">{{ post.title }}</a></h1>
+          <p><time datetime="{{ post.date | date("YYYY-MM-DD") }}">{{ post.date | date("MMMM D, YYYY") }}</time></p>
+        </header>
+        <section>
+          {{ post.excerpt | safe }}
+        </section>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+  {% include "components/_aside.njk" %}
+</main>
+{% endblock %} 
