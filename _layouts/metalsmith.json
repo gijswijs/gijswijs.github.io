@@ -52,12 +52,8 @@
         "directory": "_layouts",
         "pattern": "**",
         "engineOptions": {
-          "filters": {
-            "date": "nunjucks-date-filter"
-          },
-          "loaders": {
-            "async": true,
-            "getSource": { "dispatch": "github/getFile", "prefix": "_layouts/" }
+          "partials": {
+            "default": "_layout/default.hbs"
           }
         }
       }
