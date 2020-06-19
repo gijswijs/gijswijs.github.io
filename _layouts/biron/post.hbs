@@ -1,0 +1,42 @@
+{{!< default}} 
+
+{{#post}}
+<section class="hero background-img is-large">
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title has-text-white is-size-1 has-text-weight-bold">
+        {{title}}
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section class="post">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="post-content">
+          {{#if tags}}
+            <div class="post-tags">
+              {{#each tags}}
+                {{#with this}}
+                <a class="button tag-{{slug}} is-rounded" href="{{rootpath}}topics/{{slug}}/" title="{{name}}" aria-label="{{name}}s">#{{name}}</a>
+                {{/with}}
+              {{/each}}
+            </div>
+          {{/if}}
+          <div class="post-content__inner">
+            {{{contents}}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{!-- Related posts 
+{{> related-posts}}--}}
+
+{{/post}}
+
