@@ -8,7 +8,7 @@
   },
   "source": "_src",
   "destination": "/",
-  "clean": true,
+  "clean": false,
   "devClean": false,
   "plugins": [
     { "sourceUrl": true, "dev": true },
