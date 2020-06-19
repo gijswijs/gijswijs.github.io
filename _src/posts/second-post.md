@@ -1,7 +1,7 @@
 ---
 title: The static site generator with built in CMS
 date: 2020-06-16
-layout: post.njk
+layout: biron/post.hbs
 tags: test1, test2
 ---
 
