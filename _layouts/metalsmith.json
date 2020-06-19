@@ -53,7 +53,7 @@
         "pattern": "**",
         "engineOptions": {
           "partials": {
-            "default": "_layout/biron/default.hbs"
+            "default": "_layouts/biron/default.hbs"
           }
         }
       }
