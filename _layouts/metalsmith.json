@@ -74,7 +74,7 @@
     },
     {
       "metalsmith-assets": {
-        "source": "_layouts/assets",
+        "source": "_layouts/biron/assets",
         "destination": "/"
       }
     },
