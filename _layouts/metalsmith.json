@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "0.1",
-    "name": "Neumann SSG",
+    "site-title": "Neumann SSG",
     "description": "A demonstration static site built using Neumann SSG",
     "author": "Gijs van Dam",
     "contact": "https://twitter.com/gijswijs"

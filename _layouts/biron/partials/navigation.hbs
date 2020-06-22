@@ -1,4 +1,6 @@
 <!-- Loop through the navigation items -->
 {{#each navigation}}
-  <a class="navbar-item nav-{{slug}}{{#if current}} is-active{{/if}}" href="{{url absolute="true"}}">{{label}}</a>
+  {{#with this}}
+  <a class="navbar-item nav-{{slug}}" href="{{rootpath}}{{path}}">{{label}}</a>
+  {{/with}}
 {{/each}}
