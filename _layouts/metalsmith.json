@@ -63,6 +63,9 @@
       }
     },
     {
+      "metalsmith-debug": {}
+    },
+    {
       "metalsmith-pagination": {
         "collections.posts": {
           "perPage": 12,
@@ -74,6 +77,9 @@
           }
         }
       }
+    },
+    {
+      "metalsmith-debug": {}
     },
     { "metalsmith-markdown": true },
     {
