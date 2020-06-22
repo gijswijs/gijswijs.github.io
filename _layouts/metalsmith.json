@@ -101,7 +101,7 @@
             "pagination": "_layouts/biron/partials/pagination.hbs"
           },
           "helpers": {
-            "moment": "handlebarsDateHelper"
+            "dateFormat": "handlebarsDateHelper"
           }
         }
       }
