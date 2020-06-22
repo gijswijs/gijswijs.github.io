@@ -62,6 +62,19 @@
         }
       }
     },
+    {
+      "metalsmith-pagination": {
+        "collections.posts": {
+          "perPage": 12,
+          "first": "index.html",
+          "path": "page/:num/index.html",
+          "layout": "_layout/biron/home.hbs",
+          "pageMetadata": {
+            "title": "Archive"
+          }
+        }
+      }
+    },
     { "metalsmith-markdown": true },
     {
       "metalsmith-more": {
