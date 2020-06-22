@@ -1,10 +1,10 @@
 {{!-- Social Media Links --}}
 <div class="social-media">
-{{#each navigation}}
+{{#each social-media}}
   {{#with this}}
   	<a class="social-link {{@key}}"
        href="{{url}}" target="_blank" title="{{name}}" aria-label="{{name}}">
-      {{>icon data-name="{{icon}}"}}
+      {{>icon data-name=icon}}
       <p>{{name}}</p>
     </a>
   {{/with}}
