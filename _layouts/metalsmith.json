@@ -56,7 +56,11 @@
         "pattern": "**",
         "engineOptions": {
           "partials": {
-            "default": "_layouts/biron/default.hbs"
+            "default": "_layouts/biron/default.hbs",
+            "footer": "_layouts/biron/partials/footer.hbs",
+            "header": "_layouts/biron/partials/header.hbs",
+            "icon-sprite": "_layouts/biron/partials/icon-sprite.hbs",
+            "navigation": "_layouts/biron/partials/navigation.hbs"
           }
         }
       }
