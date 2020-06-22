@@ -22,6 +22,9 @@
           "pattern": "posts/**/*.md",
           "sortBy": "date",
           "reverse": true
+        },
+        "navigation": {
+          "refer": false
         }
       }
     },
