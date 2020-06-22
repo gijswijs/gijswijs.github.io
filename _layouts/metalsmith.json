@@ -68,7 +68,7 @@
           "perPage": 12,
           "first": "index.html",
           "path": "page/:num/index.html",
-          "layout": "_layout/biron/home.hbs",
+          "layout": "biron/home.hbs",
           "pageMetadata": {
             "title": "Archive"
           }
