@@ -1,0 +1,36 @@
+<div class="item post-card{{#unless feature_image}} has-border{{/unless}} {{class}}">
+  <a class="item-link" href="{{rootpath}}{{path}}">
+    {{#if feature_image}}
+      <figure class="image lazyload is-2by1 item-figure background-img" style="background-image:url({{feature_image}})" alt="{{title}}">
+      </figure>
+    {{/if}}
+    {{#if featured}}
+      <div class="item-featured">
+        {{> icon data-name="star"}}
+      </div>
+    {{/if}}
+  </a>
+  {{#if tags}}
+    <div class="item-tags">
+      {{#each tags}}
+      	{{#with this}}
+          <a class="button tag-{{slug}} is-rounded" href="{{rootpath}}topics/{{slug}}/" title="{{name}}" aria-label="{{name}}s">#{{name}}</a>
+        {{/with}}
+      {{/each}}
+    </div>
+  {{/if}}
+  <h2 class="title item-title is-size-4 has-text-weight-extra-bold"><a class="item-link" href="{{rootpath}}{{path}}">{{title}}</a></h2>
+  {{#unless feature_image}}
+    <div class="item-description">
+      {{excerpt words="40"}}&hellip;
+    </div>
+  {{/unless}}
+  <div class="level">
+    <div class="level-left">
+      <div class="item-author">{{author.name}}</div>
+    </div>
+    <div class="level-right">
+      <time datetime="{{date}}">{{date}}</time>
+    </div>
+  </div>
+</div>
