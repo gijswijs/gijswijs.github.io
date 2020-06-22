@@ -96,7 +96,9 @@
             "icon-sprite": "_layouts/biron/partials/icon-sprite.hbs",
             "icon": "_layouts/biron/partials/icon.hbs",
             "navigation": "_layouts/biron/partials/navigation.hbs",
-            "social-media": "_layouts/biron/partials/social-media.hbs"
+            "social-media": "_layouts/biron/partials/social-media.hbs",
+            "post-card": "_layouts/biron/partials/post-card.hbs",
+            "pagination": "_layouts/biron/partials/pagination.hbs"
           }
         }
       }
