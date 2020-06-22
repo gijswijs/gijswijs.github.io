@@ -1,5 +1,7 @@
 ---
 layout: home.njk
+collection: navigation
+label: Home
 ---
 
 <h2>Kijk eens aan, wat een enorme klus was dat!</h2>

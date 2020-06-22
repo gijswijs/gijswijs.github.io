@@ -4,7 +4,13 @@
     "site-title": "Neumann SSG",
     "description": "A demonstration static site built using Neumann SSG",
     "author": "Gijs van Dam",
-    "contact": "https://twitter.com/gijswijs"
+    "social-media": {
+      "facebook": {
+        "url": "https://www.facebook.com",
+        "icon": "facebook",
+        "name": "Facebook"
+      }
+    }
   },
   "source": "_src",
   "destination": "/",
@@ -60,7 +66,9 @@
             "footer": "_layouts/biron/partials/footer.hbs",
             "header": "_layouts/biron/partials/header.hbs",
             "icon-sprite": "_layouts/biron/partials/icon-sprite.hbs",
-            "navigation": "_layouts/biron/partials/navigation.hbs"
+            "icon": "_layouts/biron/partials/icon.hbs",
+            "navigation": "_layouts/biron/partials/navigation.hbs",
+            "social-media": "_layouts/biron/partials/social-media.hbs"
           }
         }
       }
