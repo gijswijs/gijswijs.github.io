@@ -18,7 +18,7 @@
   <div class="container">
     {{!-- Latest Posts --}}
     <div class="columns is-multiline">
-      {{#each posts }}
+      {{#each pagination.files }}
         {{#with this}}
         <div class="column is-12-mobile is-6-tablet is-4-widescreen is-6-desktop">
           {{> post-card class="bottom-border"}}
@@ -27,7 +27,7 @@
       {{/each}}
     </div>
 
-    {{pagination.num}}
+    {{> pagination}}
   </div>
 </section>
 {{/default}}
