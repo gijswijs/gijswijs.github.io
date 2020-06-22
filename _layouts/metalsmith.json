@@ -8,7 +8,7 @@
   },
   "source": "_src",
   "destination": "/",
-  "clean": true,
+  "clean": false,
   "devClean": false,
   "plugins": [
     { "sourceUrl": true, "dev": true },
@@ -52,12 +52,8 @@
         "directory": "_layouts",
         "pattern": "**",
         "engineOptions": {
-          "filters": {
-            "date": "nunjucks-date-filter"
-          },
-          "loaders": {
-            "async": true,
-            "getSource": { "dispatch": "github/getFile", "prefix": "_layouts/" }
+          "partials": {
+            "default": "_layouts/biron/default.hbs"
           }
         }
       }
