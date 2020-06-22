@@ -99,6 +99,9 @@
             "social-media": "_layouts/biron/partials/social-media.hbs",
             "post-card": "_layouts/biron/partials/post-card.hbs",
             "pagination": "_layouts/biron/partials/pagination.hbs"
+          },
+          "helpers": {
+            "moment": "handlebarsDateHelper"
           }
         }
       }
