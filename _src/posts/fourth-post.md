@@ -1,7 +1,7 @@
 ---
 title: My Fourth Post
 date: 2019-05-03
-layout: post.njk
+layout: biron/post.hbs
 tags: test2
 ---
 
