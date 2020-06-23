@@ -1,32 +1,33 @@
-{{!< default}}
+{{#> default page-title=tag body-class="tag-template"}}
 
-{{#tag}}
-  <section class="hero background-img is-large" style="background-image: url('{{img_url feature_image}}')">
+  <section class="hero background-img is-large" style="background-image: url('{{feature_image}}')">
     <!-- Hero content: will be in the middle -->
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title has-text-white is-size-1 has-text-weight-bold">
-          {{name}}
+          Posts for {{tag}}
         </h1>
-        <h2 class="subtitle has-text-white">
+        <!--<h2 class="subtitle has-text-white">
           {{description}}
-        </h2>
+        </h2>-->
       </div>
     </div>
   </section>
-{{/tag}}
 
 <section class="posts">
   <div class="container">
     {{!-- Latest Posts --}}
     <div class="columns is-multiline">
-      {{#foreach posts }}
-        <div class="column is-12-mobile is-6-tablet is-4-widescreen is-6-desktop">
-          {{> post-card class="bottom-border"}}
-        </div>
-      {{/foreach}}
+      {{#each pagination.files }}
+      	{{#with this}}
+          <div class="column is-12-mobile is-6-tablet is-4-widescreen is-6-desktop">
+            {{> post-card class="bottom-border"}}
+          </div>
+        {{/with}}
+      {{/each}}
     </div>
 
-    {{pagination}}
+    {{> pagination}}
   </div>
 </section>
+{{/default}}
