@@ -4,6 +4,7 @@ layout: biron/page.hbs
 feature_image: /images/tech.jpg
 collection: navigation
 label: About
+sortId: 1
 ---
 
 # I am ...

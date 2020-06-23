@@ -58,7 +58,8 @@
           "reverse": true
         },
         "navigation": {
-          "refer": false
+          "refer": false,
+          "sortBy": "sortId"
         }
       }
     },
