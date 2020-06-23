@@ -1,6 +1,6 @@
 ---
 label: '#Bash'
-navpath: /topics/bash/
+navpath: topics/bash/
 collection: navigation
 sortId: 2
 ---

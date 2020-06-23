@@ -1,6 +1,6 @@
 ---
 label: Home
-navpath: /
+navpath: 
 collection: navigation
 sortId: 0
 ---
