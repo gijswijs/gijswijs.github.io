@@ -2,6 +2,8 @@
 title: About me
 layout: biron/page.hbs
 feature_image: /images/tech.jpg
+collection: navigation
+label: About
 ---
 
 # I am ...
