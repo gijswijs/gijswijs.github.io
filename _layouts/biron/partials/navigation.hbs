@@ -1,6 +1,6 @@
 <!-- Loop through the navigation items -->
 {{#each navigation}}
   {{#with this}}
-  <a class="navbar-item nav-{{slug}}" href="{{rootpath}}{{#if navpath}}{{navpath}}{{else}}{{path}}{{/if}}">{{label}}</a>
+  <a class="navbar-item nav-{{slug}}" href="{{@root.rootpath}}{{#if navpath}}{{navpath}}{{else}}{{path}}{{/if}}">{{label}}</a>
   {{/with}}
 {{/each}}
