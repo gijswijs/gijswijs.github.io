@@ -63,9 +63,6 @@
       }
     },
     {
-      "metalsmith-debug": {}
-    },
-    {
       "metalsmith-pagination": {
         "collections.posts": {
           "perPage": 2,
@@ -73,13 +70,11 @@
           "path": "page/:num/index.html",
           "layout": "biron/home.hbs",
           "pageMetadata": {
-            "title": "Archive"
+            "title": "Archive",
+            "feature_image": "/images/cover.jpg"
           }
         }
       }
-    },
-    {
-      "metalsmith-debug": {}
     },
     { "metalsmith-markdown": true },
     {
@@ -143,6 +138,12 @@
       "metalsmith-assets": {
         "source": "_layouts/biron/assets",
         "destination": "/"
+      }
+    },
+    {
+      "metalsmith-assets": {
+        "source": "_src/images",
+        "destination": "/images"
       }
     },
     { "writeBuiltUrl": true, "dev": true },
