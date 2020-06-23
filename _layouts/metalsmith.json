@@ -65,7 +65,7 @@
     {
       "metalsmith-pagination": {
         "collections.posts": {
-          "perPage": 2,
+          "perPage": 12,
           "first": "index.html",
           "path": "page/:num/index.html",
           "layout": "biron/home.hbs",
