@@ -1,0 +1,15 @@
+<script src="{{ rootpath }}scripts/vendor.js" type="text/javascript" />
+
+{% if !local_fonts %}
+	<script src="{{ rootpath }}scripts/webfonts.js" type="text/javascript" />
+{% endif %}
+
+{% if scrollappear_enabled %}
+  <script src="{{ rootpath }}scripts/scrollappear.js" type="text/javascript" />
+{% endif %}
+
+<script src="{{ rootpath }}scripts/application.js" type="text/javascript" />
+
+{% if theme_toggle %}
+  <script src="{{ rootpath }}scripts/themetoggle.js" type="text/javascript" />
+{% endif %}
