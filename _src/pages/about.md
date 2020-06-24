@@ -5,6 +5,7 @@ feature_image: /images/tech.jpg
 collection: navigation
 label: About
 sortId: 1
+icon: about
 ---
 
 # I am ...

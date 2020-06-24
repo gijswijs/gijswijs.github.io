@@ -6,21 +6,21 @@
     {% for nav in navigation %}
       <li>
         <a href="{{ rootpath }}{{ nav.navpath if nav.navpath else nav.path }}" title="{{ nav.label }}">
-          {{ icon.icon(rootpath, nav.icon) }}
+          {{ icon.icon(nav.icon) }}
         </a>
       </li>
     {% endfor %}
     {% for platform, properties in social_media %}
     	<li>
         <a href="{{ rootpath }}{{ properties.url }}" rel="noreferrer noopener" target="_blank" title="{{ properties.name }}">
-          {{ icon.icon(rootpath, platform) }}
+          {{ icon.icon(platform) }}
         </a>
       </li>
     {% endfor %}
     {% if theme_toggle %}
       <li>
         <a onclick="toggle()" title="Toggle Theme">
-          {{ icon.icon(rootpath, 'theme') }}
+          {{ icon.icon("theme") }}
         </a>
       </li>
     {% endif %}
