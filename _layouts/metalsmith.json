@@ -137,7 +137,7 @@
     },
     {
       "metalsmith-assets": {
-        "source": "_layouts/biron/assets",
+        "source": "_layouts/chalk/assets",
         "destination": "/"
       }
     },
