@@ -3,7 +3,6 @@
 {% set page_description = "" %}
 {% set page_url = domain + rootpath + path %}
 {% extends "/chalk/_layout.njk" %}
-{% import "/chalk/macros/svg-icon.njk" as icon %}
 
 
 <ul class="article-list">
@@ -12,7 +11,7 @@
       <a href="{{ rootpath }}{{ post.path }}" title="{{ post.title }}">
         <h5>
           {{ post.title }}
-          {{ icon.icon("arrow-right") }}
+          
         </h5>
       </a>
       <p>
@@ -28,10 +27,10 @@
   {% if pagination.pages.length > 1 %}
     <li class="article-pagination {% if scrollappear_enabled %}scrollappear{% endif %}">
       {% if pagination.next %}
-        <a href="{{rootpath}}{{pagination.next.path}}" class="article-pagination-left">{{ icon.icon("arrow-left") }} Older posts</a>
+        <a href="{{rootpath}}{{pagination.next.path}}" class="article-pagination-left">Older posts</a>
       {% endif %}
       {% if pagination.previous %}
-        <a href="{{rootpath}}{{pagination.previous.path}}" class="article-pagination-right">Newer posts {{ icon.icon("arrow-right") }}</a>
+        <a href="{{rootpath}}{{pagination.previous.path}}" class="article-pagination-right">Newer posts</a>
       {% endif %}
     </li>
   {% endif %}
