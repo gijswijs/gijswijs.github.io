@@ -1,6 +1,6 @@
 
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-  <a href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}">{{ site.name }}</a>
+  <a href="{{ rootpath }}" class="header-logo" title="{{ site.name }}">{{ site.name }}</a>
   <ul class="header-links">
     {% for nav in navigation %}
       <li>
@@ -34,6 +34,7 @@
         <li><a href="/topics/">Show all</a></li>
       {% elif loop.index < 11 %}
         <li><a href="{{ rootpath }}topics/{{ tag.slug }}/">{{ tag.name | capitalize }}</a></li>
+			{%endif %}
     {% endfor %}
   </ul>
 {% endif %}

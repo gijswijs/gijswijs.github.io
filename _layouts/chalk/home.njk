@@ -2,7 +2,7 @@
 {% set page_title = site-title %}
 {% set page_description = "" %}
 {% set page_url = domain + rootpath + path %}
-{% extends "/chalk/_layout.njk" %}
+{% extends "chalk/_layout.njk" %}
 
 
 <ul class="article-list">
@@ -21,7 +21,7 @@
           {{ post.excerpt }}
         {% endif %}
       </p>
-      {% include "/chalk/partials/info-footer.njk" %}
+      {% include "chalk/partials/info-footer.njk" %}
     </li>
   {% endfor %}
   {% if pagination.pages.length > 1 %}

@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="en">
-{% include "/chalk/partials/head.njk" %}
+{% include "chalk/partials/head.njk" %}
 <body>
   <main>
     <div class="grid grid-centered">
       <div class="grid-cell">
-        {% include "/chalk/partials/navigation.njk" %}
-        {% block content %}
-        {% include "/chalk/partials/footer.njk" %}
+        {% include "chalk/partials/navigation.njk" %}
+
+        {% include "chalk/partials/footer.njk" %}
       </div>
     </div>
   </main>
-  {% include "/chalk/partials/javascript.njk" %}
+  {% include "chalk/partials/javascript.njk" %}
 </body>
 </html>
