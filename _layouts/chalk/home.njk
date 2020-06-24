@@ -1,0 +1,37 @@
+{% 
+set body_class = "home"
+set page_title = name
+set icon="arrow-right"
+extends "_layout.njk"
+%}
+
+<ul class="article-list">
+  {% for post in pagination.files %}
+    <li class="article-list-item {% if scrollappear_enabled %}scrollappear{% endif %}">
+      <a href="{{ rootpath }}{{ post.path }}" title="{{ post.title }}">
+        <h5>
+          {{ post.title }}
+          {% include "chalk/macros/svg-icon.njk" %}
+        </h5>
+      </a>
+      <p>
+        {% if post.description %}
+          {{ post.description }}  
+        {% else %}
+          {{ post.excerpt }}
+        {% endif %}
+      </p>
+      {% include article/info-footer.html %}
+    </li>
+  {% endfor %}
+  {% if pagination.pages.length > 1 %}
+    <li class="article-pagination {% if scrollappear_enabled %}scrollappear{% endif %}">
+      {% if pagination.next %}
+        <a href="{{rootpath}}{{pagination.next.path}}" class="article-pagination-left">{% include svg-icon.html icon="arrow-left" %} Older posts</a>
+      {% endif %}
+      {% if pagination.previous %}
+        <a href="{{rootpath}}{{pagination.previous.path}}" class="article-pagination-right">Newer posts {% include svg-icon.html icon="arrow-right" %}</a>
+      {% endif %}
+    </li>
+  {% endif %}
+</ul>
