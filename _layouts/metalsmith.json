@@ -1,13 +1,16 @@
 {
   "metadata": {
     "version": "0.1",
-    "site-title": "Janos",
+    "site_title": "Janos",
     "description": "A demonstration static site built using Janos SSG",
     "author": {
       "name": "Gijs van Dam",
       "url": "/gijs-van-dam"
     },
-    "social-media": {
+    "blog_theme": "light",
+    "theme_toggle": true,
+    "paginate": 10,
+    "social_media": {
       "facebook": {
         "url": "https://www.facebook.com",
         "icon": "facebook",

@@ -9,7 +9,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page_url }}">
   <meta property="og:description" content="{{ page_description }}">
-  <meta property="og:site_name" content="{{ site-name }}">
+  <meta property="og:site_name" content="{{ site_name }}">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="{{ page_url }}">
@@ -24,15 +24,15 @@
     <meta name="twitter:image" content="{{ domain }}{{rootpath}}images/og-image.jpg">
   {% endif %}
 
-  <link href="{{ domain }}{{ rootpath }}rss.xml" type="application/rss+xml" rel="alternate" title="{{ site-name }} Last 10 blog posts" />
+  <link href="{{ domain }}{{ rootpath }}rss.xml" type="application/rss+xml" rel="alternate" title="{{ site_name }} Last 10 blog posts" />
 
   {% if local_fonts %}
     <link rel="stylesheet" type="text/css" title="light" id="light" href="{{ rootpath }}styles/fonts.css">
   {% endif %}
 
-  {% if site.theme_toggle %}
+  {% if theme_toggle %}
 
-    {% if site.blog_theme == "light" %}
+    {% if blog_theme == "light" %}
       <link rel="icon" type="image/x-icon" href="{{ rootpath }}images/favicon-light.ico">
       <link rel="apple-touch-icon" href="{{ rootpath }}images/apple-touch-icon-light.png">
       <link rel="stylesheet" type="text/css" title="light" id="light" href="{{ rootpath }}styles/light.css">
@@ -46,7 +46,7 @@
 
   {% else %}
 
-    {% if site.blog_theme == "light" %}
+    {% if blog_theme == "light" %}
       <link rel="icon" type="image/x-icon" href="{{ rootpath }}images/favicon-light.ico">
       <link rel="apple-touch-icon" href="{{ rootpath }}images/apple-touch-icon-light.png">
       <link rel="stylesheet" type="text/css" title="light" id="light" href="{{ rootpath }}styles/light.css">

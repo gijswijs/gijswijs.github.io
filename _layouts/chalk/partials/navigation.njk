@@ -10,14 +10,14 @@
         </a>
       </li>
     {% endfor %}
-    {% for platform, properties in social-media %}
+    {% for platform, properties in social_media %}
     	<li>
         <a href="{{ rootpath }}{{ properties.url }}" rel="noreferrer noopener" target="_blank" title="{{ properties.name }}">
           {{ icon.icon(platform) }}
         </a>
       </li>
     {% endfor %}
-    {% if theme_toggle == true %}
+    {% if theme_toggle %}
       <li>
         <a onclick="toggle()" title="Toggle Theme">
           {{ icon.icon('theme') }}
