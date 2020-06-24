@@ -4,7 +4,7 @@
 {% set page_url = domain + rootpath + path %}
 {% extends "chalk/_layout.njk" %}
 
-
+{% block content %}
 <ul class="article-list">
   {% for post in pagination.files %}
     <li class="article-list-item {% if scrollappear_enabled %}scrollappear{% endif %}">
@@ -35,3 +35,4 @@
     </li>
   {% endif %}
 </ul>
+{% endblock %} 
