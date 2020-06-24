@@ -1,3 +1,4 @@
+{% import "chalk/macros/svg-icon.njk" as icon %}
 
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
   <a href="{{ rootpath }}" class="header-logo" title="{{ site.name }}">{{ site.name }}</a>
@@ -5,21 +6,21 @@
     {% for nav in navigation %}
       <li>
         <a href="{{ rootpath }}{{ nav.navpath if nav.navpath else nav.path }}" title="{{ nav.label }}">
-          
+          {{ icon.icon(nav.icon) }}
         </a>
       </li>
     {% endfor %}
     {% for platform, properties in social-media %}
     	<li>
         <a href="{{ rootpath }}{{ properties.url }}" rel="noreferrer noopener" target="_blank" title="{{ properties.name }}">
-          
+          {{ icon.icon(platform) }}
         </a>
       </li>
     {% endfor %}
     {% if theme_toggle == true %}
       <li>
         <a onclick="toggle()" title="Toggle Theme">
-          
+          {{ icon.icon('theme') }}
         </a>
       </li>
     {% endif %}

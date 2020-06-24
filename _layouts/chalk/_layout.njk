@@ -6,7 +6,7 @@
     <div class="grid grid-centered">
       <div class="grid-cell">
         {% include "chalk/partials/navigation.njk" %}
-
+        {% block content %}{% endblock %}
         {% include "chalk/partials/footer.njk" %}
       </div>
     </div>
