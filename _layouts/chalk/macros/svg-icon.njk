@@ -1,5 +1,5 @@
-{% macro icon(name) %}
+{% macro icon(rootpath, name) %}
 <svg xmlns="http://www.w3.org/2000/svg" class="icon-{{ name }}">
-  <use href="{{ rootpath }}icons/{{ name }}.svg#icon-{{ name }}" xlink:href="{{ rootpath }}icons/{{ name }}.svg#icon-{{ name }}"></use>
+  {% include "chalk/assets/icons/" + name + ".svg" %}
 </svg>
 {% endmacro %}

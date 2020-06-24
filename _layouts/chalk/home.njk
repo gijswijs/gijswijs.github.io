@@ -12,14 +12,14 @@
       <a href="{{ rootpath }}{{ post.path }}" title="{{ post.title }}">
         <h5>
           {{ post.title }}
-          {{ icon.icon('arrow-right') }}
+          {{ icon.icon(rootpath, 'arrow-right') }}
         </h5>
       </a>
       <p>
         {% if post.description %}
           {{ post.description }}  
         {% else %}
-          {{ post.excerpt }}
+          {{ post.excerpt | safe }}
         {% endif %}
       </p>
       {% include "chalk/partials/info-footer.njk" %}
@@ -28,10 +28,10 @@
   {% if pagination.pages.length > 1 %}
     <li class="article-pagination {% if scrollappear_enabled %}scrollappear{% endif %}">
       {% if pagination.next %}
-        <a href="{{rootpath}}{{pagination.next.path}}" class="article-pagination-left">{{ icon.icon('arrow-left') }} Older posts</a>
+        <a href="{{rootpath}}{{pagination.next.path}}" class="article-pagination-left">{{ icon.icon(rootpath, 'arrow-left') }} Older posts</a>
       {% endif %}
       {% if pagination.previous %}
-        <a href="{{rootpath}}{{pagination.previous.path}}" class="article-pagination-right">Newer posts {{ icon.icon('arrow-right') }}</a>
+        <a href="{{rootpath}}{{pagination.previous.path}}" class="article-pagination-right">Newer posts {{ icon.icon(rootpath, 'arrow-right') }}</a>
       {% endif %}
     </li>
   {% endif %}

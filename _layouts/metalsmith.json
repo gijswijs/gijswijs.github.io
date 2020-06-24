@@ -8,7 +8,7 @@
       "url": "/gijs-van-dam"
     },
     "blog_theme": "light",
-    "theme_toggle": true,
+    "theme_toggle": false,
     "paginate": 10,
     "social_media": {
       "facebook": {
