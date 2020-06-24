@@ -69,7 +69,7 @@
           "perPage": 12,
           "first": "index.html",
           "path": "page/:num/index.html",
-          "layout": "biron/home.hbs",
+          "layout": "chalk/home.njk",
           "pageMetadata": {
             "title": "Archive",
             "feature_image": "/images/cover.jpg"
