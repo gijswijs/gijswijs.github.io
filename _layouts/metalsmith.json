@@ -10,6 +10,7 @@
     "blog_theme": "light",
     "theme_toggle": false,
     "paginate": 10,
+    "tag_nav_enabled": true,
     "social_media": {
       "facebook": {
         "url": "https://www.facebook.com",

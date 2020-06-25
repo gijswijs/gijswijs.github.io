@@ -9,7 +9,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page_url }}">
   <meta property="og:description" content="{{ page_description }}">
-  <meta property="og:site_name" content="{{ site_name }}">
+  <meta property="og:site_name" content="{{ site_title }}">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="{{ page_url }}">
@@ -24,7 +24,7 @@
     <meta name="twitter:image" content="{{ domain }}{{rootpath}}images/og-image.jpg">
   {% endif %}
 
-  <link href="{{ domain }}{{ rootpath }}rss.xml" type="application/rss+xml" rel="alternate" title="{{ site_name }} Last 10 blog posts" />
+  <link href="{{ domain }}{{ rootpath }}rss.xml" type="application/rss+xml" rel="alternate" title="{{ site_title }} Last 10 blog posts" />
 
   {% if local_fonts %}
     <link rel="stylesheet" type="text/css" title="light" id="light" href="{{ rootpath }}styles/fonts.css">
