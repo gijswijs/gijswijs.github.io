@@ -13,7 +13,7 @@
     {% for platform, properties in social_media %}
     	<li>
         <a href="{{ rootpath }}{{ properties.url }}" rel="noreferrer noopener" target="_blank" title="{{ properties.name }}">
-          {{ icon.icon(platform) }}
+          {{ icon.icon('about') }}
         </a>
       </li>
     {% endfor %}
