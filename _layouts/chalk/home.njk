@@ -6,8 +6,10 @@
 {% import "chalk/macros/svg-icon.njk" as icon %}
 
 {% block content %}
+{% include "chalk/partials/icons/arrow-left.svg" %}
+{% include "chalk/partials/icons/arrow-right.svg" %}
 <ul class="article-list">
-  {% for post in pagination.files %}
+  {% asyncEach post in pagination.files %}
     <li class="article-list-item {% if scrollappear_enabled %}scrollappear{% endif %}">
       <a href="{{ rootpath }}{{ post.path }}" title="{{ post.title }}">
         <h5>
@@ -24,7 +26,7 @@
       </p>
       {% include "chalk/partials/info-footer.njk" %}
     </li>
-  {% endfor %}
+  {% endeach %}
   {% if pagination.pages.length > 1 %}
     <li class="article-pagination {% if scrollappear_enabled %}scrollappear{% endif %}">
       {% if pagination.next %}

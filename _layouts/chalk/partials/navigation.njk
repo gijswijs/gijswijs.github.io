@@ -3,22 +3,25 @@
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
   <a href="{{ rootpath }}" class="header-logo" title="{{ site_title }}">{{ site_title }}</a>
   <ul class="header-links">
-    {% for nav in navigation %}
+    {% asyncEach nav in navigation %}
       <li>
+        {% include "chalk/partials/icons/" + nav.icon + ".svg" %}
         <a href="{{ rootpath }}{{ nav.navpath if nav.navpath else nav.path }}" title="{{ nav.label }}">
           {{ icon.icon(nav.icon) }}
         </a>
       </li>
-    {% endfor %}
-    {% for platform, properties in social_media %}
+    {% endeach  %}
+    {% asyncEach platform, properties in social_media %}
     	<li>
+        {% include "chalk/partials/icons/" + platform + ".svg" %}
         <a href="{{ rootpath }}{{ properties.url }}" rel="noreferrer noopener" target="_blank" title="{{ properties.name }}">
           {{ icon.icon(platform) }}
         </a>
       </li>
-    {% endfor %}
+    {% endeach  %}
     {% if theme_toggle %}
       <li>
+        {% include "chalk/partials/icons/theme.svg" %}
         <a onclick="toggle()" title="Toggle Theme">
           {{ icon.icon("theme") }}
         </a>
