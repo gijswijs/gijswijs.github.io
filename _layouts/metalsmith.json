@@ -69,7 +69,7 @@
     {
       "metalsmith-pagination": {
         "collections.posts": {
-          "perPage": 4,
+          "perPage": 3,
           "first": "index.html",
           "path": "page/:num/index.html",
           "layout": "chalk/home.njk",

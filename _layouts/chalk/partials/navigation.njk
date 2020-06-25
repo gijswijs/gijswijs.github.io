@@ -14,7 +14,7 @@
     {% asyncEach platform, properties in social_media %}
     	<li>
         {% include "chalk/partials/icons/" + platform + ".svg" %}
-        <a href="{{ rootpath }}{{ properties.url }}" rel="noreferrer noopener" target="_blank" title="{{ properties.name }}">
+        <a href="{{ properties.url }}" rel="noreferrer noopener" target="_blank" title="{{ properties.name }}">
           {{ icon.icon(platform) }}
         </a>
       </li>
