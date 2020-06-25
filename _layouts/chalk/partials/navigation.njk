@@ -32,12 +32,12 @@
 
 {% if tag_nav_enabled %}
   <ul class="header-tags {% if scrollappear_enabled %}scrollappear{% endif %}">
-    {% for tag in tags | dictsort %}
+    {% for tag, tagObject in tags | dictsort %}
       {% if loop.index == 11 %}
         <li>...</li>
         <li><a href="/topics/">Show all</a></li>
       {% elif loop.index < 11 %}
-        <li><a href="{{ rootpath }}topics/{{ tag.slug }}/">{{ tag.name | capitalize }}</a></li>
+        <li><a href="{{ rootpath }}topics/{{ tagObject.urlSafe }}/">{{ tag | capitalize }}</a></li>
 			{%endif %}
     {% endfor %}
   </ul>

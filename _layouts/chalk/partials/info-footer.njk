@@ -1,10 +1,11 @@
+{% import "chalk/macros/reading-time.njk" as reading %}
 <div class="article-list-footer">
   <span class="article-list-date">
     {{ date | date("MMM D, YYYY") }}
   </span>
   <span class="article-list-divider">-</span>
   <span class="article-list-minutes">
-    MINUTE READ MACRO
+    {{ reading.time(post.contents) }}
   </span>
   <span class="article-list-divider">-</span>
   <div class="article-list-tags">
