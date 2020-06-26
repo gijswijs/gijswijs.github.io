@@ -20,7 +20,7 @@
   </header>
 
   <div class="article-content">
-    {{ contents }}
+    {{ contents | safe }}
   </div>
   <div class="article-share">
     {% set title_truncated = page_title | truncate(110, false) %}
