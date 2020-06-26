@@ -23,6 +23,8 @@
           {{ post.excerpt | safe }}
         {% endif %}
       </p>
+      {% set contents = post.contents %}
+      {% set tags = post.tags %}
       {% include "chalk/partials/info-footer.njk" %}
     </li>
   {% endeach %}
