@@ -32,7 +32,11 @@
 
 {% if tag_nav_enabled %}
   <ul class="header-tags {% if scrollappear_enabled %}scrollappear{% endif %}">
-    {% for tag, tagObject in tags | dictsort %}
+    {% for tag, tagObject in tags  %}
+    	{% set slug = tagObject %}
+    	{% if tagObject.urlSafe %}
+    		{% set slug = tagObject.urlSafe %}
+    	{% endif %}
       {% if loop.index == 11 %}
         <li>...</li>
         <li><a href="/topics/">Show all</a></li>

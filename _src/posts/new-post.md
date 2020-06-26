@@ -1,7 +1,7 @@
 ---
 title: How to make a website with NeumannSsg
 date: 2020-06-17
-layout: biron/post.hbs
+layout: chalk/post.njk
 tags: neumannssg
 ---
 
