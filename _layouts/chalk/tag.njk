@@ -1,0 +1,24 @@
+{% set page_title = "Posts for " + tag %}
+{% set page_description = "" %}
+{% set page_url = domain + rootpath + path %}
+{% extends "chalk/_layout.njk" %}
+
+{% block content %}
+  <ul class="article-list">
+    {% for post in pagination.files %}
+      <li class="article-list-item {% if scrollappear_enabled %}scrollappear{% endif %}">
+        <a href="{{ rootpath }}{{ post.path }}" title="{{ post.title }}">
+          <h5>{{ post.title }}</h5>
+        </a>
+        <p>
+          {% if post.description %}
+            {{ post.description }}  
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
+        </p>
+        {% include article/info-footer.html %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
