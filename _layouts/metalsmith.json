@@ -19,7 +19,8 @@
       "twitter": {
         "url": "https://www.twitter.com",
         "icon": "twitter",
-        "name": "Twitter"
+        "name": "Twitter",
+        "handle": "gijswijs"
       },
       "instagram": {
         "url": "https://www.instagram.com",
