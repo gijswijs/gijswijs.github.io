@@ -1,12 +1,16 @@
 {% set page_title = "Posts for " + tag %}
 {% set page_description = "" %}
-{% set page_url = domain + rootpath %}
+{% set page_url = domain + rootpath + path %}
 {% extends "chalk/_layout.njk" %}
 {% import "chalk/macros/svg-icon.njk" as icon %}
 
 {% block content %}
 {% include "chalk/partials/icons/arrow-left.svg" %}
 {% include "chalk/partials/icons/arrow-right.svg" %}
+<header class="article-header">
+	<h1>Posts for {{ tag }}</h1>
+</header>
+
 <ul class="article-list">
   {% asyncEach post in pagination.files %}
     <li class="article-list-item {% if scrollappear_enabled %}scrollappear{% endif %}">
