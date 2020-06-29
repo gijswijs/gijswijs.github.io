@@ -1,0 +1,22 @@
+{% set page_title = "Tags" %}
+{% set page_description = "" %}
+{% set page_url = domain + rootpath + path %}
+{% extends "chalk/_layout.njk" %}
+
+{% block content %}
+<div class="tags-page">
+  <h1 class="tags-page-header">
+    Tags
+  </h1>
+
+  {% for tag, posts in tags %}
+
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="{{ rootpath }}topics/{{ posts.urlSafe }}/" title="See all posts by {{ tag }} tag"
+      style="font-size: {{ posts.length * 15 + 120  }}%">
+        <span>{{ tag }}<small>({{ posts.length }})</small></span>
+      </a>
+
+  {% endfor %}
+</div>
+{% endblock %}
