@@ -1,4 +1,4 @@
-{% set page_title = "Tags" %}
+{% set page_title = title %}
 {% set page_description = "" %}
 {% set page_url = domain + rootpath + path %}
 {% extends "chalk/_layout.njk" %}
@@ -6,7 +6,7 @@
 {% block content %}
 <div class="tags-page">
   <h1 class="tags-page-header">
-    Tags
+    {{ title }}
   </h1>
 
   {% for tag, posts in tags %}
