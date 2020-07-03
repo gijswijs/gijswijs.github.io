@@ -103,7 +103,7 @@
         }
       }
     },
-    { "metalsmith-debug": {} },
+    { "dump-file": { "filename" : "index.html" } },
     {
       "metalsmith-layouts": {
         "directory": "_layouts",
