@@ -49,7 +49,7 @@
   "clean": false,
   "devClean": false,
   "plugins": [
-    { "sourceUrl": true, "dev": true },
+    { "source-url": true, "dev": true },
     {
       "metalsmith-publish": { "draft": false, "private": false },
       "dev": false
@@ -153,14 +153,14 @@
         "destination": "/images"
       }
     },
-    { "writeBuiltUrl": true, "dev": true },
+    { "write-built-url": true, "dev": true },
     {
-      "cssChangeUrl": {
+      "css-change-url": {
         "rootpath": "/"
       }
     },
     {
-      "inlineSource": true,
+      "inline-source": true,
       "dev": true
     },
     { "metalsmith-html-minifier": true, "dev": false }
