@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <meta name="description" content="{{ description }}">
+    {% include "components/_icons.njk" %}
+    <title>{{ page_title }}</title>
+    <link
+      href="{{ rootpath }}styles/vendor.css"
+      rel="stylesheet"
+    />
+    <link
+      href="{{ rootpath }}styles/app.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="{{ body_class }}">
+    {% include "components/_header.njk" %}
+    {% block content %}
+    {% endblock %}
+    <script
+      src="{{ rootpath }}scripts/vendor.js"
+    ></script>
+    <script
+      src="{{ rootpath }}scripts/app.js"
+    ></script>
+  </body>
+</html>

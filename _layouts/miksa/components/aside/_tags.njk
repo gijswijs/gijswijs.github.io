@@ -1,0 +1,6 @@
+<h2>Tags</h2>
+<ul>
+{% for tag, posts in tags -%}
+  <li><a href="{{ rootpath }}topics/{{ posts.urlSafe }}/">{{ tag }} ({{ posts.length }})</a></li>
+{% endfor -%}
+</ul>
