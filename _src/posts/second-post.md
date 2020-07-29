@@ -11,3 +11,5 @@ NeumannSsg is a static site generator with a web based, built in CMS.
 
 You can download layouts for your Neumannssg site.
 First edit on personal page
+Commit to source branch 4 times
+Commit to staging
