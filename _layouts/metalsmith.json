@@ -107,7 +107,7 @@
     { "dump-file": {
       	"filename": "_src/posts/first-post.md"
     	}
-    }
+    },
     {
       "metalsmith-layouts": {
         "directory": "_layouts",
