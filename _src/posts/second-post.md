@@ -14,4 +14,6 @@ First edit on personal page
 Commit to source branch 4 times
 
 Commit to staging again and again.
-Let's put this live
+Let's put this live.
+
+Let us use the live client!
