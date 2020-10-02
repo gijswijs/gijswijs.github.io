@@ -10,4 +10,4 @@ icon: about
 
 # I am ...
 
-Gijs va n Dam, and I should be working on other things than this static site generator.
+Gijs van Dam, and I should be working on other things than this static site generator.
