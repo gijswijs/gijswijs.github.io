@@ -1,5 +1,5 @@
 ---
-title: Building Bitcoin Core On Windows 14
+title: Building Bitcoin Core On Windows 15
 date: 2017-11-03
 layout: chalk/post.njk
 tags: bitcoin, windows 10, bash
