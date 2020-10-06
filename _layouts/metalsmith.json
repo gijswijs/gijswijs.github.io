@@ -104,10 +104,9 @@
       }
     },
     { "metalsmith-debug": {} },
-    {
-      "dump-file": {
-        "filename": "posts/first-post/index.html"
-      }
+    { "dump-file": {
+      	"filename": "posts/first-post/index.html"
+    	}
     },
     {
       "metalsmith-layouts": {
