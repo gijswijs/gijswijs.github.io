@@ -1,0 +1,27 @@
+{% set page_title = title %}
+{% set page_description = "" %}
+{% if description %}
+	{% set page_description = description %}
+{% elif excerpt %}
+	{% set page_description = excerpt %}
+{% endif %}
+{% set page_url = domain + rootpath + path %}
+{% extends "chalk/_layout.njk" %}
+{% import "chalk/macros/svg-icon.njk" as icon %}
+
+{% block content %}
+<article class="about {% if site.scrollappear_enabled %}scrollappear{% endif %}">
+  <header class="article-header">
+    {% set post = { title: title } %}
+    <h1>{{ post.title }}</h1>
+    {% if description %}
+    	<p>{{ description }}</p>
+    {% endif %}
+  </header>
+
+  <div class="article-content">
+    {{ contents | safe }}
+  </div>
+
+</article>
+{% endblock %}

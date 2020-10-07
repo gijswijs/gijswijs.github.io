@@ -11,29 +11,18 @@
     "theme_toggle": false,
     "tag_nav_enabled": false,
     "social_media": {
-      "facebook": {
-        "url": "https://www.facebook.com",
-        "icon": "facebook",
-        "name": "Facebook"
-      },
       "twitter": {
-        "url": "https://www.twitter.com",
+        "url": "https://www.twitter.com/gijswijs",
         "icon": "twitter",
-        "name": "Twitter",
-        "handle": "gijswijs"
-      },
-      "instagram": {
-        "url": "https://www.instagram.com",
-        "icon": "instagram",
-        "name": "Instagram"
+        "name": "@gijswijs"
       },
       "linkedin": {
-        "url": "https://www.linkedin.com",
+        "url": "https://www.linkedin.com/in/gijsvandam/",
         "icon": "linkedin",
         "name": "LinkedIn"
       },
       "github": {
-        "url": "https://www.github.com/neumannjs",
+        "url": "https://www.github.com/gijswijs",
         "icon": "github",
         "name": "Github"
       },
