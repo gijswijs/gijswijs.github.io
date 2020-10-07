@@ -1,7 +1,6 @@
 ---
 title: About me
-layout: biron/page.hbs
-feature_image: /images/tech.jpg
+layout: chalk/page.njk
 collection: navigation
 label: About
 sortId: 1
