@@ -1,0 +1,5 @@
+{% macro time(text) %}
+  {% set duration = text | string | striptags | wordcount %}
+  {% set duration = duration // 250 + 1 %}
+	{{ duration }} minute read
+{% endmacro %}

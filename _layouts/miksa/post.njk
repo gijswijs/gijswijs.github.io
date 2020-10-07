@@ -1,0 +1,22 @@
+{% set body_class = "article" %}
+{% set page_title = title %}
+{% extends "_layout.njk" %}
+
+{% block content %}
+    <main>
+      <article>
+        <header>
+          <h1>{{ title }}</h1>
+          <p><time datetime="{{ date | date("YYYY-MM-DD") }}">{{ date | date("MMMM D, YYYY") }}</time></p>
+          <ul>
+            {% for tag in tags %}<li><a href="{{ rootpath }}topics/{{ tag.slug }}/">{{ tag.name }}</a></li>
+            {% endfor -%}
+          </ul>
+        </header>
+        <section>
+          {{ contents | safe }}
+        </section>
+      </article>
+    </main>
+{% endblock %} 
+

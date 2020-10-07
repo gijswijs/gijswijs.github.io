@@ -1,0 +1,48 @@
+{% import "chalk/macros/svg-icon.njk" as icon %}
+
+<nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
+  <a href="{{ rootpath }}" class="header-logo" title="{{ site_title }}">{{ site_title }}</a>
+  <ul class="header-links">
+    {% asyncEach nav in navigation %}
+      <li>
+        {% include "chalk/partials/icons/" + nav.icon + ".svg" %}
+        <a href="{{ rootpath }}{{ nav.navpath if nav.navpath else nav.path }}" title="{{ nav.label }}">
+          {{ icon.icon(nav.icon) }}
+        </a>
+      </li>
+    {% endeach  %}
+    {% asyncEach platform, properties in social_media %}
+    	<li>
+        {% include "chalk/partials/icons/" + platform + ".svg" %}
+        <a href="{{ properties.url }}" rel="noreferrer noopener" target="_blank" title="{{ properties.name }}">
+          {{ icon.icon(platform) }}
+        </a>
+      </li>
+    {% endeach  %}
+    {% if theme_toggle %}
+      <li>
+        {% include "chalk/partials/icons/theme.svg" %}
+        <a onclick="toggle()" title="Toggle Theme">
+          {{ icon.icon("theme") }}
+        </a>
+      </li>
+    {% endif %}
+  </ul>
+</nav>
+
+{% if tag_nav_enabled %}
+  <ul class="header-tags {% if scrollappear_enabled %}scrollappear{% endif %}">
+    {% for tag, tagObject in tags  %}
+    	{% set slug = tagObject %}
+    	{% if tagObject.urlSafe %}
+    		{% set slug = tagObject.urlSafe %}
+    	{% endif %}
+      {% if loop.index == 11 %}
+        <li>...</li>
+        <li><a href="/topics/">Show all</a></li>
+      {% elif loop.index < 11 %}
+        <li><a href="{{ rootpath }}topics/{{ tagObject.urlSafe }}/">{{ tag | capitalize }}</a></li>
+			{%endif %}
+    {% endfor %}
+  </ul>
+{% endif %}

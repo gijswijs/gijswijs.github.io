@@ -1,0 +1,20 @@
+<footer class="footer">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-6">
+        <p class="footer-link-title has-text-weight-bold">Navigation</p>
+        {{> navigation}}
+      </div>
+      <div class="column is-6">
+        <p class="footer-link-title has-text-weight-bold">Follow Us</p>
+        {{> social-media}}
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom has-text-centered">
+      &copy; {{dateFormat now "YYYY"}} <a href="{{rootpath}}">{{site-title}}</a>.
+      Published with <a href="https://neumannjs.io/janos">Janos</a>.
+      Theme derived from <a href="https://bironthemes.com">Biron Themes</a>.
+    </div>
+  </div>
+</footer>

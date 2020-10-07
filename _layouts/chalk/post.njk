@@ -1,0 +1,40 @@
+{% set page_title = title %}
+{% set page_description = "" %}
+{% if description %}
+	{% set page_description = description %}
+{% elif excerpt %}
+	{% set page_description = excerpt %}
+{% endif %}
+{% set page_url = domain + rootpath + path %}
+{% extends "chalk/_layout.njk" %}
+{% import "chalk/macros/svg-icon.njk" as icon %}
+
+{% block content %}
+<article class="article {% if site.scrollappear_enabled %}scrollappear{% endif %}">
+  <header class="article-header">
+    {% set post = { title: title } %}
+    <h1>{{ post.title }}</h1>
+    {% if description %}
+    	<p>{{ description }}</p>
+    {% endif %}
+    {% include "chalk/partials/info-footer.njk" %}
+  </header>
+
+  <div class="article-content">
+    {{ contents | safe }}
+  </div>
+  <div class="article-share">
+    {% include "chalk/partials/icons/twitter.svg" %}
+    {% include "chalk/partials/icons/facebook-share.svg" %}
+    {% set title_truncated = page_title | truncate(110, false) %}
+    {% set twitter_share_text %}{{ title_truncated }} - {{ page_url }}{% if social_media.twitter %} by @{{ social_media.twitter.handle }}{% endif %}{% endset %}
+    <a href="https://twitter.com/home?status={{ twitter_share_text | urlencode }}" title="Share on Twitter" rel="noreferrer noopener" target="_blank">
+      {{ icon.icon("twitter") }}
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page_url }}" title="Share on Facebook" rel="noreferrer noopener" target="_blank">
+      {{ icon.icon("facebook-share") }}
+    </a>
+  </div>
+
+</article>
+{% endblock %}
