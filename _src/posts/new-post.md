@@ -9,3 +9,4 @@ NeumannSsg is a static site generator. What makes NeumannSsg different is that i
 <!-- more -->
 NeumannSsg is built with Javascript and runs completely in the browser.
 And it runs Github Pages from the master branch.
+And it runs n the browser... A itb
