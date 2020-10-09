@@ -17,3 +17,5 @@ Commit to staging again and again.
 Let's put this live.
 
 Let us use the live client!
+Does this work better now on mobile?
+Yes, it actually works kind of great!
