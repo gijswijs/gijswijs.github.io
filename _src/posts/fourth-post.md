@@ -1,7 +1,7 @@
 ---
 title: My Fourth Post
 date: 2019-05-03
-layout: chalk/post.njk
+layout: miksa/post.njk
 tags: test2
 ---
 
