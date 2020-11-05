@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "0.1",
-    "site_title": "Janos",
+    "site_title": "Gijs van Dam",
     "site_description": "A demonstration static site built using Janos SSG",
     "author": {
       "name": "Gijs van Dam",
@@ -9,31 +9,20 @@
     },
     "blog_theme": "light",
     "theme_toggle": false,
-    "tag_nav_enabled": true,
+    "tag_nav_enabled": false,
     "social_media": {
-      "facebook": {
-        "url": "https://www.facebook.com",
-        "icon": "facebook",
-        "name": "Facebook"
-      },
       "twitter": {
-        "url": "https://www.twitter.com",
+        "url": "https://www.twitter.com/gijswijs",
         "icon": "twitter",
-        "name": "Twitter",
-        "handle": "gijswijs"
-      },
-      "instagram": {
-        "url": "https://www.instagram.com",
-        "icon": "instagram",
-        "name": "Instagram"
+        "name": "@gijswijs"
       },
       "linkedin": {
-        "url": "https://www.linkedin.com",
+        "url": "https://www.linkedin.com/in/gijsvandam/",
         "icon": "linkedin",
         "name": "LinkedIn"
       },
       "github": {
-        "url": "https://www.github.com/neumannjs",
+        "url": "https://www.github.com/gijswijs",
         "icon": "github",
         "name": "Github"
       },
@@ -73,7 +62,7 @@
           "perPage": 3,
           "first": "index.html",
           "path": "page/:num/index.html",
-          "layout": "chalk/home.njk",
+          "layout": "miksa/home.njk",
           "pageMetadata": {
             "title": "Archive",
             "feature_image": "/images/cover.jpg"
@@ -94,7 +83,7 @@
         "path": "topics/:tag/index.html",
         "pathPage": "topics/:tag/:num/index.html",
         "perPage": 6,
-        "layout": "/chalk/tag.njk",
+        "layout": "/miksa/tag.njk",
         "sortBy": "date",
         "reverse": true,
         "skipMetadata": false,
@@ -147,7 +136,7 @@
     },
     {
       "metalsmith-assets": {
-        "source": "_layouts/chalk/assets",
+        "source": "_layouts/miksa/assets",
         "destination": "/"
       }
     },
