@@ -2,7 +2,7 @@
 title: My Third Post
 date: 2019-03-22
 publish: draft
-layout: chalk/post.njk
+layout: miksa/post.njk
 tags: test2
 ---
 

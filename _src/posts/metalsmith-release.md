@@ -1,7 +1,7 @@
 ---
 title: Janos 0.1 is now public
 date: 2020-10-06
-layout: chalk/post.njk
+layout: miksa/post.njk
 tags: metalsmith, janos
 ---
 
