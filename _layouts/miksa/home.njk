@@ -4,6 +4,21 @@
 
 {% block content %}
 <main>
-  <p>Hello Kajang</p>
+    <ul>
+    {% for post in pagination.files %}
+    <li>
+      <article>
+        <header>
+          <h1><a href="{{ rootpath }}{{ post.path }}">{{ post.title }}</a></h1>
+          <p><time datetime="{{ post.date | date("YYYY-MM-DD") }}">{{ post.date | date("MMMM D, YYYY") }}</time></p>
+        </header>
+        <section>
+          {{ post.excerpt | safe }}
+        </section>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+  {% include "components/_aside.njk" %}
 </main>
 {% endblock %} 
