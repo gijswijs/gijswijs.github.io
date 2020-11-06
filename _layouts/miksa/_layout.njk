@@ -19,6 +19,9 @@
     />
   </head>
   <body class="{{ body_class }}">
+    {% include "components/_header.njk" %}
+    {% block content %}
+    {% endblock %}
     <script
       src="{{ rootpath }}scripts/vendor.js"
     ></script>
