@@ -1,4 +1,4 @@
 ---
 title: Tags
-layout: miksa/tag.njk
+layout: miksa/page.njk
 ---
