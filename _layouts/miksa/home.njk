@@ -1,10 +1,10 @@
 {% set body_class = "home" %}
 {% set page_title = site-title %}
-{% extends "_layout.njk" %}
+{% extends "miksa/_layout.njk" %}
 
 {% block content %}
 <main>
-  <ul>
+    <ul>
     {% for post in pagination.files %}
     <li>
       <article>
@@ -19,6 +19,6 @@
     </li>
     {% endfor %}
   </ul>
-  {% include "components/_aside.njk" %}
+  {% include "miksa/components/_aside.njk" %}
 </main>
 {% endblock %} 
