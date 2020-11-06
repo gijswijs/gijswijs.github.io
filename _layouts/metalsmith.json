@@ -62,7 +62,7 @@
           "perPage": 3,
           "first": "index.html",
           "path": "page/:num/index.html",
-          "layout": "chalk/home.njk",
+          "layout": "miksa/home.njk",
           "pageMetadata": {
             "title": "Archive",
             "feature_image": "/images/cover.jpg"
@@ -83,7 +83,7 @@
         "path": "topics/:tag/index.html",
         "pathPage": "topics/:tag/:num/index.html",
         "perPage": 6,
-        "layout": "/chalk/tag.njk",
+        "layout": "/miksa/tag.njk",
         "sortBy": "date",
         "reverse": true,
         "skipMetadata": false,
@@ -136,7 +136,7 @@
     },
     {
       "metalsmith-assets": {
-        "source": "_layouts/chalk/assets",
+        "source": "_layouts/miksa/assets",
         "destination": "/"
       }
     },
