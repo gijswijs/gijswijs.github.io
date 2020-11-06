@@ -1,6 +1,6 @@
 ---
 title: About me
-layout: miksa/page.njk
+layout: miksa/post.njk
 collection: navigation
 label: About
 sortId: 1
