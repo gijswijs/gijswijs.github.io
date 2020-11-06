@@ -7,7 +7,7 @@
       content="width=device-width,initial-scale=1,shrink-to-fit=no"
     />
     <meta name="description" content="{{ description }}">
-    {% include "components/_icons.njk" %}
+    {% include "miksa/components/_icons.njk" %}
     <title>{{ page_title }}</title>
     <link
       href="{{ rootpath }}styles/vendor.css"
@@ -19,7 +19,7 @@
     />
   </head>
   <body class="{{ body_class }}">
-    {% include "components/_header.njk" %}
+    {% include "miksa/components/_header.njk" %}
     {% block content %}
     {% endblock %}
     <script
