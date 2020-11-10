@@ -1,40 +1,16 @@
 {% set body_class = "tag" %}
 {% set page_title = "Post for " + tag %}
 {% extends "miksa/_layout.njk" %}
-{% import "miksa/macros/reading-time.njk" as reading %}
 
 {% block content %}
-<main>
-  <header>
-    <h1>Posts for {{ tag }}</h1>
-  </header>
-  <ul>
-    {% for post in pagination.files %}
-    <li>
-      <article>
-        <header>
-          <h1><a href="{{ rootpath }}{{ post.path }}">{{ post.title }}</a></h1>
-          {% set contents = post.contents %}
-          {% set tags = post.tags %}
-          {% set date = post.date %}
-          {% include "miksa/components/_post-info.njk" %}
-        </header>
-        <section>
-          {{ post.excerpt | safe }}
-        </section>
-      </article>
-    </li>
-    {% endfor %}
-    {% if pagination.pages.length > 1 %}
-      <li class="article-pagination">
-        {% if pagination.next %}
-          <a href="{{rootpath}}{{pagination.next.path}}" class="article-pagination-left">Older posts</a>
-        {% endif %}
-        {% if pagination.previous %}
-          <a href="{{rootpath}}{{pagination.previous.path}}" class="article-pagination-right">Newer posts</a>
-        {% endif %}
-      </li>
-    {% endif %}
-  </ul>
-</main>
+    <main>
+      <header>
+        <h1>Posts for {{ tag }}</h1>
+      </header>
+      <ul>
+        {% for file in pagination.files %}
+        <li><a href="{{ rootpath }}{{ file.path }}">{{ file.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </main>
 {% endblock %} 

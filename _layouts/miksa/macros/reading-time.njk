@@ -1,5 +1,0 @@
-{% macro time(text) -%}
-  {% set duration = text | string | striptags | wordcount -%}
-  {% set duration = duration // 250 + 1 -%}
-	<span class="reading-time">{{ duration }} minute read</span>
-{%- endmacro %}

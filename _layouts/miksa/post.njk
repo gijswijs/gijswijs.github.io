@@ -1,25 +1,17 @@
 {% set body_class = "article" %}
 {% set page_title = title %}
 {% extends "miksa/_layout.njk" %}
-{% import "miksa/macros/reading-time.njk" as reading %}
 
 {% block content %}
     <main>
       <article>
-        {# MathJax imports #}
-        <script>
-          MathJax = {
-          chtml: {
-              scale: 1,                      // global scaling factor for all expressions
-              minScale: 1,                  // smallest scaling factor to use
-            }
-          };
-        </script>
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         <header>
           <h1>{{ title }}</h1>
-          {% include "miksa/components/_post-info.njk" %}
+          <p><time datetime="{{ date | date("YYYY-MM-DD") }}">{{ date | date("MMMM D, YYYY") }}</time></p>
+          <ul>
+            {% for tag in tags %}<li><a href="{{ rootpath }}topics/{{ tag.slug }}/">{{ tag.name }}</a></li>
+            {% endfor -%}
+          </ul>
         </header>
         <section>
           {{ contents | safe }}
