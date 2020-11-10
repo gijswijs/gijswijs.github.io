@@ -1,0 +1,8 @@
+<span>
+    <time datetime="{{ date | date("YYYY-MM-DD") }}">{{ date | date("MMMM D, YYYY") }}</time>
+    {{ reading.time(contents) }}
+</span>
+<ul>
+    {% for tag in tags %}<li><a href="{{ rootpath }}topics/{{ tag.slug }}/">{{ tag.name }}</a></li>
+    {% endfor -%}
+</ul>   
