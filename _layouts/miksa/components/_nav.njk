@@ -2,7 +2,7 @@
   <ul>
       {% asyncEach nav in navigation %}
         <li>
-          <a href="{{ rootpath }}{{ nav.navpath if nav.navpath else nav.path }}" title="{{ nav.label }}">
+          <a href="{{ rootpath }}{{ nav.navpath if nav.navpath else nav.path | replace('//', '/') }}" title="{{ nav.label }}">
             {{ nav.label }}
           </a>
         </li>
