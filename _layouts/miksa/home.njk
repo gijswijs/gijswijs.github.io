@@ -1,16 +1,20 @@
 {% set body_class = "home" %}
-{% set page_title = site-title %}
+{% set page_title = site_title %}
 {% extends "miksa/_layout.njk" %}
+{% import "miksa/macros/reading-time.njk" as reading %}
 
 {% block content %}
 <main>
-    <ul>
+  <ul>
     {% for post in pagination.files %}
     <li>
       <article>
         <header>
           <h1><a href="{{ rootpath }}{{ post.path }}">{{ post.title }}</a></h1>
-          <p><time datetime="{{ post.date | date("YYYY-MM-DD") }}">{{ post.date | date("MMMM D, YYYY") }}</time></p>
+          {% set contents = post.contents %}
+          {% set tags = post.tags %}
+          {% set date = post.date %}
+          {% include "miksa/components/_post-info.njk" %}
         </header>
         <section>
           {{ post.excerpt | safe }}
@@ -18,6 +22,16 @@
       </article>
     </li>
     {% endfor %}
+    {% if pagination.pages.length > 1 %}
+      <li class="article-pagination">
+        {% if pagination.next %}
+          <a href="{{rootpath}}{{pagination.next.path}}" class="article-pagination-left">Older posts</a>
+        {% endif %}
+        {% if pagination.previous %}
+          <a href="{{rootpath}}{{pagination.previous.path}}" class="article-pagination-right">Newer posts</a>
+        {% endif %}
+      </li>
+    {% endif %}
   </ul>
   {% include "miksa/components/_aside.njk" %}
 </main>
