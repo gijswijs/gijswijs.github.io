@@ -3,18 +3,11 @@
     "version": "0.1",
     "site_title": "Gijs van Dam",
     "site_description": "A demonstration static site built using Janos SSG",
-    "author": {
-      "name": "Gijs van Dam",
-      "url": "/gijs-van-dam"
-    },
-    "blog_theme": "light",
-    "theme_toggle": false,
-    "tag_nav_enabled": false,
     "social_media": {
       "twitter": {
         "url": "https://www.twitter.com/gijswijs",
         "icon": "twitter",
-        "name": "@gijswijs"
+        "name": "Twitter"
       },
       "linkedin": {
         "url": "https://www.linkedin.com/in/gijsvandam/",
