@@ -1,0 +1,17 @@
+<footer>
+  {% include "components/_nav.njk" %}
+  <ul>
+    {% asyncEach platform, properties in social_media %}
+    	<li>
+        <a href="{{ properties.url }}" rel="noreferrer noopener" target="_blank" title="{{ properties.name }}">
+          {{ properties.name }}
+        </a>
+      </li>
+    {% endeach  %}
+  </ul>
+  <p>
+    &copy; {{ now | date("YYYY") }} <a href="{{rootpath}}">{{ site_title }}</a>.
+      Published with <a href="https://neumannjs.io/janos">Janos</a>.
+      Theme <a href="https://neumannjs.io/miksa">Miksa</a>.
+  </p>
+</footer>
