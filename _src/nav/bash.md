@@ -1,7 +1,6 @@
 ---
-label: '#Bash'
-navpath: topics/bash/
+label: 'Home'
+navpath: /
 collection: navigation
-sortId: 2
-icon: about
+sortId: 1
 ---
