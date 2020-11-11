@@ -3,7 +3,7 @@ title: About me
 layout: miksa/page.njk
 collection: navigation
 label: About
-sortId: 2
+sortId: 6
 ---
 
 Researcher, developer and business founder in no particular order.
