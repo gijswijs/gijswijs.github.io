@@ -65,6 +65,7 @@ sortId: 5
   </tr>
 </tbody>
 </table>
+
 ## Training & Certification
 
 <table>
