@@ -57,11 +57,11 @@ sortId: 5
 <tbody>
   <tr>
     <td>2020</td>
-    <td>van Dam, G., Kadir, R. A., Nohuddin, P. N. E., &amp; Zaman, H. B. (2020). Improvements of the Balance Discovery Attack on Lightning Network Payment Channels (pp. 313â323). <a href="https://doi.org/10.1007/978-3-030-58201-2_21" title="van Dam, G., Kadir, R. A., Nohuddin, P. N. E., &amp; Zaman, H. B. (2020). Improvements of the Balance Discovery Attack on Lightning Network Payment Channels (pp. 313â323)">https://doi.org/10.1007/978-3-030-58201-2_21</a></td>
+    <td>van Dam, G., Kadir, R. A., Nohuddin, P. N. E., &amp; Zaman, H. B. (2020). Improvements of the Balance Discovery Attack on Lightning Network Payment Channels (pp. 313-323). <a href="https://doi.org/10.1007/978-3-030-58201-2_21" title="van Dam, G., Kadir, R. A., Nohuddin, P. N. E., &amp; Zaman, H. B. (2020). Improvements of the Balance Discovery Attack on Lightning Network Payment Channels (pp. 313-323)">https://doi.org/10.1007/978-3-030-58201-2_21</a></td>
   </tr>
   <tr>
     <td>2014</td>
-    <td>Whitepaper: Your company future-proof with ecommerce</td>
+    <td>Whitepaper: <a href="/documents/Whitepaper-e-commerce.pdf" title="Your company future-proof with ecommerce">Your company future-proof with ecommerce (dutch)</a></td>
   </tr>
 </tbody>
 </table>
@@ -76,7 +76,7 @@ sortId: 5
   </tr>
   <tr>
     <td>2018</td>
-    <td>Workshop Microsoft Azureâs Jupyter Notebook and R</td>
+    <td>Workshop Microsoft AzureÃ¢ÂÂs Jupyter Notebook and R</td>
   </tr>
   <tr>
     <td>2017</td>
