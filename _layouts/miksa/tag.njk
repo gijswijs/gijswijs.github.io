@@ -6,7 +6,7 @@
 {% block content %}
 <main>
   <ul>
-    {% for post in pagination.files %}
+    {% asynEach post in pagination.files %}
     <li>
       <article>
         <header>
@@ -21,7 +21,7 @@
         </section>
       </article>
     </li>
-    {% endfor %}
+    {% endeach %}
     {% if pagination.pages.length > 1 %}
       <li class="article-pagination">
         {% if pagination.next %}
