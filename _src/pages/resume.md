@@ -10,10 +10,6 @@ sortId: 5
 <table>
 <tbody>
   <tr>
-    <td>2018-current</td>
-    <td>PhD Computer Science, National University of Malaysia, Institute of IR 4.0, Malaysia</td>
-  </tr>
-  <tr>
     <td>2002-present</td>
     <td>Founder/Owner, Mindbus, Leiden, The Netherlands/Lisbon, Portugal</td>
   </tr>
@@ -41,8 +37,8 @@ sortId: 5
 <table>
 <tbody>
   <tr>
-    <td>2018-current</td>
-    <td>PhD Computer Science, National University of Malaysia, Institute of IR 4.0, Malaysia</td>
+    <td>2018-present</td>
+    <td>PhD Computer Science, National University of Malaysia, Institute of IR 4.0, Malaysia (ongoing)</td>
   </tr>
   <tr>
     <td>1995-2000</td>
