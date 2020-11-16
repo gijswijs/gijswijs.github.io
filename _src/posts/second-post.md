@@ -5,11 +5,11 @@ layout: miksa/post.njk
 tags: test1, test2
 ---
 
-Janos is a static site generator with a web based, built in CMS.
+NeumannSsg is a static site generator with a web based, built in CMS.
 
 <!-- more -->
 
-You can download layouts for your Janos.
+You can download layouts for your Neumannssg site.
 First edit on personal page
 Commit to source branch 4 times
 
