@@ -1,7 +1,6 @@
 ---
 title: Debugging LND while running a local cluster
 date: 2020-11-16
-publish: draft
 layout: miksa/post.njk
 tags: lnd, simverse, vscode
 ---
@@ -27,7 +26,71 @@ make build
 
 The resulting binaries can be found in the repo folder itself: `lnd-debug` and `lncli-debug`
 
+## Create a lnd.conf file
+
+Yes, you can start lnd with a bunch of arguments. So there is no real need for a conf-file, but I think it makes it way easier to start LND with a conf-file. You can place your file anywhere, but I find it easy to have them all at a single place, and the most logical place is the default location: `~/.lnd/`.
+
+Give it a name that makes it easy to understand that this is a conf file not be used in a production environment, like `lnd-test.conf`.
+
+These are the contents of my `lnd-test.conf`:
+
+```
+noseedbackup=true
+bitcoin.active=true
+bitcoin.regtest=true
+no-macaroons=true
+bitcoin.node=btcd
+btcd.rpchost=default_btcd1
+btcd.rpccert=/home/mini/simverse/_workspace/default/_volumes/certs/rpc.cert
+btcd.rpcuser=devuser
+btcd.rpcpass=devpass
+debuglevel=debug
+```
+
+You would have to change `btcd.rpcert` to the path to the `rpc.cert` file in your Simverse workspace and you would probably have to change the `btcd.rpchost` as well. The `default_btcd1` host is *not* automatically added to your host file so either you have to add it to your host file or you have to replace it with an IP address. You can find the IP address of the btcd1 docker container of your Simverse cluster, by using the `list_docker_ips` command that ships with Simverse. (I told you that tool was amazing). An alternative solution is to run this [extra docker container](https://github.com/dvddarias/docker-hoster) that automatically updates entries in your hostfile.
+
 ## Installing Delve
 
 Assuming you have Vscode installed, make sure you have installed the [language support for Go](https://marketplace.visualstudio.com/items?itemName=golang.Go) extension.
 
+Open the Command Palette, select `Go: Install/Update Tools`, and select `dlv`
+
+![install dlv](/images/install-dlv.png "Install dlv using the Command Palette")
+
+## Configure launch.json
+
+Open the folder of your LND repo with Vscode and create a launch.json file by selecting the gear icon on the Run view (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd>) top bar.
+
+```lang-json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch lnd",
+            "type": "go",
+            "request": "launch",
+            "mode": "exec",
+            "program": "${workspaceFolder}/lnd-debug",
+            "env": {},
+            "args": ["--configfile=~/.lnd/lnd-test.conf"],
+            "showLog": true
+        }
+    ]
+}
+```
+
+The args parameter should contain the location of your conf-file.
+
+## Set breakpoints
+
+Now you are ready to set breakpoints, for instance in the `Main` function of the `lnd` package.
+
+![Main function](/images/set-breakpoint.png "Main function")
+
+If you start debugging, this breakpoint is immediately hit.
+
+![Breakpoint hit](/images/hit-breakpoint.png "Breakpoint hit")
+
+## Done!
+
+And there you have it, you can now start to debugging LND operating in a local cluster.
