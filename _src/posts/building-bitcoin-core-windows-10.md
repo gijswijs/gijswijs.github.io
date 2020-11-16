@@ -2,7 +2,7 @@
 title: Building Bitcoin Core On Windows 10
 date: 2017-11-03
 layout: miksa/post.njk
-tags: bitcoin, windows 10, bash
+tags: bitcoin, windows 10
 ---
 I've been following Bitcoin and more importantly the Blockchain from the sidelines for a few years now, but I wanted to get my hands dirty. Obviously I could just download the Bitcoin Core executables from bitcoin.org, but I always feel it gives me more insight if I build something myself. Also it's was a nice test case for Bash on Windows.
 <!-- more -->
@@ -49,5 +49,5 @@ sudo make install DESTDIR=/mnt/c/workspace/bitcoin
 ```
 Again, sit back and wait for the process to finish.
 
-After the process has finished successfuly, you will find the executables here: C:\workspace\bitcoin\bin
+After the process has finished successfully, you will find the executables here: C:\workspace\bitcoin\bin
 Starting bitcoin-qt.exe will start Bitcoin Core, the GUI node for Bitcoin.
