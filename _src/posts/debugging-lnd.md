@@ -13,7 +13,7 @@ Simverse is an amazing tool for setting up local Lightning clusters. It uses doc
 
 For our setup we will use a hybrid cluster. There are 3 types of Simverse clusters: Homogenous clusters are Simverse clusters that run either lnd + btcd nodes, eclair + bitcoind nodes or c-lightning + bitcoind nodes. More generally speaking, a homgenous cluster only contains one flavor of back-end and one flavor of Lightning node. The second type of cluster is heterogenous cluster, containing a mix of nodes and back-ends. The third type of cluster is called a hybrid cluster. This is a Simverse cluster (either homogenous or heterogenous) that interacts with an external node that runs directly on the host machine instead of in a docker container. We will use the default Simverse cluster (a homogenous lnd + btcd cluster) and make it hybrid by connecting the LND node that runs the code that we are going to debug.
 
-Setting up the cluster with Simverse is not within the scope of this article, but the [Quickstart](https://github.com/darwin/simverse) of Simverse is all you need to do.
+Setting up the cluster with Simverse is not within the scope of this article, but the [Quickstart](https://github.com/darwin/simverse) of Simverse is all you need to do. That will result in having a cluster with 3 Docker containers, two running LND, and one running a btcd back-end.
 
 ## Building LND
 
@@ -47,7 +47,9 @@ btcd.rpcpass=devpass
 debuglevel=debug
 ```
 
-You would have to change `btcd.rpcert` to the path to the `rpc.cert` file in your Simverse workspace and you would probably have to change the `btcd.rpchost` as well. The `default_btcd1` host is *not* automatically added to your host file so either you have to add it to your host file or you have to replace it with an IP address. You can find the IP address of the btcd1 docker container of your Simverse cluster, by using the `list_docker_ips` command that ships with Simverse. (I told you that tool was amazing). An alternative solution is to run this [extra docker container](https://github.com/dvddarias/docker-hoster) that automatically updates entries in your hostfile.
+What this configuration does is running LND with (completely unsafe) development settings, using the btcd Docker container as the back-end.
+
+You would have to change `btcd.rpcert` to the path to the `rpc.cert` file in your Simverse workspace and you would probably have to change the `btcd.rpchost` as well. The `default_btcd1` host pointing to your btcd Docker container is *not* automatically added to your host file so either you have to add it to your host file or you have to replace it with an IP address. You can find the IP address of the btcd1 docker container of your Simverse cluster, by using the `list_docker_ips` command that ships with Simverse. (I told you that tool was amazing). An alternative solution is to run this [extra docker container](https://github.com/dvddarias/docker-hoster) that automatically updates entries in your hostfile.
 
 ## Installing Delve
 
