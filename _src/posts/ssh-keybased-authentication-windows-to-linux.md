@@ -1,5 +1,5 @@
 ---
-title: SSH keybased authentication Windows &rarr; Linux
+title: "SSH keybased authentication Windows &rarr; Linux"
 date: 2020-11-20
 layout: miksa/post.njk
 tags: ssh, vscode
