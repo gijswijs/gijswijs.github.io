@@ -21,7 +21,7 @@ ssh-keygen -t rsa -b 4096
 
 You can accept all defaults and keep the passphrase empty. It will result in a keypair generated in the `$HOME\.ssh\` folder which we will use later.
 
-![Create your local SSH key pair](/images/ssh-keypair.gif =679x)
+<img src="/images/ssh-keypair.gif" title="Create your local SSH key pair" alt="Create your local SSH key pair" width="679" />
 
 You are now ready to add your *local* key to the autorized keys on your *remote* machine. Run the following in PowerShell on your *local* machine.
 
