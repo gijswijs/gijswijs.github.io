@@ -23,7 +23,7 @@ We will create a recipe that creates a cluster with three c-lightning nodes, run
 <!-- more -->
 ## Simverse Recipe
 
-```lang_bash
+```bash
 #!/usr/bin/env bash
 
 . cookbook/cookbook.sh
@@ -63,7 +63,7 @@ What is happening here? First we import the `cookbook` library. `prelude` does a
 We can now add our first lightning node, called "alice": `add lightningd alice`
 After this we can copy our plugin to the Docker context folder with the following command:
 
-```
+```bash
 cp -r "$SIMVERSE_REPOS/plugins/jitrebalance" "$SIMVERSE_WORKSPACE/$SIMNET_NAME/_volumes/lightning-data-alice/plugins"
 ```
 
@@ -87,7 +87,7 @@ So `a1k3` reads as "one bitcoind node and two c-lightning nodes". You should use
 
 With our recipe out of the way we can create our cluster.
 
-```
+```bash
 cd ~/simverse
 ./sv create a1k3-plugin jitrebalance
 ./sv enter jitrebalance
@@ -105,7 +105,7 @@ You should see something like this:
 
 Now in a separate terminal session you can access your nodes and run the `init` script.
 
-```
+```bash
 cd ~/simverse
 ./sv enter jitrebalance
 ./init
