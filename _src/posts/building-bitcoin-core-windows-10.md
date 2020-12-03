@@ -1,5 +1,5 @@
 ---
-title: Building Bitcoin Core On Windows 10
+title: Building Bitcoin Core On Windows 11
 date: 2017-11-03
 layout: miksa/post.njk
 tags: bitcoin, windows 10
