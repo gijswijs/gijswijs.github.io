@@ -1,6 +1,6 @@
 ---
 title: "Running c-lightning in Simverse with plugins"
-date: 2020-12-2
+date: 2020-12-02
 layout: miksa/post.njk
 tags: simverse, c-lightning
 ---
