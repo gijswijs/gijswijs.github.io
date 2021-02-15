@@ -11,7 +11,7 @@ Last week I had to give a progress presentation about the current state of my Ph
 
 I write the presentation in Markdown and then convert it to [https://revealjs.com](reveal.js). But sometimes you want something else than the default sliding transition that reveal.js provides.
 
-<img src="/images/default-sliding.gif" title="Default sliding transition in reveal.js" alt="Default sliding transition in reveal.js" width="1000" />
+<img src="/images/default-sliding.gif" title="Default sliding transition in reveal.js" alt="Default sliding transition in reveal.js" width="650" />
 
 Reveal.js got you covered with [auto-animate](https://revealjs.com/auto-animate/). It's a feature that automatically finds matching elements between two slides and animates between them. It's nothing too fancy and for me it perfectly fits the job at hand. All you need to do is add `data-auto-animate` to two adjacent slide `<section>` elements.
 
@@ -35,4 +35,4 @@ Slide 2 content
 
 And that's it! Once you convert your Markdown into reveal.js the slides are now animated using auto-animate.
 
-<img src="/images/auto-animate.gif" title="Auto-animate transition in reveal.js" alt="Auto-animate transition in reveal.js" width="1000" />
+<img src="/images/auto-animate.gif" title="Auto-animate transition in reveal.js" alt="Auto-animate transition in reveal.js" width="650" />
