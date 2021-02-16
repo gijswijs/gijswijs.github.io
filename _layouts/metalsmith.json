@@ -38,7 +38,7 @@
   },
   "source": "_src",
   "destination": "/",
-  "clean": false,
+  "clean": true,
   "devClean": false,
   "plugins": [
     { "source-url": true, "dev": true },
