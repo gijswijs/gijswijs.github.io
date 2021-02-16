@@ -6,11 +6,11 @@ tags: pandoc, revealjs, boilerplate paper
 ---
 
 I found this super easy alternative way to animate your slides with reveal.js that works out of the box with Markdown and Pandoc. Here is how to do it.
-<!-- more -->
+
 Last week I had to give a progress presentation about the current state of my PhD, and I can whip those up in no time. I use [Boilerplate Paper](https://github.com/neumannjs/boilerplate-paper) not only for writing my papers, but also for presentations like this.
 
 I write the presentation in Markdown and then convert it to [https://revealjs.com](reveal.js). But sometimes you want something else than the default sliding transition that reveal.js provides.
-
+<!-- more -->
 <img src="/images/default-sliding.gif" title="Default sliding transition in reveal.js" alt="Default sliding transition in reveal.js" width="650" />
 
 Reveal.js got you covered with [auto-animate](https://revealjs.com/auto-animate/). It's a feature that automatically finds matching elements between two slides and animates between them. It's nothing too fancy and for me it perfectly fits the job at hand. All you need to do is add `data-auto-animate` to two adjacent slide `<section>` elements.
