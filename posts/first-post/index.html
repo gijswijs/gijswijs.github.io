@@ -7,7 +7,10 @@
 # Find the line that reads:
 Prompt=LTS
 # Change it to:
-Prompt=normal</code></pre><p>Run</p><pre><code>sudo do-release-upgrade</code></pre><p>After I was done, <code>lsb_release -a</code> yielded the brand new Ubuntu Zesty 17.04 in the description. On with the instructions on <a href=https://github.com/bitcoin/bitcoin/blob/master/doc/build-windows.md>https://github.com/bitcoin/bitcoin/blob/master/doc/build-windows.md</a>. Take note that you have to install the dependencies for g++-mingw-w64-x86-64 and mingw-w64-x86-64-dev first, before changing the update-alternatives. The instructions are a bit confusing on this point.</p><pre><code>sudo apt-get install git
+Prompt=normal</code></pre><p>Run</p>
+<pre><code>sudo do-release-upgrade</code></pre><p>After I was done, <code>lsb_release -a</code> yielded the brand new Ubuntu Zesty 17.04 in the description. On with the instructions on <a href="https://github.com/bitcoin/bitcoin/blob/master/doc/build-windows.md">https://github.com/bitcoin/bitcoin/blob/master/doc/build-windows.md</a>.
+Take note that you have to install the dependencies for g++-mingw-w64-x86-64  and mingw-w64-x86-64-dev first, before changing the update-alternatives. The instructions are a bit confusing on this point.</p>
+<pre><code>sudo apt-get install git
 cd /usr/local/src
 sudo git clone https://github.com/bitcoin/bitcoin.git
 PATH=$(echo &quot;$PATH&quot; | sed -e &#39;s/:\/mnt.*//g&#39;)
