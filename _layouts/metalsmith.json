@@ -33,6 +33,11 @@
         "url": "/rss.xml",
         "icon": "rss",
         "name": "RSS"
+      },
+      "keybase": {
+        "url": "https://keybase.io/gijsvandam",
+        "icon": "keybase",
+        "name": "Keybase"
       }
     }
   },
