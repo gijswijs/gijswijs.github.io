@@ -2,7 +2,7 @@
   "metadata": {
     "version": "0.1",
     "site_title": "Gijs van Dam",
-    "site_description": "Gijs van Dam's personal website",
+    "site_description": "privacy, cryptography and programming",
     "social_media": {
       "github": {
         "url": "https://www.github.com/gijswijs",
@@ -131,9 +131,9 @@
     {
       "metalsmith-feed": {
         "collection": "posts",
-        "site_url": "https://gijswijs.github.io",
-        "title": "Neumann SSG test",
-        "description": "A demonstration static site built using Neumann SSG"
+        "site_url": "https://www.gijsvandam.nl",
+        "title": "Musings of Gijs van Dam",
+        "description": "Posts on privacy, programming and crypto research"
       }
     },
     {
