@@ -9,7 +9,7 @@ I found this super easy alternative way to animate your slides with reveal.js th
 
 Last week I had to give a progress presentation about the current state of my PhD, and I can whip those up in no time. I use [Boilerplate Paper](https://github.com/neumannjs/boilerplate-paper) not only for writing my papers, but also for presentations like this.
 
-I write the presentation in Markdown and then convert it to [https://revealjs.com](reveal.js). But sometimes you want something else than the default sliding transition that reveal.js provides.
+I write the presentation in Markdown and then convert it to [reveal.js](https://revealjs.com). But sometimes you want something else than the default sliding transition that reveal.js provides.
 <!-- more -->
 <img src="/images/default-sliding.gif" title="Default sliding transition in reveal.js" alt="Default sliding transition in reveal.js" width="650" />
 
