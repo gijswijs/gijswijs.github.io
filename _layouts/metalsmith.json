@@ -8,50 +8,50 @@
         "url": "https://www.github.com/gijswijs",
         "icon": "github",
         "name": "Github",
-        "me": "true"
+        "me": true
       },
       "linkedin": {
         "url": "https://www.linkedin.com/in/gijsvandam/",
         "icon": "linkedin",
         "name": "LinkedIn",
-        "me": "true"
+        "me": true
       },
       "researchgate": {
         "url": "https://www.researchgate.net/profile/Gijs_Van_Dam2",
         "icon": "researchgate",
         "name": "ResearchGate",
-        "me": "true"
+        "me": true
       },
       "mastodon": {
         "url": "https://bitcoinhackers.org/@gijswijs",
         "icon": "mastodon",
         "name": "Mastodon",
-        "me": "true"
+        "me": true
       },
       "twitter": {
         "url": "https://www.twitter.com/gijswijs",
         "icon": "twitter",
         "name": "Twitter",
-        "me": "true"
+        "me": true
       },
       "rss": {
         "url": "/rss.xml",
         "icon": "rss",
         "name": "RSS",
-        "me": "false",
+        "me": false,
         "rel": ""
       },
       "keybase": {
         "url": "https://keybase.io/gijsvandam",
         "icon": "keybase",
         "name": "Keybase",
-        "me": "true"
+        "me": true
       },
       "orcid": {
         "url": "https://orcid.org/0000-0002-6188-6859",
         "icon": "orcid",
         "name": "ORCID",
-        "me": "true"
+        "me": true
       }
     }
   },
