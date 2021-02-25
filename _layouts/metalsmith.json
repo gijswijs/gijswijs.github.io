@@ -152,7 +152,7 @@
     },
     {
       "metalsmith-mapsite": {
-        "hostname": "https://gijswijs.github.io",
+        "hostname": "https://www.gijsvandam.nl",
         "omitIndex": true
       }
     },
