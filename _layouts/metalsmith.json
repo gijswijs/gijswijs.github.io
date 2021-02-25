@@ -2,43 +2,62 @@
   "metadata": {
     "version": "0.1",
     "site_title": "Gijs van Dam",
-    "site_description": "Gijs van Dam's personal website",
+    "site_description": "privacy, cryptography and programming",
     "social_media": {
       "github": {
         "url": "https://www.github.com/gijswijs",
         "icon": "github",
-        "name": "Github"
+        "name": "Github",
+        "me": "true"
       },
       "linkedin": {
         "url": "https://www.linkedin.com/in/gijsvandam/",
         "icon": "linkedin",
-        "name": "LinkedIn"
+        "name": "LinkedIn",
+        "me": "true"
       },
       "researchgate": {
         "url": "https://www.researchgate.net/profile/Gijs_Van_Dam2",
         "icon": "researchgate",
-        "name": "ResearchGate"
+        "name": "ResearchGate",
+        "me": "true"
       },
       "mastodon": {
         "url": "https://bitcoinhackers.org/@gijswijs",
         "icon": "mastodon",
-        "name": "Mastodon"
+        "name": "Mastodon",
+        "me": "true"
       },
       "twitter": {
         "url": "https://www.twitter.com/gijswijs",
         "icon": "twitter",
-        "name": "Twitter"
+        "name": "Twitter",
+        "me": "true"
       },
       "rss": {
         "url": "/rss.xml",
         "icon": "rss",
-        "name": "RSS"
+        "name": "RSS",
+        "me": "false",
+        "rel": ""
+      },
+      "keybase": {
+        "url": "https://keybase.io/gijsvandam",
+        "icon": "keybase",
+        "name": "Keybase",
+        "me": "true"
+      }
+      "orcid": {
+        "url": "https://orcid.org/0000-0002-6188-6859",
+        "icon": "orcid",
+        "name": "ORCID",
+        "me": "true"
       }
     }
   },
   "source": "_src",
   "destination": "/",
-  "clean": false,
+  "clean": true,
   "devClean": false,
   "plugins": [
     { "source-url": true, "dev": true },
@@ -126,9 +145,9 @@
     {
       "metalsmith-feed": {
         "collection": "posts",
-        "site_url": "https://gijswijs.github.io",
-        "title": "Neumann SSG test",
-        "description": "A demonstration static site built using Neumann SSG"
+        "site_url": "https://www.gijsvandam.nl",
+        "title": "Musings of Gijs van Dam",
+        "description": "Posts on privacy, programming and crypto research"
       }
     },
     {
