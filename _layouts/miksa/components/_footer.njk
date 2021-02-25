@@ -2,11 +2,10 @@
   {% include "miksa/components/_nav.njk" %}
   <ul>
     {% asyncEach platform, properties in social_media %}
-      {% set rel = "noreferrer noopener"
-      if properties.rel
-        set rel = properties.rel
-      endif
-      %}
+      {% set rel = "noreferrer noopener" %}
+      {% if properties.rel %}
+        {% set rel = properties.rel %}
+      {% endif %}
     	<li>
         {% if properties.me %}
         {% set relMe = rel + " me" %}
