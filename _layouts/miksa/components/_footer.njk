@@ -2,13 +2,12 @@
   {% include "miksa/components/_nav.njk" %}
   <ul>
     {% asyncEach platform, properties in social_media %}
-      {% set rel = "noreferrer noopener"
-      if properties.rel
-        set rel = properties.rel
-      endif
-      %}
+      {% set rel = "noreferrer noopener" %}
+      {% if properties.rel %}
+        {% set rel = properties.rel %}
+      {% endif %}
     	<li>
-        {% if properties.schema %}
+        {% if properties.me %}
         {% set relMe = rel + " me" %}
         	<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="{{ properties.url }}" href="{{ properties.url }}" rel="{{ properties.rel | default(relMe) }}" target="_blank" title="{{ properties.name }}">
             {{ properties.name }}
