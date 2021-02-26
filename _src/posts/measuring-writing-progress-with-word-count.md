@@ -12,7 +12,7 @@ So without further ado here's the Powershell command that outputs the wordcount 
 ```powershell
 for($i = 0; $i -lt 25; $i++){$j = $i + 1; Write-Host (get-date (get-date).addDays(-$i) -UFormat "%Y%m%d") ((git diff --word-diff=porcelain "@{$j days ago}" "@{$i days ago}"   -- "***.md"| Select-String -Pattern "^\+.*" | Measure-Object -word | select -ExpandProperty Words) - (git diff --word-diff=porcelain "@{$j days ago}" "@{$i days ago}"  -- "***.md"| Select-String -Pattern "^-.*" | Measure-Object -word | select -ExpandProperty Words)) }
 ```
-
+<!-- more -->
 ## What does it do?
 
 At the core of this script is the following git command:
