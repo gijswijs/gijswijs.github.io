@@ -76,7 +76,7 @@ sortId: 5
   </tr>
   <tr>
     <td>2018</td>
-    <td>Workshop Microsoft AzureÃÂÃÂ¢ÃÂÃÂÃÂÃÂs Jupyter Notebook and R</td>
+    <td>Workshop Microsoft AzureÃ¢ÂÂs Jupyter Notebook and R</td>
   </tr>
   <tr>
     <td>2017</td>
