@@ -83,7 +83,7 @@
     {
       "metalsmith-pagination": {
         "collections.posts": {
-          "perPage": 3,
+          "perPage": 6,
           "first": "index.html",
           "path": "page/:num/index.html",
           "layout": "miksa/home.njk",

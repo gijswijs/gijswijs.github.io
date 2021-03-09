@@ -10,11 +10,7 @@
     {% include "miksa/components/_icons.njk" %}
     <title>{{ page_title }}</title>
     <link
-      href="{{ rootpath }}styles/vendor.css"
-      rel="stylesheet"
-    />
-    <link
-      href="{{ rootpath }}styles/app.css"
+      href="{{ rootpath }}styles/main.css"
       rel="stylesheet"
     />
   </head>
@@ -23,11 +19,5 @@
     {% block content %}
     {% endblock %}
     {% include "miksa/components/_footer.njk" %}
-    <script
-      src="{{ rootpath }}scripts/vendor.js"
-    ></script>
-    <script
-      src="{{ rootpath }}scripts/app.js"
-    ></script>
   </body>
 </html>
