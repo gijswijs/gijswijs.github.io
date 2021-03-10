@@ -43,6 +43,7 @@
       "metalsmith-publish": { "draft": false, "private": false },
       "dev": false
     },
+    { "metalsmith-debug": {"log": "hello ms debug!"} },
     {
       "metalsmith-collections": {
         "posts": {
