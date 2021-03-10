@@ -11,7 +11,7 @@ When running the VSCode task for converting my paper to PDF (using Pandoc) it pu
 <!-- more -->
 While working inside VSCode I keep track off all todo's with the [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) extension. This extension searches your workspace for comment tags like TODO and FIXME, and displays them in a tree view in the explorer pane.
 
-<img src="/images/todo-tree.jpg" title="Todo Tree in VSCode" alt="Todo Tree in VSCode" width="400" />
+<img src="/images/todo-tree.jpg" srcset="/images/todo-tree1x.jpg 231w, /images/todo-tree2x.jpg 461w, /images/todo-tree3x.jpg 692w, /images/todo-tree4x.jpg 922w" sizes="(max-width: 40rem) 231px, (max-width: 80rem) 461px, (max-width: 120rem) 692px, 922px" title="Todo Tree in VSCode" alt="Todo Tree in VSCode" />
 
 But to keep track of the todo's when the paper is converted to PDF I created a Pandoc filter that highlights all comments in LaTeX output formats. It is really simple:
 
