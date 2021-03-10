@@ -3,6 +3,7 @@ title: Pandoc-filter for highlighting comments in LaTeX output
 date: 2021-02-23
 layout: miksa/post.njk
 tags: pandoc, lua, boilerplate paper, LaTeX
+math: true
 ---
 
 While writing my papers I try not to get bogged down too much. So if a paragraph doens't flow right I just type `TODO: rewrite` on the line below it, and continue writing. When I think of something that I shouldn't forget, like an extra analysis to run I just write it down as a todo in the running text of my paper. I also write thoughts on my paper as a todo. Ideas on structure, whether I should maybe rearrange paragraphs or approach a subject differently, it all ends up as a todo in the running text.
