@@ -15,4 +15,4 @@ You can start today by going to the [admin](https://neumannjs.github.io/Janos-st
 
 The wizard will create a repository in your GitHub account, and turn on GitHub pages and that's it. Now you have a Janos website yourself with content management that only you can use by going to the GitHub pages url with /admin added behind. Anyone visiting your website can start their own website as well, by going to your /admin. They won't be able to edit your website. The only thing available for them is the wizard so that they can create a Janos website as well.
 
-Janos is the only self-replicating entity for which a R0 above 1 is a good thing.
+Janos is the only self-replicating entity for which a R0 above 1 is a good thing. Changed file.
