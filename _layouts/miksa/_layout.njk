@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="{{ description }}">
-    {% include "components/_icons.njk" %}
+    {% include "miksa/components/_icons.njk" %}
     <title>{{ page_title }}</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -21,9 +21,9 @@
     />
   </head>
   <body class="{{ body_class }}">
-    {% include "components/_header.njk" %}
+    {% include "miksa/components/_header.njk" %}
     {% block content %}
     {% endblock %}
-    {% include "components/_footer.njk" %}
+    {% include "miksa/components/_footer.njk" %}
   </body>
 </html>
