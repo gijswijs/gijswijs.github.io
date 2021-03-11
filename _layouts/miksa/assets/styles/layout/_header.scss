@@ -1,0 +1,12 @@
+body > header {
+  font-size: 4.6rem;
+  line-height: 1.2;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-align: center;
+  // Navigation border top
+  // Base style is defined in layout/_navigation.scss
+  ul {
+    border-top: solid 1px $color-secondary;
+  }
+}
