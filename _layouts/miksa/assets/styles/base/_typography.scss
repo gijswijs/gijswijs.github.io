@@ -1,0 +1,85 @@
+// Set box-sizing globally to handle padding and border widths
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+// The base font-size is set at 62.5% for having the convenience
+// of sizing rems in a way that is similar to using px: 1.6rem = 16px
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+// Default body styles
+body {
+  color: $color-secondary;
+  font-family: "PT Serif", serif;
+  font-size: 1.6em; // Currently ems cause chrome bug misinterpreting rems on body element
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+
+// Header
+h1 {
+  color: $color-secondary;
+  a {
+    color: $color-secondary;
+    text-decoration-line: underline;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 1px;
+    &:hover {
+      color: $color-secondary;
+      text-decoration-line: none;
+    }
+  }
+}
+
+// Reading time
+.reading-time {
+  text-transform: uppercase;
+}
+
+// Article date
+main header time {
+  text-transform: uppercase;
+}
+
+// Article tags
+main header ul {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  list-style: none;
+  display: inline-flex;
+  li {
+    margin-right: 1rem;
+  }
+  a {
+    color: $color-tertiary;
+    text-decoration-line: underline;
+    &:hover {
+      color: $color-tertiary;
+      text-decoration-line: none;
+    }
+  }
+}
+
+a:hover, a:focus {
+  color: $color-primary;
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+code {
+  background: $color-quinary;
+}
+
+pre {
+  border-left: none;
+  background: $color-quinary;
+}

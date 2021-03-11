@@ -2,22 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="{{ description }}">
-    {% include "miksa/components/_icons.njk" %}
+    {% include "components/_icons.njk" %}
     <title>{{ page_title }}</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
     <link
       href="{{ rootpath }}styles/main.css"
       rel="stylesheet"
     />
   </head>
   <body class="{{ body_class }}">
-    {% include "miksa/components/_header.njk" %}
+    {% include "components/_header.njk" %}
     {% block content %}
     {% endblock %}
-    {% include "miksa/components/_footer.njk" %}
+    {% include "components/_footer.njk" %}
   </body>
 </html>

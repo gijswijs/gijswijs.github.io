@@ -43,6 +43,7 @@
       "metalsmith-publish": { "draft": false, "private": false },
       "dev": false
     },
+    { "metalsmith-debug": {"log": "hello ms debug!"} },
     {
       "metalsmith-collections": {
         "posts": {
@@ -56,6 +57,7 @@
         }
       }
     },
+    { "metalsmith-debug": {} },
     {
       "metalsmith-pagination": {
         "collections.posts": {
@@ -92,7 +94,6 @@
         }
       }
     },
-    { "metalsmith-debug": {} },
     { "dump-file": {
       	"filename": "posts/first-post/index.html"
     	}
