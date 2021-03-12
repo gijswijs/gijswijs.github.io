@@ -54,6 +54,11 @@
         "icon": "orcid",
         "name": "ORCID",
         "me": true
+      },
+      "google-scholar": {
+        "url": "https://scholar.google.com/citations?user=4dTcK4kAAAAJ&hl=en",
+        "name": "Google Scholar",
+        "me": true
       }
     }
   },
