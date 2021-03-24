@@ -50,6 +50,7 @@
       "metalsmith-publish": { "draft": false, "private": false },
       "dev": false
     },
+    { "metalsmith-responsive-images": true },
     {
       "metalsmith-collections": {
         "posts": {
