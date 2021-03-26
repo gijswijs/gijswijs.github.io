@@ -88,8 +88,8 @@
         "format": ["avif", "webp", "jpg"],
         "sizes-attr": [
           "%widthpx",
-          "(max-width: 80rem) %widthpx",
-          "(max-width: 40rem) %widthpx"
+          "(max-width: 1280px) %widthpx",
+          "(max-width: 640px) %widthpx"
         ]
       }
     },
