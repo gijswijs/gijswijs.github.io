@@ -51,17 +51,18 @@
       "dev": false
     },
     { "metalsmith-responsive-images": {
-    "maxWidth": 1080,
-    "minWidth": 300,
-    "resize": [1, 0.75, 0.5],
-    "renamePostfix": ["_l", "_m", "_s"],
-    "format": ["avif", "webp", "jpg"],
-    "sizes-attr": [
-      "${width}",
-      "(max-width: 80rem) %widthpx",
-      "(max-width: 40rem) %widthpx"
-    ]
-  } },
+        "maxWidth": 1080,
+        "minWidth": 300,
+        "resize": [1, 0.75, 0.5],
+        "renamePostfix": ["_l", "_m", "_s"],
+        "format": ["avif", "webp", "jpg"],
+        "sizes-attr": [
+          "${width}",
+          "(max-width: 80rem) %widthpx",
+          "(max-width: 40rem) %widthpx"
+        ]
+    	}
+    },
     {
       "metalsmith-collections": {
         "posts": {
