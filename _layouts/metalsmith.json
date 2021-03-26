@@ -85,6 +85,7 @@
         }
       }
     },
+    { "metalsmith-debug": {} },
     {
       "metalsmith-pagination": {
         "collections.posts": {
@@ -121,7 +122,6 @@
         }
       }
     },
-    { "metalsmith-debug": {} },
     { "dump-file": {
       	"filename": "posts/first-post/index.html"
     	}
