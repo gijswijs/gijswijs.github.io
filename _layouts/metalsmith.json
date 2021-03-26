@@ -40,7 +40,7 @@
     "minWidth": 300,
     "resize": [1, 0.75, 0.5],
     "renamePostfix": ["_l", "_m", "_s"],
-    "format": ["avif", "webp", "jpg"],
+    "format": ["avif", "webp", "jpg"]
   },
   "clean": false,
   "devClean": false,
@@ -50,7 +50,8 @@
       "metalsmith-publish": { "draft": false, "private": false },
       "dev": false
     },
-    { "metalsmith-responsive-images": {
+    {
+      "metalsmith-responsive-images": {
         "maxWidth": 1080,
         "minWidth": 300,
         "resize": [1, 0.75, 0.5],
@@ -61,7 +62,7 @@
           "(max-width: 80rem) %widthpx",
           "(max-width: 40rem) %widthpx"
         ]
-    	}
+      }
     },
     {
       "metalsmith-collections": {
