@@ -57,7 +57,7 @@ Assuming you have Vscode installed, make sure you have installed the [language s
 
 Open the Command Palette, select `Go: Install/Update Tools`, and select `dlv`
 
-<img src="/images/install-dlv.png" width="850" alt="install dlv" title="Install dlv using the Command Palette">
+![install dlv](/images/install-dlv.png "Install dlv using the Command Palette")
 
 ## Configure launch.json
 
@@ -87,11 +87,11 @@ The args parameter should contain the location of your conf-file.
 
 Now you are ready to set breakpoints, for instance in the `Main` function of the `lnd` package.
 
-<img src="/images/set-breakpoint.png" width="850" alt="Main function" title="Main function">
+![Main function](/images/set-breakpoint.png "Main function")
 
 If you start debugging, this breakpoint is immediately hit.
 
-<img src="/images/hit-breakpoint.png" width="850" alt="Breakpoint hit" title="Breakpoint hit">
+![Breakpoint hit](/images/hit-breakpoint.png "Breakpoint hit")
 
 ## Done!
 
