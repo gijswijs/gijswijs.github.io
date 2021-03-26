@@ -128,7 +128,7 @@
     (f.o = function (object, e) {
       return Object.prototype.hasOwnProperty.call(object, e);
     }),
-    (f.p = "../Janos-starter/nuxt/"),
+    (f.p = "../nuxt/"),
     (f.oe = function (e) {
       throw (console.error(e), e);
     });
