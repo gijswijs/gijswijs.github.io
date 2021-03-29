@@ -47,6 +47,7 @@
           f.nc && script.setAttribute("nonce", f.nc),
           (script.src = (function (e) {
             return (
+              ".." +
               f.p +
               "" +
               {
