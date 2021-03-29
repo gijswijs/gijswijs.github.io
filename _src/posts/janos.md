@@ -5,7 +5,7 @@ layout: miksa/post.njk
 tags: metalsmith, janos
 ---
 
-Janos is a static site generator with multiple templates to use. Janos fully operates in the browser. It uses Metalsmith with a bit of Webpack magic sprinkled on top, to make it all work inside a browser. It is tightly integrated with GitHub to automatically host your site, using GitHub pages. If you don't know what all that means, that's ok: You should be able to work with Janos without knowing all the ins and outs of those technologies.
+Janos is a new static site generator with ![full resize](/images/full-resize.png "This image should be fully responsive")multiple templates to use. Janos fully operates in the browser. It uses Metalsmith with a bit of Webpack magic sprinkled on top, to make it all work inside a browser. It is tightly integrated with GitHub to automatically host your site, using GitHub pages. If you don't know what all that means, that's ok: You should be able to work with Janos without knowing all the ins and outs of those technologies.
 
 <!-- more -->
 
