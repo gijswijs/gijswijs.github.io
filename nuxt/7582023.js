@@ -129,7 +129,7 @@
     (f.o = function (object, e) {
       return Object.prototype.hasOwnProperty.call(object, e);
     }),
-    (f.p = "../nuxt/"),
+    (f.p = "../tralala/"),
     (f.oe = function (e) {
       throw (console.error(e), e);
     });
