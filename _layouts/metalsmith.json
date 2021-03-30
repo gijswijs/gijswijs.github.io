@@ -35,6 +35,13 @@
   },
   "source": "_src",
   "destination": "/",
+  "image-processing": {
+    "maxWidth": 1080,
+    "minWidth": 300,
+    "resize": [1, 0.75, 0.5],
+    "renamePostfix": ["_l", "_m", "_s"],
+    "format": ["avif", "webp", "jpg"]
+  },
   "clean": false,
   "devClean": false,
   "plugins": [
@@ -42,6 +49,16 @@
     {
       "metalsmith-publish": { "draft": false, "private": false },
       "dev": false
+    },
+    {
+      "metalsmith-responsive-images": {
+        "maxWidth": 1080,
+        "minWidth": 300,
+        "resize": [1, 0.75, 0.5],
+        "renamePostfix": ["_l", "_m", "_s"],
+        "format": ["avif", "webp", "jpg"],
+        "sizes-attr": []
+      }
     },
     {
       "metalsmith-collections": {
@@ -93,9 +110,10 @@
         }
       }
     },
-    { "dump-file": {
-      	"filename": "posts/first-post/index.html"
-    	}
+    {
+      "dump-file": {
+        "filename": "posts/first-post/index.html"
+      }
     },
     {
       "metalsmith-layouts": {
@@ -148,9 +166,7 @@
     },
     { "write-built-url": true, "dev": true },
     {
-      "css-change-url": {
-        "rootpath": "/"
-      }
+      "css-change-url": true
     },
     {
       "inline-source": true,
