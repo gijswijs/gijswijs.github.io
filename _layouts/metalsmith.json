@@ -86,7 +86,8 @@
         "resize": [1, 0.75, 0.5],
         "renamePostfix": ["_l", "_m", "_s"],
         "format": ["avif", "webp", "jpg"],
-        "sizes-attr": []
+        "sizes-attr": [],
+        "caption": true
       }
     },
     {
