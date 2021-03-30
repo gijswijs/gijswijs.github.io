@@ -101,7 +101,7 @@ We have created a cluster named `jitrebalance`. This is the name of the cluster 
 
 You should see something like this:
 
-<img src="/images/simverse-up.gif" width="850" alt="running Simverse" title="Running a Simverse cluster">
+![running Simverse](/images/simverse-up.png "Running a Simverse cluster")
 
 Now in a separate terminal session you can access your nodes and run the `init` script.
 
@@ -111,6 +111,6 @@ cd ~/simverse
 ./init
 ```
 
-<img src="/images/simverse-init.gif" width="550" alt="running init" title="Running the initialization script">
+![running init](/images/simverse-init.png "Running the initialization script")
 
 And with that you are done! You have now a Simverse cluster with three c-lightning nodes running the same plugin.
