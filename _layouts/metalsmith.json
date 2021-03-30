@@ -198,9 +198,7 @@
     },
     { "write-built-url": true, "dev": true },
     {
-      "css-change-url": {
-        "rootpath": "/"
-      }
+      "css-change-url": true
     },
     {
       "inline-source": true,
