@@ -86,11 +86,7 @@
         "resize": [1, 0.75, 0.5],
         "renamePostfix": ["_l", "_m", "_s"],
         "format": ["avif", "webp", "jpg"],
-        "sizes-attr": [
-          "%widthpx",
-          "(max-width: 1280px) %widthpx",
-          "(max-width: 640px) %widthpx"
-        ]
+        "sizes-attr": []
       }
     },
     {
