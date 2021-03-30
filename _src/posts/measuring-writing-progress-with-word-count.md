@@ -117,4 +117,4 @@ So this is my progress for the past few days of a particular paper I am writing:
 20210209 382
 ```
 
-I was just busy with other things, OK!
+I guess I was just busy with other things...

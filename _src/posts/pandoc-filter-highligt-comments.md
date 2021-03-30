@@ -1,5 +1,5 @@
 ---
-title: Pandoc-filter for highlighting comments in LaTeX output
+title: Pandoc-filter for highlighting to-dos in LaTeX output
 date: 2021-02-23
 layout: miksa/post.njk
 tags: pandoc, lua, boilerplate paper, LaTeX
