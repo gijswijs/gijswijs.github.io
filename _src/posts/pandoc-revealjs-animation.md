@@ -35,4 +35,4 @@ Slide 2 content
 
 And that's it! Once you convert your Markdown into reveal.js the slides are now animated using auto-animate.
 
-[Auto-animate transition in reveal.js](/images/auto-animate.gif "Auto-animate transition in reveal.js")
+![Auto-animate transition in reveal.js](/images/auto-animate.gif "Auto-animate transition in reveal.js")
