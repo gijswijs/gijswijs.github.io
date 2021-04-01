@@ -5,7 +5,7 @@
 
 {% block content %}
     <main>
-      <article>
+      <article  class="h-entry">
         {% if math %}
         {# MathJax imports #}
         <script>
@@ -20,10 +20,10 @@
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         {% endif %}
         <header>
-          <h1>{{ title }}</h1>
+          <h1 class="p-name">{{ title }}</h1>
           {% include "miksa/components/_post-info.njk" %}
         </header>
-        <section>
+        <section class="e-content">
           {{ contents | safe }}
         </section>
       </article>

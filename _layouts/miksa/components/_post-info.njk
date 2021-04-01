@@ -1,5 +1,6 @@
 <span>
-    <time datetime="{{ date | date("YYYY-MM-DD") }}">{{ date | date("MMMM D, YYYY") }}</time>
+    {% if path %}<a class="u-url" href="{{ rootpath }}{{ path }}">{% endif %}
+    <time class="dt-published" datetime="{{ date | date("YYYY-MM-DD") }}">{{ date | date("MMMM D, YYYY") }}</time>{% if path %}</a>{% endif %}
     {{ reading.time(contents) }}
 </span>
 <ul>
