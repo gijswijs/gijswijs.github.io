@@ -1,9 +1,9 @@
 <span>
     {% if path %}<a class="u-url" href="{{ rootpath }}{{ path }}">{% endif %}
-    <time class="dt-published" datetime="{{ date | date("YYYY-MM-DD") }}">{{ date | date("MMMM D, YYYY") }}</time>{% if path %}</a>{% endif %}
+    <time class="dt-published" datetime="{{ date | date() }}">{{ date | date("MMMM D, YYYY") }}</time>{% if path %}</a>{% endif %}
     {{ reading.time(contents) }}
 </span>
 <ul>
-    {% for tag in tags %}<li><a href="{{ rootpath }}topics/{{ tag.slug }}/">{{ tag.name }}</a></li>
+    {% for tag in tags %}<li><a class="p-category" href="{{ rootpath }}topics/{{ tag.slug }}/">{{ tag.name }}</a></li>
     {% endfor -%}
 </ul>   
