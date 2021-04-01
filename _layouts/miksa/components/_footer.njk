@@ -21,7 +21,7 @@
     {% endeach  %}
   </ul>
   <p>
-    &copy; {{ now | date("YYYY") }} <a {% if body_class === "article" %}rel="author" class="p-author h-card"{% endif %} href="{{rootpath}}">{{ site_title }}</a>.
+    &copy; {{ now | date("YYYY") }} <a {% if body_class === "article" %}rel="author"{% endif %} href="{{rootpath}}">{{ site_title }}</a>.
       Published with <a href="https://github.com/neumannjs/Janos">Janos</a>.
       Theme <a href="https://github.com/neumannjs/Miksa">Miksa</a>.
   </p>
