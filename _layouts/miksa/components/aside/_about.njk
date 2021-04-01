@@ -1,9 +1,12 @@
 <h2>About</h2>
+<a class="h-card" href="{{rootpath}}">
 <img
   src="{{ about_img }}"
   alt="{{ site_title }}"
-  class="author-portrait"
+  class="author-portrait u-photo"
 />
-<p>
+<data class="p-name" value="{{ site_title }}" />
+<p class="p-note">
   {{ about | safe }}
 </p>
+</a>
