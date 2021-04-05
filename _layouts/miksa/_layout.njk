@@ -17,6 +17,7 @@
     <link rel="pingback" href="https://webmention.io/www.gijsvandam.nl/xmlrpc" />
     {% if indie_auth %}
     <link rel="authorization_endpoint" href="https://janos-githubproxy.azurewebsites.net/api/authorize">
+    <link rel="token_endpoint" href="https://janos-githubproxy.azurewebsites.net/api/token">
     {% endif %}
   </head>
   <body class="{{ body_class }}{% if body_class === 'article' %} h-entry{% endif %}">
