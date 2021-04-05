@@ -5,6 +5,7 @@
     "site_description": "Gijs van Dam is a freelance consultant and crypto researcher with over 20 years of international experience, who tries to make the web a better place.",
     "about": "<a class=\"p-name u-url\" href=\"/\">Gijs van Dam</a> is a <a href=\"/about\">researcher, consultant and business founder.</a> He started as a web developer in the last century and was part of several start-ups since 2002. Since 2018 he is pursuing a PhD in computer science at the National University of Malaysia, where he lives.",
     "about_img": "/images/gijsvandam.jpg",
+    "indie_auth": true,
     "social_media": {
       "github": {
         "url": "https://www.github.com/gijswijs",

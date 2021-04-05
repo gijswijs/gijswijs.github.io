@@ -15,7 +15,9 @@
     />
     <link rel="webmention" href="https://webmention.io/www.gijsvandam.nl/webmention" />
     <link rel="pingback" href="https://webmention.io/www.gijsvandam.nl/xmlrpc" />
+    {% if indie_auth %}
     <link rel="authorization_endpoint" href="https://janos-githubproxy.azurewebsites.net/api/authorize">
+    {% endif %}
   </head>
   <body class="{{ body_class }}{% if body_class === 'article' %} h-entry{% endif %}">
     {% include "miksa/components/_header.njk" %}
