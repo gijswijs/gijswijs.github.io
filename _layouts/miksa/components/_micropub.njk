@@ -1,0 +1,34 @@
+{% if micropub %}
+    {% set title = micropub.title,
+    tags = micropub.tags,
+    contents = micropub.contents,
+    category = micropub.category,
+    date = micropub.date,
+    slug = micropub.slug,
+    collection = micropub.collection,
+    path = micropub.path %}
+{% endif %}
+{% set mfObject = "entry" %}
+{% if collection = "event" %}
+    {% set mfObject = "event" %}
+{% endif %}
+{% if collection = "rsvp" %}
+    {% set mfObject = "event" %}
+{% endif %}
+<div class="h-{{ mfObject }}">
+    <div class="u-author h-card">
+        <a href="{{ rootpath }}" class="u-url"><img
+          src="{{ about_img }}"
+          alt="{{ author }}"
+          class="author-portrait u-photo p-name"/>
+        </a>
+    </div>
+    <div class="e-content">
+        {{ contents | safe }}
+    </div>
+    <div class="metadata">
+        <a href="{{ rootpath }}{{ path }}" class="u-url">
+            <time class="dt-published" datetime="{{ date | date() }}">{{ date | date("YYYY-MM-DD HH:mm:ss Z") }}</time>
+        </a>
+    </div>
+</div>
