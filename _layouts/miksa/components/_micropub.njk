@@ -1,12 +1,12 @@
 {% if micropub %}
-    {% set title = micropub.title,
-    tags = micropub.tags,
-    contents = micropub.contents,
-    category = micropub.category,
-    date = micropub.date,
-    slug = micropub.slug,
-    collection = micropub.collection,
-    path = micropub.path %}
+    {% set title = micropub.title %}
+    {% set tags = micropub.tags %}
+    {% set contents = micropub.contents %}
+    {% set category = micropub.category %}
+    {% set date = micropub.date %}
+    {% set slug = micropub.slug %}
+    {% set collection = micropub.collection %}
+    {% set path = micropub.path %}
 {% endif %}
 {% set mfObject = "entry" %}
 {% if collection = "event" %}
