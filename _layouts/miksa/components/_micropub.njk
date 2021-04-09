@@ -9,7 +9,7 @@
     {% set path = micropub.path %}
 {% endif %}
 {% set mfObject = "entry" %}
-{% if collection === "event" or collection === "rsvp" %}
+{% if collection == "event" or collection == "rsvp" %}
     {% set mfObject = "event" %}
 {% endif %}
 <div class="h-{{ mfObject }}">
