@@ -1,0 +1,26 @@
+{% set body_class = "stream" %}
+{% set page_title = site_title %}
+{% set description = site_description %}
+{% extends "miksa/_layout.njk" %}
+
+{% block content %}
+<main>
+  <ul>
+    {% asyncEach micropub in pagination.files %}
+    <li>
+      {% include "miksa/components/_micropub.njk" %}
+    </li>
+    {% endeach %}
+    {% if pagination.pages.length > 1 %}
+      <li class="article-pagination">
+        {% if pagination.next %}
+          <a href="{{rootpath}}{{pagination.next.path}}" class="article-pagination-left">Older posts</a>
+        {% endif %}
+        {% if pagination.previous %}
+          <a href="{{rootpath}}{{pagination.previous.path}}" class="article-pagination-right">Newer posts</a>
+        {% endif %}
+      </li>
+    {% endif %}
+  </ul>
+</main>
+{% endblock %} 

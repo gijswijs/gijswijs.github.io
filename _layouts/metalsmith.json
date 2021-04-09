@@ -5,6 +5,7 @@
     "site_description": "Gijs van Dam is a freelance consultant and crypto researcher with over 20 years of international experience, who tries to make the web a better place.",
     "about": "<a class=\"p-name u-url\" href=\"/\">Gijs van Dam</a> is a <a href=\"/about\">researcher, consultant and business founder.</a> He started as a web developer in the last century and was part of several start-ups since 2002. Since 2018 he is pursuing a PhD in computer science at the National University of Malaysia, where he lives.",
     "about_img": "/images/gijsvandam.jpg",
+    "author": "Gijs van Dam", 
     "indie_auth": true,
     "social_media": {
       "github": {
@@ -101,6 +102,42 @@
         "navigation": {
           "refer": false,
           "sortBy": "sortId"
+        },
+        "event": {
+          "sortBy": "date",
+          "reverse": true
+        },
+        "rsvp": {
+          "sortBy": "date",
+          "reverse": true
+        },
+        "repost": {
+          "sortBy": "date",
+          "reverse": true
+        },
+        "like": {
+          "sortBy": "date",
+          "reverse": true
+        },
+        "reply": {
+          "sortBy": "date",
+          "reverse": true
+        },
+        "video": {
+          "sortBy": "date",
+          "reverse": true
+        },
+        "photo": {
+          "sortBy": "date",
+          "reverse": true
+        },
+        "note": {
+          "sortBy": "date",
+          "reverse": true
+        },
+        "article": {
+          "sortBy": "date",
+          "reverse": true
         }
       }
     },
@@ -109,11 +146,84 @@
         "collections.posts": {
           "perPage": 6,
           "first": "index.html",
-          "path": "page/:num/index.html",
+          "path": "posts/:num/index.html",
           "layout": "miksa/home.njk",
+          "noPageOne": true, 
           "pageMetadata": {
             "title": "Archive",
             "feature_image": "/images/cover.jpg"
+          }
+        },
+        "collections.event": {
+          "perPage": 25,
+          "path": "events/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Events"
+          }
+        },
+        "collections.rsvp": {
+          "perPage": 25,
+          "path": "rsvps/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "RSVP's"
+          }
+        },
+        "collections.repost": {
+          "perPage": 25,
+          "path": "reposts/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Reposts"
+          }
+        },
+        "collections.like": {
+          "perPage": 25,
+          "path": "likes/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Likes"
+          }
+        },
+        "collections.reply": {
+          "perPage": 25,
+          "path": "replies/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Replies"
+          }
+        },
+        "collections.video": {
+          "perPage": 25,
+          "path": "videos/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Videos"
+          }
+        },
+        "collections.photo": {
+          "perPage": 25,
+          "path": "photos/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Photos"
+          }
+        },
+        "collections.note": {
+          "perPage": 25,
+          "path": "notes/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Notes"
+          }
+        },
+        "collections.article": {
+          "perPage": 25,
+          "path": "articles/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Articles"
           }
         }
       }
@@ -124,7 +234,56 @@
         "key": "excerpt"
       }
     },
-    { "metalsmith-permalinks": true },
+    {
+      "metalsmith-permalinks": {
+        "linksets": [
+          {
+            "match": { "collection": "posts" },
+            "pattern": "post/:title"
+          },
+          {
+            "match": { "collection": "navigation" },
+            "pattern": ":title"
+          },
+          {
+            "match": { "collection": "event" },
+            "pattern": "event/:date-:slug"
+          },
+          {
+            "match": { "collection": "rsvp" },
+            "pattern": "rsvp/:date-:slug"
+          },
+          {
+            "match": { "collection": "repost" },
+            "pattern": "repost/:date-:slug"
+          },
+          {
+            "match": { "collection": "like" },
+            "pattern": "like/:date-:slug"
+          },
+          {
+            "match": { "collection": "reply" },
+            "pattern": "reply/:date-:slug"
+          },
+          {
+            "match": { "collection": "video" },
+            "pattern": "video/:date-:slug"
+          },
+          {
+            "match": { "collection": "photo" },
+            "pattern": "photo/:date-:slug"
+          },
+          {
+            "match": { "collection": "note" },
+            "pattern": "note/:date-:slug"
+          },
+          {
+            "match": { "collection": "article" },
+            "pattern": "article/:date-:slug"
+          }
+        ]
+      }
+    },
     {
       "metalsmith-tags": {
         "handle": "tags",
@@ -141,9 +300,10 @@
       }
     },
     { "metalsmith-debug": {} },
-    { "dump-file": {
-      	"filename": "posts/first-post/index.html"
-    	}
+    {
+      "dump-file": {
+        "filename": "posts/first-post/index.html"
+      }
     },
     {
       "metalsmith-layouts": {
