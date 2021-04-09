@@ -101,6 +101,42 @@
         "navigation": {
           "refer": false,
           "sortBy": "sortId"
+        },
+        "events": {
+          "sortBy": "date",
+          "reverse": true"
+        },
+        "rsvps": {
+          "sortBy": "date",
+          "reverse": true"
+        },
+        "reposts": {
+          "sortBy": "date",
+          "reverse": true"
+        },
+        "likes": {
+          "sortBy": "date",
+          "reverse": true"
+        },
+        "replies": {
+          "sortBy": "date",
+          "reverse": true"
+        },
+        "videos": {
+          "sortBy": "date",
+          "reverse": true"
+        },
+        "photos": {
+          "sortBy": "date",
+          "reverse": true"
+        },
+        "notes": {
+          "sortBy": "date",
+          "reverse": true"
+        },
+        "articles": {
+          "sortBy": "date",
+          "reverse": true"
         }
       }
     },
@@ -109,11 +145,83 @@
         "collections.posts": {
           "perPage": 6,
           "first": "index.html",
-          "path": "page/:num/index.html",
+          "path": "posts/:num/index.html",
           "layout": "miksa/home.njk",
           "pageMetadata": {
             "title": "Archive",
             "feature_image": "/images/cover.jpg"
+          }
+        },
+        "collections.events": {
+          "perPage": 25,
+          "path": "events/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Events",
+          }
+        },
+        "collections.rsvps": {
+          "perPage": 25,
+          "path": "rsvps/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "RSVP's",
+          }
+        },
+        "collections.reposts": {
+          "perPage": 25,
+          "path": "reposts/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Reposts",
+          }
+        },
+        "collections.likes": {
+          "perPage": 25,
+          "path": "likes/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Likes",
+          }
+        },
+        "collections.replies": {
+          "perPage": 25,
+          "path": "replies/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Replies",
+          }
+        },
+        "collections.videos": {
+          "perPage": 25,
+          "path": "videos/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Videos",
+          }
+        },
+        "collections.photos": {
+          "perPage": 25,
+          "path": "photos/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Photos",
+          }
+        },
+        "collections.notes": {
+          "perPage": 25,
+          "path": "notes/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Notes",
+          }
+        },
+        "collections.articles": {
+          "perPage": 25,
+          "path": "articles/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Articles",
           }
         }
       }
