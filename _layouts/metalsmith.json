@@ -102,39 +102,39 @@
           "refer": false,
           "sortBy": "sortId"
         },
-        "events": {
+        "event": {
           "sortBy": "date",
           "reverse": true"
         },
-        "rsvps": {
+        "rsvp": {
           "sortBy": "date",
           "reverse": true"
         },
-        "reposts": {
+        "repost": {
           "sortBy": "date",
           "reverse": true"
         },
-        "likes": {
+        "like": {
           "sortBy": "date",
           "reverse": true"
         },
-        "replies": {
+        "reply": {
           "sortBy": "date",
           "reverse": true"
         },
-        "videos": {
+        "video": {
           "sortBy": "date",
           "reverse": true"
         },
-        "photos": {
+        "photo": {
           "sortBy": "date",
           "reverse": true"
         },
-        "notes": {
+        "note": {
           "sortBy": "date",
           "reverse": true"
         },
-        "articles": {
+        "article": {
           "sortBy": "date",
           "reverse": true"
         }
@@ -152,7 +152,7 @@
             "feature_image": "/images/cover.jpg"
           }
         },
-        "collections.events": {
+        "collections.event": {
           "perPage": 25,
           "path": "events/:num/index.html",
           "layout": "miksa/stream.njk",
@@ -160,7 +160,7 @@
             "title": "Events",
           }
         },
-        "collections.rsvps": {
+        "collections.rsvp": {
           "perPage": 25,
           "path": "rsvps/:num/index.html",
           "layout": "miksa/stream.njk",
@@ -168,7 +168,7 @@
             "title": "RSVP's",
           }
         },
-        "collections.reposts": {
+        "collections.repost": {
           "perPage": 25,
           "path": "reposts/:num/index.html",
           "layout": "miksa/stream.njk",
@@ -176,7 +176,7 @@
             "title": "Reposts",
           }
         },
-        "collections.likes": {
+        "collections.like": {
           "perPage": 25,
           "path": "likes/:num/index.html",
           "layout": "miksa/stream.njk",
@@ -184,7 +184,7 @@
             "title": "Likes",
           }
         },
-        "collections.replies": {
+        "collections.reply": {
           "perPage": 25,
           "path": "replies/:num/index.html",
           "layout": "miksa/stream.njk",
@@ -192,7 +192,7 @@
             "title": "Replies",
           }
         },
-        "collections.videos": {
+        "collections.video": {
           "perPage": 25,
           "path": "videos/:num/index.html",
           "layout": "miksa/stream.njk",
@@ -200,7 +200,7 @@
             "title": "Videos",
           }
         },
-        "collections.photos": {
+        "collections.photo": {
           "perPage": 25,
           "path": "photos/:num/index.html",
           "layout": "miksa/stream.njk",
@@ -208,7 +208,7 @@
             "title": "Photos",
           }
         },
-        "collections.notes": {
+        "collections.note": {
           "perPage": 25,
           "path": "notes/:num/index.html",
           "layout": "miksa/stream.njk",
@@ -216,7 +216,7 @@
             "title": "Notes",
           }
         },
-        "collections.articles": {
+        "collections.article": {
           "perPage": 25,
           "path": "articles/:num/index.html",
           "layout": "miksa/stream.njk",
@@ -232,7 +232,52 @@
         "key": "excerpt"
       }
     },
-    { "metalsmith-permalinks": true },
+    { "metalsmith-permalinks": {linksets: [
+      {
+        "match": { "collection": "posts" },
+        "pattern": "post/:title"
+      },
+      {
+        "match": { "collection": "navigation" },
+        "pattern": ":title"
+      },
+      {
+        "match": { "collection": "event" },
+        "pattern": "event/:date-:slug"
+      },
+      {
+        "match": { "collection": "rsvp" },
+        "pattern": "rsvp/:date-:slug"
+      },
+      {
+        "match": { "collection": "repost" },
+        "pattern": "repost/:date-:slug"
+      },
+      {
+        "match": { "collection": "like" },
+        "pattern": "like/:date-:slug"
+      },
+      {
+        "match": { "collection": "reply" },
+        "pattern": "reply/:date-:slug"
+      },
+      {
+        "match": { "collection": "video" },
+        "pattern": "video/:date-:slug"
+      },
+      {
+        "match": { "collection": "photo" },
+        "pattern": "photo/:date-:slug"
+      },
+      {
+        "match": { "collection": "note" },
+        "pattern": "note/:date-:slug"
+      },
+      {
+        "match": { "collection": "article" },
+        "pattern": "article/:date-:slug"
+      }
+    ]} },
     {
       "metalsmith-tags": {
         "handle": "tags",
