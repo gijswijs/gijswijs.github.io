@@ -1,5 +1,5 @@
 ---
-title: Measuring your writing progress with a git word count.
+title: Measuring your writing progress with a git word count
 date: 2021-02-26
 layout: miksa/post.njk
 tags: boilerplate paper, powershell, git
