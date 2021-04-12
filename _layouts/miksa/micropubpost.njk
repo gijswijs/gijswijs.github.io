@@ -1,9 +1,9 @@
 {% set body_class = "micropub" %}
 {% set page_title = title %}
 {% if simple %}
-{% extends "miksa/_layout.njk" %}
-{% else %}
 {% extends "miksa/_layout_simple.njk" %}
+{% else %}
+{% extends "miksa/_layout.njk" %}
 {% endif %}
 
 {% block content %}
