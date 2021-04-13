@@ -24,7 +24,7 @@
         </a>
     </div>
     {% asyncEach link in inreplyto %}
-      <a href="{{ link }}" class="u-syndication">{{ link }}</a>
+      <a href="{{ link }}" class="u-in-reply-to">{{ link }}</a>
     {% endeach %}
     <div class="e-content">
         {{ contents | safe }}
