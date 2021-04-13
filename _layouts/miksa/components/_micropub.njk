@@ -23,6 +23,9 @@
           class="author-portrait u-photo p-name"/>
         </a>
     </div>
+    {% asyncEach link in inreplyto %}
+      <a href="{{ link }}" class="u-syndication">{{ link }}</a>
+    {% endeach %}
     <div class="e-content">
         {{ contents | safe }}
     </div>
@@ -30,6 +33,9 @@
         <a href="{{ rootpath }}{{ path }}" class="u-url">
             <time class="dt-published" datetime="{{ date | date() }}">{{ date | date("YYYY-MM-DD HH:mm:ss Z") }}</time>
         </a>
+        {% asyncEach link in syndication %}
+          <a href="{{ link }}" class="u-syndication">{{ link }}</a>
+        {% endeach %}
     </div>
     <a href="https://brid.gy/publish/twitter"></a>
 </div>
