@@ -20,11 +20,24 @@
         <a href="{{ rootpath }}" class="u-url"><img
           src="{{ about_img }}"
           alt="{{ author }}"
-          class="author-portrait u-photo p-name"/>
+          class="u-photo p-name"/>
         </a>
     </div>
     {% asyncEach link in inreplyto %}
-      <a href="{{ link }}" class="u-in-reply-to">{{ link }}</a>
+      <p>In reply to: <a href="{{ link }}" class="u-in-reply-to">{{ link }}</a></P>
+    {% endeach %}
+    {% asyncEach link in bookmarkof %}
+      {% if title %}
+        <p><a href="{{ link }}" class="u-bookmark-of h-cite">{{ title }}</a></P>
+      {% else %}
+        <p><a href="{{ link }}" class="u-bookmark-of">{{ link }}</a></P>
+      {% endif %}
+    {% endeach %}
+    {% asyncEach link in repostof %}
+      <p>Repost of: <a href="{{ link }}" class="u-repost-of">{{ link }}</a></P>
+    {% endeach %}
+    {% asyncEach link in likeof %}
+      <p>Like of: <a href="{{ link }}" class="u-like-of">{{ link }}</a></P>
     {% endeach %}
     <div class="e-content">
         {{ contents | safe }}
