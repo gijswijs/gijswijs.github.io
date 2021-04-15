@@ -2,5 +2,5 @@
 label: Home
 navpath: /
 collection: navigation
-sortId: 1
+sortId: 0
 ---
