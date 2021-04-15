@@ -39,7 +39,7 @@
     {% asyncEach link in likeof %}
       <p>Like of: <a href="{{ link }}" class="u-like-of">{{ link }}</a></P>
     {% endeach %}
-    {% if title and !bookmarkof %}
+    {% if title and not bookmarkof %}
         <h1 class="p-name">{{ title }}</h1>
     {% endif %}
     <div class="e-content">
