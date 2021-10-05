@@ -55,6 +55,10 @@ sortId: 5
 
 <table>
 <tbody>
+   <tr>
+    <td>2021</td>
+    <td>van Dam, G. &amp; Kadir, R. A. (2021). Hiding Payments in Lightning Network with Differentially Private Payment Channels. (under review)</td>
+  </tr>
   <tr>
     <td>2020</td>
     <td>van Dam, G., Kadir, R. A., Nohuddin, P. N. E., &amp; Zaman, H. B. (2020). Improvements of the Balance Discovery Attack on Lightning Network Payment Channels (pp. 313-323). <a href="https://doi.org/10.1007/978-3-030-58201-2_21" title="van Dam, G., Kadir, R. A., Nohuddin, P. N. E., &amp; Zaman, H. B. (2020). Improvements of the Balance Discovery Attack on Lightning Network Payment Channels (pp. 313-323)">https://doi.org/10.1007/978-3-030-58201-2_21</a></td>
@@ -70,6 +74,10 @@ sortId: 5
 
 <table>
 <tbody>
+  <tr>
+    <td>2021</td>
+    <td>An Introduction To Probability In Computing, IIT Madras (online)</td>
+  </tr>
   <tr>
     <td>2020</td>
     <td>iFintell workshop series: R language, Python, STATA &amp; MATLAB, Big Data analytics, AI &amp; ML</td>
