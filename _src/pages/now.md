@@ -14,6 +14,6 @@ Since the lockdown measures are now slowly being lifted here in the Klang valley
 
 The one thing that I hope for is that schools open up soon. Out of the past 18 months my kids' school has been closed for 14 to 15 months. And having two young children around isn't conducive for research. And it is definitely not conducive for the social development of my kids. But arguments like that carry no weight at all here in Malaysia.
 
-I would like to learn [Rust](https://www.rust-lang.org/), and more specifically [Sapio](https://learn.sapio-lang.org/), which is a way of creating smart Bitcoin contracts in Rust. Sapio is a "port" and an extension of Peter Wuille's [Miniscript](http://bitcoin.sipa.be/miniscript/) build in Rust. But for now this has to go on the back burner, because I need to turn all my attention to finishing my thesis. I need to curb any tendency to procrastinate in the next few months.
+I would like to learn [Rust](https://www.rust-lang.org/), and more specifically [Sapio](https://learn.sapio-lang.org/), which is a way of creating smart Bitcoin contracts in Rust. Sapio is a "port" and an extension of Peter Wuille's [Miniscript](http://bitcoin.sipa.be/miniscript/) built in Rust. But for now this has to go on the back burner, because I need to turn all my attention to finishing my thesis. I need to curb any tendency to procrastinate in the next few months.
 
 Updated: October 2021
