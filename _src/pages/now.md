@@ -1,10 +1,12 @@
 ---
-title: What am I doing now?
+title: Now
 layout: miksa/page.njk
 collection: navigation
 label: Now
 sortId: 6
 ---
+
+# What am I doing now?
 
 Right now I'm focusing on finishing my PhD. This still requires writing and publishing an article, and distill the last three years of research in a thesis. I hope to submit my thesis in Q1 or Q2 of 2022, and then start planning the move back to Amsterdam. But everything depends on finding nice work for both me and my wife. There is no reason to go back for a shitty job. Life here is way to good for that.
 
