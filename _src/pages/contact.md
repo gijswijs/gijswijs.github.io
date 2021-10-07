@@ -6,4 +6,4 @@ label: Contact
 sortId: 7
 ---
 
-test
+test 2
