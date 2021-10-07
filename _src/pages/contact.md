@@ -5,5 +5,3 @@ collection: navigation
 label: Contact
 sortId: 7
 ---
-
-test 2
