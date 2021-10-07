@@ -12,5 +12,3 @@ document.write(a+'@g'+b+c+'</a>');
 </script>
 
 If you want to follow me, you can check out my social media accounts in the footer below.
-
-new sha
