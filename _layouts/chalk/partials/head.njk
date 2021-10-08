@@ -1,0 +1,61 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="{{ page_title | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page_url }}">
+  <meta property="og:description" content="{{ page_description }}">
+  <meta property="og:site_name" content="{{ site_title }}">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="{{ page_url }}">
+  <meta name="twitter:title" content="{{ page_title | escape }}">
+  <meta name="twitter:description" content="{{ page_description }}">
+
+  {% if page.thumb_image %}
+      <meta property="og:image" content="{{ domain }}{{rootpath}}{{ page.thumb_image }}">
+      <meta name="twitter:image" content="{{ domain }}{{rootpath}}{{ page.thumb_image }}">
+  {% else %}
+    <meta property="og:image" content="{{ domain }}{{rootpath}}images/og-image.jpg">
+    <meta name="twitter:image" content="{{ domain }}{{rootpath}}images/og-image.jpg">
+  {% endif %}
+
+  <link href="{{ domain }}{{ rootpath }}rss.xml" type="application/rss+xml" rel="alternate" title="{{ site_title }} Last 10 blog posts" />
+
+  {% if local_fonts %}
+    <link rel="stylesheet" type="text/css" title="light" id="light" href="{{ rootpath }}styles/fonts.css">
+  {% endif %}
+
+  {% if theme_toggle %}
+
+    {% if blog_theme == "light" %}
+      <link rel="icon" type="image/x-icon" href="{{ rootpath }}images/favicon-light.ico">
+      <link rel="apple-touch-icon" href="{{ rootpath }}images/apple-touch-icon-light.png">
+      <link rel="stylesheet" type="text/css" title="light" id="light" href="{{ rootpath }}styles/light.css">
+      <link rel="stylesheet" type="text/css" title="dark" id="dark" href="{{ rootpath }}styles/dark.css" disabled="true">
+    {% else %}
+      <link rel="icon" type="image/x-icon" href="{{ rootpath }}images/favicon-dark.ico">
+      <link rel="apple-touch-icon" href="{{ rootpath }}images/apple-touch-icon-dark.png">
+      <link rel="stylesheet" type="text/css" title="light" id="light" href="{{ rootpath }}styles/light.css">
+      <link rel="stylesheet" type="text/css" title="dark" id="dark" href="{{ rootpath }}styles/dark.css" disabled="false">
+    {% endif %}
+
+  {% else %}
+
+    {% if blog_theme == "light" %}
+      <link rel="icon" type="image/x-icon" href="{{ rootpath }}images/favicon-light.ico">
+      <link rel="apple-touch-icon" href="{{ rootpath }}images/apple-touch-icon-light.png">
+      <link rel="stylesheet" type="text/css" title="light" id="light" href="{{ rootpath }}styles/light.css">
+    {% else %}
+      <link rel="icon" type="image/x-icon" href="{{ rootpath }}images/favicon-dark.ico">
+      <link rel="apple-touch-icon" href="{{ rootpath }}images/apple-touch-icon-dark.png">
+      <link rel="stylesheet" type="text/css" title="light" id="light" href="{{ rootpath }}styles/dark.css">
+    {% endif %}
+
+  {% endif %}
+
+</head>
