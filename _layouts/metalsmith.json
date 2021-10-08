@@ -243,7 +243,7 @@
           },
           {
             "match": { "collection": "navigation" },
-            "pattern": ":label"
+            "pattern": ":title"
           },
           {
             "match": { "collection": "event" },
