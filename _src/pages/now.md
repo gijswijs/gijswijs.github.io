@@ -3,6 +3,7 @@ title: What am I doing now?
 layout: miksa/page.njk
 collection: navigation
 label: Now
+slug: now
 sortId: 6
 ---
 
