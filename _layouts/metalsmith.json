@@ -38,7 +38,7 @@
     "renamePostfix": ["_l", "_m", "_s"],
     "format": ["avif", "webp", "jpg"]
   },
-  "clean": false,
+  "clean": true,
   "devClean": false,
   "plugins": [
     { "source-url": true, "dev": true },
