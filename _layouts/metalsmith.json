@@ -3,8 +3,8 @@
     "version": "0.1",
     "site_title": "Janos",
     "site_description": "Janos, the free, static site generator that is automatically hosted on Github Pages",
-    "about": "Janos is a static site generator developed by <a href=\"https://www.gijsvandam.nl\">Gijs van Dam</a>",
-    "about_img": "/images/gijsvandam.jpg",
+    "about": "Janos is a static site generator developed by Gijs van Dam",
+    "about_img": "./images/gijsvandam.jpg",
     "author": "Gijs van Dam",
     "social_media": {
       "twitter": {
