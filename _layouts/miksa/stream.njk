@@ -1,26 +1,14 @@
-{% set body_class = "home" %}
+{% set body_class = "stream" %}
 {% set page_title = site_title %}
 {% set description = site_description %}
 {% extends "miksa/_layout.njk" %}
-{% import "miksa/macros/reading-time.njk" as reading %}
 
 {% block content %}
 <main>
   <ul>
-    {% asyncEach post in pagination.files %}
+    {% asyncEach micropub in pagination.files %}
     <li>
-      <article>
-        <header>
-          <h1><a href="{{ rootpath }}{{ post.path }}">{{ post.title }}</a></h1>
-          {% set contents = post.contents %}
-          {% set tags = post.tags %}
-          {% set date = post.date %}
-          {% include "miksa/components/_post-info.njk" %}
-        </header>
-        <section>
-          {{ post.excerpt | safe }}
-        </section>
-      </article>
+      {% include "miksa/components/_micropub.njk" %}
     </li>
     {% endeach %}
     {% if pagination.pages.length > 1 %}
@@ -34,6 +22,5 @@
       </li>
     {% endif %}
   </ul>
-  {% include "miksa/components/_aside.njk" %}
 </main>
 {% endblock %} 
