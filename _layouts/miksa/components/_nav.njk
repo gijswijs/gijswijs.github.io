@@ -1,8 +1,13 @@
 <nav>
   <ul>
       {% asyncEach nav in navigation %}
+        {% if nav.navpath %}
+          {% set path = rootpath + nav.navpath %}
+        {% else %}
+          {% set path = rootpath + nav.path %}
+        {% endif %}
         <li>
-          <a href="{{ rootpath }}{{ nav.navpath if nav.navpath else nav.path }}" title="{{ nav.label }}">
+          <a href="{{ path | replace('//', '/') }}" title="{{ nav.label }}">
             {{ nav.label }}
           </a>
         </li>
