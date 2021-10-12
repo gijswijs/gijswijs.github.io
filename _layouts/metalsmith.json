@@ -2,14 +2,10 @@
   "metadata": {
     "version": "0.1",
     "site_title": "Janos",
-    "site_description": "A demonstration static site built using Janos SSG",
-    "author": {
-      "name": "Gijs van Dam",
-      "url": "/gijs-van-dam"
-    },
-    "blog_theme": "light",
-    "theme_toggle": false,
-    "tag_nav_enabled": false,
+    "site_description": "Janos, the free, static site generator that is automatically hosted on Github Pages",
+    "about": "Janos is a static site generator developed by Gijs van Dam",
+    "about_img": "images/gijsvandam.jpg",
+    "author": "Gijs van Dam",
     "social_media": {
       "twitter": {
         "url": "https://www.twitter.com/gijswijs",
@@ -42,7 +38,7 @@
     "renamePostfix": ["_l", "_m", "_s"],
     "format": ["avif", "webp", "jpg"]
   },
-  "clean": false,
+  "clean": true,
   "devClean": false,
   "plugins": [
     { "source-url": true, "dev": true },
