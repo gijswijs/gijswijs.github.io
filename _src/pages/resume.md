@@ -28,7 +28,7 @@ sortId: 5
 
 | year | publication                                                                                                                                                                                                          |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2021 | van Dam, G. & Kadir, R. A. (2021). Hiding Payments in Lightning Network with Differentially Private Payment Channels. (under review)                                                                                 |
+| 2022 | van Dam, G. & Kadir, R. A. (2022). Hiding Payments in Lightning Network with Approximate Differentially Private Payment Channels, in Computers & Security, 2022 (in press) | 
 | 2020 | van Dam, G., Kadir, R. A., Nohuddin, P. N. E., & Zaman, H. B. (2020). Improvements of the Balance Discovery Attack on Lightning Network Payment Channels (pp. 313-323). https://doi.org/10.1007/978-3-030-58201-2_21 |
 | 2014 | Whitepaper: Your company future-proof with ecommerce (dutch)                                                                                                                                                         |
 
@@ -36,6 +36,7 @@ sortId: 5
 
 | year      | training/certification                                                                    |
 |-----------|-------------------------------------------------------------------------------------------|
+| 2021      | Lightning Network Seminar Series, Chaincode Labs, New York (online)                       |
 | 2021      | An Introduction To Probability In Computing, IIT Madras (online)                          |
 | 2020      | iFintell workshop series: R language, Python, STATA & MATLAB, Big Data analytics, AI & ML |
 | 2018      | Workshop Microsoft Azure, Jupyter Notebook and R                                          |
