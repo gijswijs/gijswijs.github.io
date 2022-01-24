@@ -10,7 +10,7 @@ sortId: 2
 
 | year | paper                                                                                                                                                                                                                |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2021 | van Dam, G. & Kadir, R. A. (2021). Hiding Payments in Lightning Network with Differentially Private Payment Channels. (under review)                                                                                 |
+| 2022 | van Dam, G. & Kadir, R. A. (2022). Hiding Payments in Lightning Network with Approximate Differentially Private Payment Channels, in Computers & Security, 2022 (in press) |                                                                                 |
 | 2020 | <a name="vandam2020"></a>van Dam G., Kadir R.A., Nohuddin P.N.E., Zaman H.B. (2020) Improvements of the Balance Discovery Attack on Lightning Network Payment Channels. In: H&ouml;lbl M., Rannenberg K., Welzer T. (eds) ICT Systems Security and Privacy Protection. SEC 2020. IFIP Advances in Information and Communication Technology, vol 580. Springer, Cham. https://doi.org/10.1007/978-3-030-58201-2_21 |
 
 ## Preprints
@@ -42,3 +42,9 @@ sortId: 2
 | year | white paper                                                                                                                                                                                                                |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2014 | Beentjes, R., van Dam, G., Vlap, A. van Vlijmen & J., te Wierik, B. [Your company future-proof with ecommerce (dutch)](/documents/Whitepaper-e-commerce.pdf)|
+
+## Grants
+
+| year | white paper                                                                                                                                |
+|------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| 2020 | Beneficiary of student grant for the Financial Cryptography and Data Security International Conference 2020, Kota Kinabalu, Sabah, Malaysia|

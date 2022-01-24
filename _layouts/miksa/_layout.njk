@@ -25,7 +25,8 @@
   </head>
   <body class="{{ body_class }}{% if body_class === 'article' %} h-entry{% endif %}">
     {% include "miksa/components/_header.njk" %}
-    {% block content %}{% endblock %}
+    {% block content %}
+    {% endblock %}
     {% include "miksa/components/_footer.njk" %}
   </body>
   <script data-goatcounter="https://gijsvandam.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
