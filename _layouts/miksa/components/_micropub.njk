@@ -8,6 +8,7 @@
   {% set collection = micropub.collection %}
   {% set path = micropub.path %}
   {% set photo = micropub.photo %}
+  {% set syndicateTo = micropub.syndicateTo %}
 {% endif %}
 {% set mfObject = "entry" %}
 {% if collection == "event" %}
@@ -52,6 +53,11 @@
   {% endif %}
   <div class="e-content">
     {{ contents | safe }}
+    {% if syndicateTo %}
+      {% asyncEach url in syndicateTo %}
+      <a href="{{ url }}"></a>
+      {% endeach %}
+    {% endif %}
   </div>
   {% if photo %}
     {% asyncEach url in photo %}
