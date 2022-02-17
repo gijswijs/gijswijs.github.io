@@ -1,56 +1,81 @@
 {% if micropub %}
-    {% set title = micropub.title %}
-    {% set tags = micropub.tags %}
-    {% set contents = micropub.contents %}
-    {% set category = micropub.category %}
-    {% set date = micropub.date %}
-    {% set slug = micropub.slug %}
-    {% set collection = micropub.collection %}
-    {% set path = micropub.path %}
+  {% set title = micropub.title %}
+  {% set tags = micropub.tags %}
+  {% set contents = micropub.contents %}
+  {% set category = micropub.category %}
+  {% set date = micropub.date %}
+  {% set slug = micropub.slug %}
+  {% set collection = micropub.collection %}
+  {% set path = micropub.path %}
+  {% set photo = micropub.photo %}
 {% endif %}
 {% set mfObject = "entry" %}
 {% if collection == "event" %}
-    {% set mfObject = "event" %}
+  {% set mfObject = "event" %}
 {% endif %}
 {% if collection == "rsvp" %}
-    {% set mfObject = "event" %}
+  {% set mfObject = "event" %}
 {% endif %}
 <div class="h-{{ mfObject }}">
-    <div class="u-author h-card">
-        <a href="{{ rootpath }}" class="u-url"><img
+  <div class="u-author h-card">
+    <a href="{{ rootpath }}" class="u-url"><img
           src="{{ about_img }}"
           alt="{{ author }}"
           class="u-photo p-name"/>
-        </a>
-    </div>
-    {% asyncEach link in inreplyto %}
-      <p>In reply to: <a href="{{ link }}" class="u-in-reply-to">{{ link }}</a></P>
-    {% endeach %}
-    {% asyncEach link in bookmarkof %}
-      {% if title %}
-        <p><a href="{{ link }}" class="u-bookmark-of h-cite">{{ title }}</a></P>
+    </a>
+  </div>
+  {% asyncEach link in inreplyto %}
+  <p>In reply to: <a href="{{ link }}" class="u-in-reply-to">{{ link }}</a>
+  </P>
+  {% endeach %}
+  {% asyncEach link in bookmarkof %}
+  {% if title %}
+    <p>
+      <a href="{{ link }}" class="u-bookmark-of h-cite">{{ title }}</a>
+    </P>
+  {% else %}
+    <p>
+      <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
+    </P>
+  {% endif %}
+  {% endeach %}
+  {% asyncEach link in repostof %}
+  <p>Repost of: <a href="{{ link }}" class="u-repost-of">{{ link }}</a>
+  </P>
+  {% endeach %}
+  {% asyncEach link in likeof %}
+  <p>Like of: <a href="{{ link }}" class="u-like-of">{{ link }}</a>
+  </P>
+  {% endeach %}
+  {% if title and not bookmarkof %}
+    <h1 class="p-name">{{ title }}</h1>
+  {% endif %}
+  <div class="e-content">
+    {{ contents | safe }}
+  </div>
+  {% if photo %}
+    {% asyncEach url in photo %}
+    <a href="{{ rootpath }}{{ path }}">
+      {% if photo.value %}
+        <img
+            src="{{ photo.value }}"
+            alt="{{ photo.alt }}"
+            class="u-photo"/>
       {% else %}
-        <p><a href="{{ link }}" class="u-bookmark-of">{{ link }}</a></P>
+        <img
+            src="{{ photo }}"
+            class="u-photo"/>
       {% endif %}
-    {% endeach %}
-    {% asyncEach link in repostof %}
-      <p>Repost of: <a href="{{ link }}" class="u-repost-of">{{ link }}</a></P>
-    {% endeach %}
-    {% asyncEach link in likeof %}
-      <p>Like of: <a href="{{ link }}" class="u-like-of">{{ link }}</a></P>
-    {% endeach %}
-    {% if title and not bookmarkof %}
-        <h1 class="p-name">{{ title }}</h1>
-    {% endif %}
-    <div class="e-content">
-        {{ contents | safe }}
-    </div>
-    <div class="metadata">
-        <a href="{{ rootpath }}{{ path }}" class="u-url">
-            <time class="dt-published" datetime="{{ date | date() }}">{{ date | date("YYYY-MM-DD HH:mm:ss Z") }}</time>
-        </a>
-        {% asyncEach link in syndication %}
-          <a href="{{ link }}" class="u-syndication">{{ link }}</a>
-        {% endeach %}
-    </div>
+    </a>
+  </a>
+  {% endeach %}
+{% endif %}
+<div class="metadata">
+  <a href="{{ rootpath }}{{ path }}" class="u-url">
+    <time class="dt-published" datetime="{{ date | date() }}">{{ date | date("YYYY-MM-DD HH:mm:ss Z") }}</time>
+  </a>
+  {% asyncEach link in syndication %}
+  <a href="{{ link }}" class="u-syndication">{{ link }}</a>
+  {% endeach %}
+</div>
 </div>
