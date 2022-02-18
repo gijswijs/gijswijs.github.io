@@ -307,7 +307,7 @@
     { "metalsmith-debug": {} },
     {
       "dump-file": {
-        "filename": "posts/first-post/index.html"
+        "filename": "repost/2022/02/18-30288/index.html"
       }
     },
     {
