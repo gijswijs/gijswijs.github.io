@@ -7,7 +7,7 @@
   {% set slug = micropub.slug %}
   {% set collection = micropub.collection %}
   {% set path = micropub.path %}
-  {% set photo = micropub.photo %}
+  {% set media = micropub.media %}
   {% set syndicateTo = micropub.syndicateTo %}
 {% endif %}
 {% set mfObject = "entry" %}
@@ -59,29 +59,28 @@
       {% endeach %}
     {% endif %}
   </div>
-  {% if photo %}
-    {% asyncEach link in photo %}
+  {% if media %}
+    {% asyncEach item in media %}
     <a href="{{ rootpath }}{{ path }}">
-      {% if link.value %}
+      {% if item.value %}
         <img
-            src="{{ link.value }}"
-            alt="{{ link.alt }}"
-            class="u-photo"/>
+              src="{{ item.value }}"
+              alt="{{ item.alt }}"
+              class="u-photo"/>
       {% else %}
         <img
-            src="{{ link }}"
-            class="u-photo"/>
+              src="{{ item }}"
+              class="u-photo"/>
       {% endif %}
     </a>
-  </a>
-  {% endeach %}
-{% endif %}
-<div class="metadata">
-  <a href="{{ rootpath }}{{ path }}" class="u-url">
-    <time class="dt-published" datetime="{{ date | date() }}">{{ date | date("YYYY-MM-DD HH:mm:ss Z") }}</time>
-  </a>
-  {% asyncEach link in syndication %}
-  <a href="{{ link }}" class="u-syndication">{{ link }}</a>
-  {% endeach %}
-</div>
+    {% endeach %}
+  {% endif %}
+  <div class="metadata">
+    <a href="{{ rootpath }}{{ path }}" class="u-url">
+      <time class="dt-published" datetime="{{ date | date() }}">{{ date | date("YYYY-MM-DD HH:mm:ss Z") }}</time>
+    </a>
+    {% asyncEach link in syndication %}
+    <a href="{{ link }}" class="u-syndication">{{ link }}</a>
+    {% endeach %}
+  </div>
 </div>
