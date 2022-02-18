@@ -60,16 +60,16 @@
     {% endif %}
   </div>
   {% if photo %}
-    {% asyncEach url in photo %}
+    {% asyncEach link in photo %}
     <a href="{{ rootpath }}{{ path }}">
-      {% if url.value %}
+      {% if link.value %}
         <img
-            src="{{ url.value }}"
-            alt="{{ url.alt }}"
+            src="{{ link.value }}"
+            alt="{{ link.alt }}"
             class="u-photo"/>
       {% else %}
         <img
-            src="{{ url }}"
+            src="{{ link }}"
             class="u-photo"/>
       {% endif %}
     </a>
