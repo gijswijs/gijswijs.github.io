@@ -104,6 +104,11 @@
           "sortBy": "date",
           "reverse": true
         },
+        "stream": {
+          "pattern": "stream/**/*.md",
+          "sortBy": "date",
+          "reverse": true
+        },
         "navigation": {
           "refer": false,
           "sortBy": "sortId"
