@@ -9,6 +9,7 @@
   {% set path = micropub.path %}
   {% set media = micropub.media %}
   {% set syndicateTo = micropub.syndicateTo %}
+  {% set syndication = micropub.syndication %}
 {% endif %}
 {% set mfObject = "entry" %}
 {% if collection == "event" %}
@@ -27,17 +28,17 @@
   </div>
   {% asyncEach link in inreplyto %}
   <p>In reply to: <a href="{{ link }}" class="u-in-reply-to">{{ link }}</a>
-  </P>
+  </p>
   {% endeach %}
   {% asyncEach link in bookmarkof %}
   {% if title %}
     <p>
       <a href="{{ link }}" class="u-bookmark-of h-cite">{{ title }}</a>
-    </P>
+    </p>
   {% else %}
     <p>
       <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
-    </P>
+    </p>
   {% endif %}
   {% endeach %}
   {% asyncEach link in repostof %}
