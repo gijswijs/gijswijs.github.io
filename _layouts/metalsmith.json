@@ -38,6 +38,12 @@
         "name": "Twitter",
         "me": true
       },
+      "stream": {
+        "url": "/feed",
+        "name": "Stream",
+        "me": false,
+        "rel": "feed"
+      },
       "rss": {
         "url": "/rss.xml",
         "icon": "rss",
