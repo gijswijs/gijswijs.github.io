@@ -104,6 +104,11 @@
           "sortBy": "date",
           "reverse": true
         },
+        "stream": {
+          "pattern": "stream/**/*.md",
+          "sortBy": "date",
+          "reverse": true
+        },
         "navigation": {
           "refer": false,
           "sortBy": "sortId"
@@ -161,6 +166,8 @@
         },
         "collections.event": {
           "perPage": 25,
+          "noPageOne": true,
+          "first": "events/index.html",
           "path": "events/:num/index.html",
           "layout": "miksa/stream.njk",
           "pageMetadata": {
@@ -169,6 +176,8 @@
         },
         "collections.rsvp": {
           "perPage": 25,
+          "noPageOne": true,
+          "first": "rsvps/index.html",
           "path": "rsvps/:num/index.html",
           "layout": "miksa/stream.njk",
           "pageMetadata": {
@@ -177,6 +186,8 @@
         },
         "collections.repost": {
           "perPage": 25,
+          "noPageOne": true,
+          "first": "reposts/index.html",
           "path": "reposts/:num/index.html",
           "layout": "miksa/stream.njk",
           "pageMetadata": {
@@ -185,6 +196,8 @@
         },
         "collections.like": {
           "perPage": 25,
+          "noPageOne": true,
+          "first": "likes/index.html",
           "path": "likes/:num/index.html",
           "layout": "miksa/stream.njk",
           "pageMetadata": {
@@ -193,6 +206,8 @@
         },
         "collections.reply": {
           "perPage": 25,
+          "noPageOne": true,
+          "first": "replies/index.html",
           "path": "replies/:num/index.html",
           "layout": "miksa/stream.njk",
           "pageMetadata": {
@@ -201,6 +216,8 @@
         },
         "collections.video": {
           "perPage": 25,
+          "noPageOne": true,
+          "first": "videos/index.html",
           "path": "videos/:num/index.html",
           "layout": "miksa/stream.njk",
           "pageMetadata": {
@@ -209,6 +226,8 @@
         },
         "collections.photo": {
           "perPage": 25,
+          "noPageOne": true,
+          "first": "photos/index.html",
           "path": "photos/:num/index.html",
           "layout": "miksa/stream.njk",
           "pageMetadata": {
@@ -217,6 +236,8 @@
         },
         "collections.note": {
           "perPage": 25,
+          "noPageOne": true,
+          "first": "notes/index.html",
           "path": "notes/:num/index.html",
           "layout": "miksa/stream.njk",
           "pageMetadata": {
@@ -225,10 +246,22 @@
         },
         "collections.article": {
           "perPage": 25,
+          "noPageOne": true,
+          "first": "articles/index.html",
           "path": "articles/:num/index.html",
           "layout": "miksa/stream.njk",
           "pageMetadata": {
             "title": "Articles"
+          }
+        },
+        "collections.stream": {
+          "perPage": 25,
+          "noPageOne": true,
+          "first": "feed/index.html",
+          "path": "feed/:num/index.html",
+          "layout": "miksa/stream.njk",
+          "pageMetadata": {
+            "title": "Feed"
           }
         }
       }
