@@ -4,29 +4,29 @@
 {% import "miksa/macros/reading-time.njk" as reading %}
 
 {% block content %}
-    <main>
-      <article>
-        {% if math %}
+  <main>
+    <article>
+      {% if math %}
         {# MathJax imports #}
         <script>
           MathJax = {
-          chtml: {
-              scale: 1,                      // global scaling factor for all expressions
-              minScale: 1,                  // smallest scaling factor to use
+            chtml: {
+              scale: 1, // global scaling factor for all expressions
+              minScale: 1, // smallest scaling factor to use
             }
           };
         </script>
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-        {% endif %}
-        <header>
-          <h1 class="p-name">{{ title }}</h1>
-          {% include "miksa/components/_post-info.njk" %}
-        </header>
-        <section class="e-content">
-          {{ contents | safe }}
-        </section>
-      </article>
-    </main>
-{% endblock %} 
-
+      {% endif %}
+      <header>
+        <h1 class="p-name">{{ title }}</h1>
+        {% include "miksa/components/_post-info.njk" %}
+      </header>
+      <section class="e-content">
+        {{ contents | safe }}
+      </section>
+      <script src="{{ rootpath }}assets/scripts/bundle.js"/>
+    </article>
+  </main>
+{% endblock %}
