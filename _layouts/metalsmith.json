@@ -346,7 +346,7 @@
     { "metalsmith-debug": {} },
     {
       "dump-file": {
-        "filename": "repost/2022/02/18-30288/index.html"
+        "filename": "post/how-does-lightning-network-work/index.html"
       }
     },
     {
