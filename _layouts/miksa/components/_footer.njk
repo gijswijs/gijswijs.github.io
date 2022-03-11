@@ -1,27 +1,31 @@
 <footer>
   {% include "miksa/components/_nav.njk" %}
   <ul>
-    {% asyncEach platform, properties in social_media %}
-      {% set rel = "noreferrer noopener" %}
-      {% if properties.rel %}
-        {% set rel = properties.rel %}
-      {% endif %}
-    	<li>
-        {% if properties.me %}
+    {% asyncEach platform,
+    properties in social_media %}
+    {% set rel = "noreferrer noopener" %}
+    {% if properties.rel %}
+      {% set rel = properties.rel %}
+    {% endif %}
+    <li>
+      {% if properties.me %}
         {% set relMe = rel + " me" %}
-        	<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="{{ properties.url }}" href="{{ properties.url }}" rel="{{ properties.rel | default(relMe) }}" target="_blank" title="{{ properties.name }}">
+        <div itemscope itemtype="https://schema.org/Person">
+          <a itemprop="sameAs" content="{{ properties.url }}" href="{{ properties.url }}" rel="{{ properties.rel | default(relMe) }}" target="_blank" title="{{ properties.name }}">
             {{ properties.name }}
-          </a></div>
-        {% else %}
-        	<a href="{{ properties.url }}" rel="{{ properties.rel | default(rel) }}" target="_blank" title="{{ properties.name }}">
-          	{{ properties.name }}
-        	</a>
-    		{% endif %}
-      </li>
-    {% endeach  %}
+          </a>
+        </div>
+      {% else %}
+        <a href="{{ properties.url }}" rel="{{ properties.rel | default(rel) }}" target="_blank" title="{{ properties.name }}">
+          {{ properties.name }}
+        </a>
+      {% endif %}
+    </li>
+    {% endeach %}
   </ul>
   <p>
-    &copy; {{ now | date("YYYY") }} <a {% if body_class === "article" %}rel="author" class="p-author h-card"{% endif %} href="{{rootpath}}">{{ site_title }}</a>.
+    &copy; {{ now | date("YYYY") }}
+    <a {% if body_class === "article" %}rel="author" class="p-author h-card"{% endif %} href="{{rootpath}}">{{ site_title }}</a>.
       Published with <a href="https://github.com/neumannjs/Janos">Janos</a>.
       Theme <a href="https://github.com/neumannjs/Miksa">Miksa</a>.
   </p>
