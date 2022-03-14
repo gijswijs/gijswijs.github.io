@@ -51,8 +51,7 @@ The redeem script for an HTLC knows two execution paths. One path encodes the ti
   <button>Play</button>
 </div>
 
-Alice, having received the hash from Carol, finds a route to Carol. In our network there is only one route to Carol, namely via Bob. Alice now sets up an HTLC with Bob with a timeout of 48 hours for the time lock, and the hash provided by Carol for the hash lock. Bob receives the HTLC *and* the route of the payment. Reading the route, he knows that he needs to set up a payment with Carol. Now it is time for Bob to set up an HTLC with Carol. He uses *the exact same* hash for the hash lock, but a timeout that is a few hours shorter than the one Alice granted him. The shorter timeout leaves Bob with enough time to claim his money once he learns the pre-image. Upon receiving the HTLC from Bob, Carol sees from the route that she is the receiver of the payment and she recognizes the hash. Moreover, she knows the secret pre-image belonging to that hash. By unlocking the hash lock, she reveals the pre-image to Bob. Bob, in his turn, can now unlock the HTLC he received from Alice. If for whatever reason Carol fails to reveal the pre-image, the timeouts make sure all the beads would return to their original position, as if no payment ever happened. 
-
+Alice, having received the hash from Carol, finds a route to Carol. In our network there is only one route to Carol, namely via Bob. Alice now sets up an HTLC with Bob with a timeout of 48 hours for the time lock, and the hash provided by Carol for the hash lock. Bob receives the HTLC *and* the route of the payment. Reading the route, he knows that he needs to set up a payment with Carol. Now it is time for Bob to set up an HTLC with Carol. He uses *the exact same* hash for the hash lock, but a timeout that is a few hours shorter than the one Alice granted him. The shorter timeout leaves Bob with enough time to claim his money once he learns the pre-image. Upon receiving the HTLC from Bob, Carol sees from the route that she is the receiver of the payment and she recognizes the hash. Moreover, she knows the secret pre-image belonging to that hash. By unlocking the hash lock, she reveals the pre-image to Bob. Bob, in his turn, can now unlock the HTLC he received from Alice. If for whatever reason Carol fails to reveal the pre-image, the timeouts make sure all the beads would return to their original position, as if no payment ever happened.
 <svg
   id="sprites"
   xmlns="http://www.w3.org/2000/svg"
@@ -311,4 +310,3 @@ Alice, having received the hash from Carol, finds a route to Carol. In our netwo
     </svg>
   </defs>
 </svg>
-
