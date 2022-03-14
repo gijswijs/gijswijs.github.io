@@ -4,7 +4,7 @@ date: 2022-03-11
 layout: miksa/post.njk
 tags: cryptography, lightning network, bitcoin
 libraries:
-  - /scripts/ln-animation.js
+  - /scripts/ln-animations.js
 math: false
 ---
 
@@ -311,7 +311,4 @@ Alice, having received the hash from Carol, finds a route to Carol. In our netwo
     </svg>
   </defs>
 </svg>
-<div class="line controls">
-  <button class="play">Play</button>
-</div>
 
