@@ -42,7 +42,8 @@
         "url": "/feed",
         "name": "Stream",
         "me": false,
-        "rel": "feed"
+        "rel": "feed",
+        "target": "_self"
       },
       "rss": {
         "url": "/rss.xml",
