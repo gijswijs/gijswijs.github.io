@@ -11,6 +11,7 @@
   {% set syndicateTo = micropub.syndicateTo %}
   {% set syndication = micropub.syndication %}
 {% endif %}
+
 {% set mfObject = "entry" %}
 {% if collection == "event" %}
   {% set mfObject = "event" %}
@@ -18,70 +19,79 @@
 {% if collection == "rsvp" %}
   {% set mfObject = "event" %}
 {% endif %}
+
 <div class="h-{{ mfObject }}">
-  <div class="u-author h-card">
-    <a href="{{ rootpath }}" class="u-url"><img
+  <div class="tweet-container">
+    <div class="u-author h-card">
+      <a href="{{ rootpath }}" class="u-url"><img
           src="{{ about_img }}"
           alt="{{ author }}"
           class="u-photo p-name"/>
-    </a>
-  </div>
-  {% asyncEach link in inreplyto %}
-  <p>In reply to: <a href="{{ link }}" class="u-in-reply-to">{{ link }}</a>
-  </p>
-  {% endeach %}
-  {% asyncEach link in bookmarkof %}
-  {% if title %}
-    <p>
-      <a href="{{ link }}" class="u-bookmark-of h-cite">{{ title }}</a>
-    </p>
-  {% else %}
-    <p>
-      <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
-    </p>
-  {% endif %}
-  {% endeach %}
-  {% asyncEach link in repostof %}
-  <p>Repost of: <a href="{{ link }}" class="u-repost-of">{{ link }}</a>
-  </P>
-  {% endeach %}
-  {% asyncEach link in likeof %}
-  <p>Like of: <a href="{{ link }}" class="u-like-of">{{ link }}</a>
-  </P>
-  {% endeach %}
-  {% if title and not bookmarkof %}
-    <h1 class="p-name">{{ title }}</h1>
-  {% endif %}
-  <div class="e-content">
-    {{ contents | safe }}
-    {% if syndicateTo %}
-      {% asyncEach url in syndicateTo %}
-      <a href="{{ url }}"></a>
+      </a>
+    </div>
+    <div class="tweet">
+      {% asyncEach link in inreplyto %}
+      <p>In reply to: <a href="{{ link }}" class="u-in-reply-to">{{ link }}</a>
+      </p>
       {% endeach %}
-    {% endif %}
-  </div>
-  {% if media %}
-    {% asyncEach item in media %}
-    <a href="{{ rootpath }}{{ path }}">
-      {% if item.value %}
-        <img
+      {% asyncEach link in bookmarkof %}
+      {% if title %}
+        <p>
+          <a href="{{ link }}" class="u-bookmark-of h-cite">{{ title }}</a>
+        </p>
+      {% else %}
+        <p>
+          <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
+        </p>
+      {% endif %}
+      {% endeach %}
+      {% asyncEach link in repostof %}
+      <p>Repost of: <a href="{{ link }}" class="u-repost-of">{{ link }}</a>
+      </P>
+      {% endeach %}
+      {% asyncEach link in likeof %}
+      <p>Like of: <a href="{{ link }}" class="u-like-of">{{ link }}</a>
+      </P>
+      {% endeach %}
+      {% if title and not bookmarkof %}
+        <h1 class="p-name">{{ title }}</h1>
+      {% endif %}
+      <div class="e-content">
+        {{ contents | safe }}
+        {% if syndicateTo %}
+          {% asyncEach url in syndicateTo %}
+          <a href="{{ url }}"></a>
+          {% endeach %}
+        {% endif %}
+      </div>
+      {% if media %}
+        {% asyncEach item in media %}
+        <a href="{{ rootpath }}{{ path }}">
+          {% if item.value %}
+            <img
               src="{{ item.value }}"
               alt="{{ item.alt }}"
               class="u-photo"/>
-      {% else %}
-        <img
+          {% else %}
+            <img
               src="{{ item }}"
               class="u-photo"/>
+          {% endif %}
+        </a>
+        {% endeach %}
       {% endif %}
-    </a>
-    {% endeach %}
-  {% endif %}
+    </div>
+  </div>
   <div class="metadata">
     <a href="{{ rootpath }}{{ path }}" class="u-url">
       <time class="dt-published" datetime="{{ date | date() }}">{{ date | date("YYYY-MM-DD HH:mm:ss Z") }}</time>
     </a>
     {% asyncEach link in syndication %}
-    <a href="{{ link }}" class="u-syndication">{{ link }}</a>
+    {% if link.destination %}
+      <a href="{{ link.url }}" class="u-syndication icon-{{ link.destination }}">{{ link.destination }}</a>
+    {% else %}
+      <a href="{{ link }}" class="u-syndication">{{ link }}</a>
+    {% endif %}
     {% endeach %}
   </div>
 </div>
