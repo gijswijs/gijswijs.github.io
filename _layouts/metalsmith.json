@@ -344,7 +344,6 @@
         }
       }
     },
-    { "metalsmith-webmentions": {} },
     { "metalsmith-debug": {} },
     {
       "dump-file": {
