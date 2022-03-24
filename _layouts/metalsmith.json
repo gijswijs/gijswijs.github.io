@@ -360,20 +360,6 @@
         "directory": "_layouts",
         "pattern": "**",
         "engineOptions": {
-          "partials": {
-            "default": "_layouts/biron/default.hbs",
-            "footer": "_layouts/biron/partials/footer.hbs",
-            "header": "_layouts/biron/partials/header.hbs",
-            "icon-sprite": "_layouts/biron/partials/icon-sprite.hbs",
-            "icon": "_layouts/biron/partials/icon.hbs",
-            "navigation": "_layouts/biron/partials/navigation.hbs",
-            "social-media": "_layouts/biron/partials/social-media.hbs",
-            "post-card": "_layouts/biron/partials/post-card.hbs",
-            "pagination": "_layouts/biron/partials/pagination.hbs"
-          },
-          "helpers": {
-            "dateFormat": "handlebarsDateHelper"
-          },
           "noCache": true
         }
       }
