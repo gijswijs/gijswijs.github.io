@@ -1,0 +1,30 @@
+{
+  "lastFetched": "2022-03-25T03:48:54.417Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "João Silva",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/115a744e14966cb49297c1c69fec923ab9b638f70d4f28b92e2099b97f052462.jpg",
+        "url": "https://twitter.com/kappyzor"
+      },
+      "url": "https://twitter.com/kappyzor/status/1496420247359864835",
+      "published": "2022-02-23T09:42:43+00:00",
+      "wm-received": "2022-02-23T10:32:04Z",
+      "wm-id": 1354974,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1496301128371343362/1496420247359864835",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/02/23-6487/",
+      "content": {
+        "html": "It has a signature, the \"e\" is an argument.\nCall it lambda, or eventhandler, or pointer to function then, eheheh\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/statelyai\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>\n<a class=\"u-mention\" href=\"https://www.saturnflyer.com/blog/the-gang-of-four-is-wrong-and-you-dont-understand-delegation\"></a>",
+        "text": "It has a signature, the \"e\" is an argument.\nCall it lambda, or eventhandler, or pointer to function then, eheheh"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2022/02/23-6487/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 1,
+  "like-count": 0,
+  "repost-count": 0
+}

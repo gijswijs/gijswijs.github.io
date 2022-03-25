@@ -1,0 +1,102 @@
+{
+  "lastFetched": "2022-03-25T03:48:49.500Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rindingvijk",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/222fb6adc34a515db71e762700d783e3a3f795e19e481f46484ab2ad5bcfc5e3.jpg",
+        "url": "https://twitter.com/rindingvijk"
+      },
+      "url": "https://twitter.com/gijswijs/status/1498835222263209986#favorited-by-1346427432010735616",
+      "published": null,
+      "wm-received": "2022-03-03T01:36:59Z",
+      "wm-id": 1357945,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1498835222263209986/1346427432010735616",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/02-5366/",
+      "like-of": "https://www.gijsvandam.nl/note/2022/03/02-5366/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Edward Hollander",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f57f27f508c7b55ff32cd575232a39c9c4bc0f4f33a4f1c042ed6e7270f73460.jpg",
+        "url": "https://twitter.com/edazcona"
+      },
+      "url": "https://twitter.com/gijswijs/status/1498835222263209986#favorited-by-120420610",
+      "published": null,
+      "wm-received": "2022-03-02T20:31:11Z",
+      "wm-id": 1357763,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1498835222263209986/120420610",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/02-5366/",
+      "like-of": "https://www.gijsvandam.nl/note/2022/03/02-5366/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Edward Hollander",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f57f27f508c7b55ff32cd575232a39c9c4bc0f4f33a4f1c042ed6e7270f73460.jpg",
+        "url": "https://twitter.com/edazcona"
+      },
+      "url": "https://twitter.com/edazcona/status/1499094826398199814",
+      "published": "2022-03-02T18:50:33+00:00",
+      "wm-received": "2022-03-02T20:31:07Z",
+      "wm-id": 1357762,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1498835222263209986/1499094826398199814",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/02-5366/",
+      "content": {
+        "html": "⚡️🙏🏻⚡️\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "⚡️🙏🏻⚡️"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/note/2022/03/02-5366/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jonī Kyasshu",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/19270e80fee372ab231d49f4da76961b6fabe70a27373cce71ac81e4e47d1f33.jpg",
+        "url": "https://twitter.com/Joni_Kyasshu"
+      },
+      "url": "https://twitter.com/gijswijs/status/1498835222263209986#favorited-by-1455096946759278611",
+      "published": null,
+      "wm-received": "2022-03-02T15:37:35Z",
+      "wm-id": 1357595,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1498835222263209986/1455096946759278611",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/02-5366/",
+      "like-of": "https://www.gijsvandam.nl/note/2022/03/02-5366/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "IPY (memeboy) 🟩 ⚡️🌋🍌🍞 ∞/21M 🇮🇩",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/867c2ada3295dcb91a44aeaa178acd3f9683eb5f6d50382fdf4940e8aee612d6.jpg",
+        "url": "https://twitter.com/imanpyudha"
+      },
+      "url": "https://twitter.com/gijswijs/status/1498835222263209986#favorited-by-96440501",
+      "published": null,
+      "wm-received": "2022-03-02T01:48:12Z",
+      "wm-id": 1357238,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1498835222263209986/96440501",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/02-5366/",
+      "like-of": "https://www.gijsvandam.nl/note/2022/03/02-5366/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 1,
+  "like-count": 4,
+  "repost-count": 0
+}

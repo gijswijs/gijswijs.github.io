@@ -1,0 +1,106 @@
+{
+  "lastFetched": "2022-03-25T03:48:39.839Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "RustCast",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/45c507a0709564ff69bc8ae2e5843233a1768a25a5ea22369701b43f043a420b.jpg",
+        "url": "https://twitter.com/RustCast"
+      },
+      "url": "https://twitter.com/gijswijs/status/1386498290791890946#favorited-by-1022613840381595648",
+      "published": null,
+      "wm-received": "2021-04-26T13:36:42Z",
+      "wm-id": 1133236,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1386498290791890946/1022613840381595648",
+      "wm-target": "https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/",
+      "like-of": "https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Gore",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a876b8670b7721b1bccd9f6cf5a7a2651097fcd4923ac889897ef05fe65f151a.jpg",
+        "url": "https://twitter.com/anthonygore"
+      },
+      "url": "https://twitter.com/gijswijs/status/1386498290791890946#favorited-by-13802782",
+      "published": null,
+      "wm-received": "2021-04-26T13:36:35Z",
+      "wm-id": 1133235,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1386498290791890946/13802782",
+      "wm-target": "https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/",
+      "like-of": "https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Gore",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a876b8670b7721b1bccd9f6cf5a7a2651097fcd4923ac889897ef05fe65f151a.jpg",
+        "url": "https://twitter.com/anthonygore"
+      },
+      "url": "https://twitter.com/anthonygore/status/1386503865588011009",
+      "published": "2021-04-26T02:14:16+00:00",
+      "wm-received": "2021-04-26T13:36:25Z",
+      "wm-id": 1133234,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1386498290791890946/1386503865588011009",
+      "wm-target": "https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/",
+      "content": {
+        "html": "I haven't learned Rust myself so I'd also be keen to know\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "I haven't learned Rust myself so I'd also be keen to know"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Anthony Gore",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a876b8670b7721b1bccd9f6cf5a7a2651097fcd4923ac889897ef05fe65f151a.jpg",
+        "url": "https://twitter.com/anthonygore"
+      },
+      "url": "https://twitter.com/gijswijs/status/1386502887577210880#favorited-by-13802782",
+      "published": null,
+      "wm-received": "2021-04-26T13:36:06Z",
+      "wm-id": 1133233,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1386502887577210880/13802782",
+      "wm-target": "https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/",
+      "like-of": "https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gijs van Dam",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e6dd6e8cb27bc1e8bedd6c85f5c42a220dd1201fa36f5d674772dc0c9ff05d55.jpg",
+        "url": "https://twitter.com/gijswijs"
+      },
+      "url": "https://twitter.com/gijswijs/status/1386502887577210880",
+      "published": "2021-04-26T02:10:23+00:00",
+      "wm-received": "2021-04-26T13:35:56Z",
+      "wm-id": 1133231,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1386498290791890946/1386502887577210880",
+      "wm-target": "https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/",
+      "content": {
+        "html": "By the way that static site generator you see in action in that post (<a href=\"https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/\">gijsvandam.nl/post/image-con…</a>) was entirely built with Vue. I thought you might like that.\n<a class=\"u-mention\" href=\"https://twitter.com/anthonygore\"></a>",
+        "text": "By the way that static site generator you see in action in that post (gijsvandam.nl/post/image-con…) was entirely built with Vue. I thought you might like that."
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 2,
+  "like-count": 3,
+  "repost-count": 0
+}

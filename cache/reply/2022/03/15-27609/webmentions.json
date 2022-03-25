@@ -1,0 +1,62 @@
+{
+  "lastFetched": "2022-03-25T03:48:55.133Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "itsnotmyfault",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/461d67a19befc063257a23319dd251c37ce786e099b6e32f0f64f8ff7e5b8a8a.jpg",
+        "url": "https://twitter.com/itsnotmyfault01"
+      },
+      "url": "https://twitter.com/gijswijs/status/1503637463151132674#favorited-by-151348322",
+      "published": null,
+      "wm-received": "2022-03-16T16:37:40Z",
+      "wm-id": 1364261,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1503637463151132674/151348322",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/03/15-27609/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/03/15-27609/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Delpino | Daimon-Dave Φ",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d00efdc9ee9db716fe657ddcac380f330e08af81174ce7d1fa01258bc065dbfd.jpg",
+        "url": "https://twitter.com/zerocelb"
+      },
+      "url": "https://twitter.com/gijswijs/status/1503637463151132674#favorited-by-60746321",
+      "published": null,
+      "wm-received": "2022-03-15T12:59:41Z",
+      "wm-id": 1363525,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1503637463151132674/60746321",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/03/15-27609/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/03/15-27609/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "J. Nelson Leith",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e3a375400635e5722d8934cc88a81da64aed6079e10a6292c060c5b6c1760b04.jpg",
+        "url": "https://twitter.com/leithliterary"
+      },
+      "url": "https://twitter.com/gijswijs/status/1503637463151132674#favorited-by-82244065",
+      "published": null,
+      "wm-received": "2022-03-15T10:10:20Z",
+      "wm-id": 1363490,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1503637463151132674/82244065",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/03/15-27609/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/03/15-27609/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 0,
+  "like-count": 3,
+  "repost-count": 0
+}
