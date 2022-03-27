@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2022-03-25T03:48:39.839Z",
+  "lastFetched": "2022-03-27T06:41:07.434Z",
   "children": [
     {
       "type": "entry",
@@ -92,8 +92,8 @@
       "wm-source": "https://brid.gy/comment/twitter/gijswijs/1386498290791890946/1386502887577210880",
       "wm-target": "https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/",
       "content": {
-        "html": "By the way that static site generator you see in action in that post (<a href=\"https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/\">gijsvandam.nl/post/image-con…</a>) was entirely built with Vue. I thought you might like that.\n<a class=\"u-mention\" href=\"https://twitter.com/anthonygore\"></a>",
-        "text": "By the way that static site generator you see in action in that post (gijsvandam.nl/post/image-con…) was entirely built with Vue. I thought you might like that."
+        "html": "By the way that static site generator you see in action in that post (<a href=\"https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/\">gijsvandam.nl/post/image-conâ¦</a>) was entirely built with Vue. I thought you might like that.\n<a class=\"u-mention\" href=\"https://twitter.com/anthonygore\"></a>",
+        "text": "By the way that static site generator you see in action in that post (gijsvandam.nl/post/image-conâ¦) was entirely built with Vue. I thought you might like that."
       },
       "in-reply-to": "https://www.gijsvandam.nl/post/image-conversion-resizing-and-compression-with-webassembly/",
       "wm-property": "in-reply-to",

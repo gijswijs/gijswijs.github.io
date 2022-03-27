@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2022-03-25T03:48:53.038Z",
+  "lastFetched": "2022-03-27T06:41:29.892Z",
   "children": [
     {
       "type": "entry",
@@ -41,7 +41,7 @@
       "type": "entry",
       "author": {
         "type": "card",
-        "name": "Edgar Rodríguez",
+        "name": "Edgar RodrÃ­guez",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/789ff855fc0f65fe31ad7be9139792ed9c35f24cf6038999037a77029d2088ce.jpg",
         "url": "https://twitter.com/codingedgar"
       },
@@ -52,8 +52,8 @@
       "wm-source": "https://brid.gy/comment/twitter/gijswijs/1496117169511403527/1496481440854589442",
       "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
       "content": {
-        "html": "I thought it had a name already, Invoke Callback.\n\nIt is my xstate-best-friend btw, I find it the most versatile of services invocation patterns ✨\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/statelyai\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
-        "text": "I thought it had a name already, Invoke Callback.\n\nIt is my xstate-best-friend btw, I find it the most versatile of services invocation patterns ✨"
+        "html": "I thought it had a name already, Invoke Callback.\n\nIt is my xstate-best-friend btw, I find it the most versatile of services invocation patterns â¨\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/statelyai\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "I thought it had a name already, Invoke Callback.\n\nIt is my xstate-best-friend btw, I find it the most versatile of services invocation patterns â¨"
       },
       "in-reply-to": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
       "wm-property": "in-reply-to",
@@ -121,7 +121,7 @@
       "type": "entry",
       "author": {
         "type": "card",
-        "name": "João Silva",
+        "name": "JoÃ£o Silva",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/115a744e14966cb49297c1c69fec923ab9b638f70d4f28b92e2099b97f052462.jpg",
         "url": "https://twitter.com/kappyzor"
       },
@@ -154,8 +154,8 @@
       "wm-source": "https://brid.gy/comment/twitter/gijswijs/1496117169511403527/1496315939142447104",
       "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
       "content": {
-        "html": "You can think of this as a \"partial actor model\" pattern, if you squint 🧐\n\nHere, you can:\n📥 Receive messages \n📤 Send messages to parent\n🗒️ Keep local state in the closure\n\nBut you can't spawn or talk to other actors.\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
-        "text": "You can think of this as a \"partial actor model\" pattern, if you squint 🧐\n\nHere, you can:\n📥 Receive messages \n📤 Send messages to parent\n🗒️ Keep local state in the closure\n\nBut you can't spawn or talk to other actors."
+        "html": "You can think of this as a \"partial actor model\" pattern, if you squint ð§\n\nHere, you can:\nð¥ Receive messages \nð¤ Send messages to parent\nðï¸ Keep local state in the closure\n\nBut you can't spawn or talk to other actors.\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "You can think of this as a \"partial actor model\" pattern, if you squint ð§\n\nHere, you can:\nð¥ Receive messages \nð¤ Send messages to parent\nðï¸ Keep local state in the closure\n\nBut you can't spawn or talk to other actors."
       },
       "in-reply-to": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
       "wm-property": "in-reply-to",
@@ -194,8 +194,8 @@
       "wm-source": "https://brid.gy/comment/twitter/gijswijs/1496117169511403527/1496301128371343362",
       "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
       "content": {
-        "html": "When are we allowed to call something a pattern? :D I'm not sure if you could call it a delegate. It's a function, not a function signature that is passed along with onReceive. But delegation is a confusing term: <a href=\"https://www.saturnflyer.com/blog/the-gang-of-four-is-wrong-and-you-dont-understand-delegation\">saturnflyer.com/blog/the-gang-…</a> (<a href=\"https://www.gijsvandam.nl/reply/2022/02/23-6487\">gijsvandam.nl/reply/2022/02/…</a>)\n<a class=\"u-mention\" href=\"https://twitter.com/kappyzor\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/statelyai\"></a>",
-        "text": "When are we allowed to call something a pattern? :D I'm not sure if you could call it a delegate. It's a function, not a function signature that is passed along with onReceive. But delegation is a confusing term: saturnflyer.com/blog/the-gang-… (gijsvandam.nl/reply/2022/02/…)"
+        "html": "When are we allowed to call something a pattern? :D I'm not sure if you could call it a delegate. It's a function, not a function signature that is passed along with onReceive. But delegation is a confusing term: <a href=\"https://www.saturnflyer.com/blog/the-gang-of-four-is-wrong-and-you-dont-understand-delegation\">saturnflyer.com/blog/the-gang-â¦</a> (<a href=\"https://www.gijsvandam.nl/reply/2022/02/23-6487\">gijsvandam.nl/reply/2022/02/â¦</a>)\n<a class=\"u-mention\" href=\"https://twitter.com/kappyzor\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/statelyai\"></a>",
+        "text": "When are we allowed to call something a pattern? :D I'm not sure if you could call it a delegate. It's a function, not a function signature that is passed along with onReceive. But delegation is a confusing term: saturnflyer.com/blog/the-gang-â¦ (gijsvandam.nl/reply/2022/02/â¦)"
       },
       "in-reply-to": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
       "wm-property": "in-reply-to",
@@ -223,7 +223,7 @@
       "type": "entry",
       "author": {
         "type": "card",
-        "name": "João Silva",
+        "name": "JoÃ£o Silva",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/115a744e14966cb49297c1c69fec923ab9b638f70d4f28b92e2099b97f052462.jpg",
         "url": "https://twitter.com/kappyzor"
       },

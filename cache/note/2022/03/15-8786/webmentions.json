@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2022-03-25T03:48:49.909Z",
+  "lastFetched": "2022-03-27T06:41:24.728Z",
   "children": [
     {
       "type": "entry",
@@ -27,7 +27,7 @@
       "type": "entry",
       "author": {
         "type": "card",
-        "name": "Lorena Ávila",
+        "name": "Lorena Ãvila",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/10cc1052c29e2c82452f24d42a92077f2202546764f8e388ea8101275d199641.jpg",
         "url": "https://twitter.com/loravilag"
       },
@@ -71,7 +71,7 @@
       "type": "entry",
       "author": {
         "type": "card",
-        "name": "Lorena Ávila",
+        "name": "Lorena Ãvila",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/10cc1052c29e2c82452f24d42a92077f2202546764f8e388ea8101275d199641.jpg",
         "url": "https://twitter.com/loravilag"
       },
@@ -82,8 +82,8 @@
       "wm-source": "https://brid.gy/comment/twitter/gijswijs/1503558547140972547/1504150169742462976",
       "wm-target": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
       "content": {
-        "html": "Check for duplicates😔\n<a class=\"u-mention\" href=\"https://twitter.com/electronjs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/mendeley_com\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
-        "text": "Check for duplicates😔"
+        "html": "Check for duplicatesð\n<a class=\"u-mention\" href=\"https://twitter.com/electronjs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/mendeley_com\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "Check for duplicatesð"
       },
       "in-reply-to": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
       "wm-property": "in-reply-to",
@@ -93,7 +93,7 @@
       "type": "entry",
       "author": {
         "type": "card",
-        "name": "Lorena Ávila",
+        "name": "Lorena Ãvila",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/10cc1052c29e2c82452f24d42a92077f2202546764f8e388ea8101275d199641.jpg",
         "url": "https://twitter.com/loravilag"
       },
@@ -122,7 +122,7 @@
       "wm-source": "https://brid.gy/repost/twitter/gijswijs/1503558547140972547/1503576781856595970",
       "wm-target": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
       "content": {
-        "text": "The @mendeley_com Reference Manager is a step backwards from Mendeley Desktop. Wrapping your web app in @electronjs and market it as \"efficient, flexible and responsive\" just isn't cutting it. Stuff missing at first glance:\n\n  * watched folders\n  * rename files\n  * BibTeX…"
+        "text": "The @mendeley_com Reference Manager is a step backwards from Mendeley Desktop. Wrapping your web app in @electronjs and market it as \"efficient, flexible and responsive\" just isn't cutting it. Stuff missing at first glance:\n\n  * watched folders\n  * rename files\n  * BibTeXâ¦"
       },
       "repost-of": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
       "wm-property": "repost-of",
@@ -132,7 +132,7 @@
       "type": "entry",
       "author": {
         "type": "card",
-        "name": "IPY (memeboy) 🟩 ⚡️🌋🍌🍞 ∞/21M 🇮🇩",
+        "name": "IPY (memeboy) ð© â¡ï¸ððð â/21M ð®ð©",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/867c2ada3295dcb91a44aeaa178acd3f9683eb5f6d50382fdf4940e8aee612d6.jpg",
         "url": "https://twitter.com/imanpyudha"
       },

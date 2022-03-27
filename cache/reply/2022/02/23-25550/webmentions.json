@@ -1,11 +1,11 @@
 {
-  "lastFetched": "2022-03-25T03:48:54.041Z",
+  "lastFetched": "2022-03-27T06:41:31.592Z",
   "children": [
     {
       "type": "entry",
       "author": {
         "type": "card",
-        "name": "Edgar Rodríguez",
+        "name": "Edgar RodrÃ­guez",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/789ff855fc0f65fe31ad7be9139792ed9c35f24cf6038999037a77029d2088ce.jpg",
         "url": "https://twitter.com/codingedgar"
       },
@@ -16,8 +16,8 @@
       "wm-source": "https://brid.gy/comment/twitter/gijswijs/1496382713263235076/1496481440854589442",
       "wm-target": "https://www.gijsvandam.nl/reply/2022/02/23-25550/",
       "content": {
-        "html": "I thought it had a name already, Invoke Callback.\n\nIt is my xstate-best-friend btw, I find it the most versatile of services invocation patterns ✨\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/statelyai\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
-        "text": "I thought it had a name already, Invoke Callback.\n\nIt is my xstate-best-friend btw, I find it the most versatile of services invocation patterns ✨"
+        "html": "I thought it had a name already, Invoke Callback.\n\nIt is my xstate-best-friend btw, I find it the most versatile of services invocation patterns â¨\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/statelyai\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "I thought it had a name already, Invoke Callback.\n\nIt is my xstate-best-friend btw, I find it the most versatile of services invocation patterns â¨"
       },
       "in-reply-to": "https://www.gijsvandam.nl/reply/2022/02/23-25550/",
       "wm-property": "in-reply-to",
