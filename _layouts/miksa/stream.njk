@@ -8,7 +8,7 @@
     <ul class="h-feed">
       {% asyncEach micropub in pagination.files %}
       <li>
-        {% include "miksa/components/_micropub.njk" %}
+        {% include "miksa/components/micropub/_micropub-list.njk" %}
       </li>
       {% endeach %}
       {% if pagination.pages.length > 1 %}

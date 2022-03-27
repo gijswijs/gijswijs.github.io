@@ -1,0 +1,6 @@
+{% extends "components/micropub/_micropub.njk" %}
+
+{% block metadata %}
+  {% include "components/micropub/_webmentions.njk" %}
+  {% include "components/micropub/_posse-links.njk" %}
+{% endblock %}
