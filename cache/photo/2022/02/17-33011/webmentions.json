@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2022-03-25T03:48:52.357Z",
+  "lastFetched": "2022-03-27T03:58:35.261Z",
   "children": [
     {
       "type": "entry",
@@ -16,8 +16,8 @@
       "wm-source": "https://brid.gy/comment/twitter/gijswijs/1494238092978438147/1494572469805592577",
       "wm-target": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
       "content": {
-        "html": "Don't forget to mint NFTs when you're done. 🙈\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
-        "text": "Don't forget to mint NFTs when you're done. 🙈"
+        "html": "Don't forget to mint NFTs when you're done. ð\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "Don't forget to mint NFTs when you're done. ð"
       },
       "in-reply-to": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
       "wm-property": "in-reply-to",
@@ -27,7 +27,7 @@
       "type": "entry",
       "author": {
         "type": "card",
-        "name": "Jonī Kyasshu",
+        "name": "JonÄ« Kyasshu",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/19270e80fee372ab231d49f4da76961b6fabe70a27373cce71ac81e4e47d1f33.jpg",
         "url": "https://twitter.com/Joni_Kyasshu"
       },
@@ -45,7 +45,7 @@
       "type": "entry",
       "author": {
         "type": "card",
-        "name": "Jonī Kyasshu",
+        "name": "JonÄ« Kyasshu",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/19270e80fee372ab231d49f4da76961b6fabe70a27373cce71ac81e4e47d1f33.jpg",
         "url": "https://twitter.com/Joni_Kyasshu"
       },
@@ -59,7 +59,7 @@
         "https://video.twimg.com/tweet_video/FLyZoHuXwAAudbP.mp4"
       ],
       "content": {
-        "text": "I am working on some animations to explain basic Lightning Network concepts. Needless to say, I'm not quite there yet.. (gijsvandam.nl/photo/2022/02/…)"
+        "text": "I am working on some animations to explain basic Lightning Network concepts. Needless to say, I'm not quite there yet.. (gijsvandam.nl/photo/2022/02/â¦)"
       },
       "repost-of": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
       "wm-property": "repost-of",
@@ -105,7 +105,7 @@
       "type": "entry",
       "author": {
         "type": "card",
-        "name": "IPY 🟩 ⚡️🌋🍌🍞 ∞/21M 🇮🇩",
+        "name": "IPY ð© â¡ï¸ððð â/21M ð®ð©",
         "photo": "https://webmention.io/avatar/pbs.twimg.com/867c2ada3295dcb91a44aeaa178acd3f9683eb5f6d50382fdf4940e8aee612d6.jpg",
         "url": "https://twitter.com/imanpyudha"
       },
