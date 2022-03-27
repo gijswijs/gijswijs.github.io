@@ -1,12 +1,12 @@
-{% extends "miksa/components/micropub/_micropub.njk" %}
+{% extends "components/micropub/_micropub.njk" %}
 
 {% block metadata %}
-  {% include "miksa/components/micropub/_posse-links.njk" %}
-  {% include "miksa/components/micropub/_webmentions.njk" %}
+  {% include "components/micropub/_posse-links.njk" %}
+  {% include "components/micropub/_webmentions.njk" %}
 {% endblock %}
 
 {% block engagement %}
-  {% include "miksa/components/micropub/_reposts.njk" %}
-  {% include "miksa/components/micropub/_likes.njk" %}
-  {% include "miksa/components/micropub/_replies.njk" %}
+  {% include "components/micropub/_reposts.njk" %}
+  {% include "components/micropub/_likes.njk" %}
+  {% include "components/micropub/_replies.njk" %}
 {% endblock %}
