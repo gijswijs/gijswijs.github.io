@@ -1,0 +1,19 @@
+{% if webmentions['reply-count'] > 0 %}
+  <ul class="replies">
+    {% asyncEach child in webmentions.children | reverse %}
+    {% if child['wm-property'] == 'in-reply-to' %}
+      <li class="u-comment h-cite">
+        <div class="p-author h-card">
+          <img src="{{ child.author.photo }}" alt="{{ child.author.name }}" class="u-photo">
+          <a class="p-name u-url" href="{{ child.author.url }}">{{ child.author.name }}</a>
+          <a href="{{ child.author.url }}">{{ child.author.url }}</a>
+        </div>
+        <p class="p-content p-name">{{ child.content.html | safe }}</p>
+        <a href="{{ child.url }}" class="u-url metadata">
+          <time class="dt-published" datetime="{{ child.published | date() }}">{{ child.published | date("YYYY-MM-DD HH:mm:ss Z") }}</time>
+        </a>
+      </li>
+    {% endif %}
+    {% endeach %}
+  </ul>
+{% endif %}

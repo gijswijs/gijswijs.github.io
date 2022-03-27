@@ -10,6 +10,7 @@
   {% set media = micropub.media %}
   {% set syndicateTo = micropub.syndicateTo %}
   {% set syndication = micropub.syndication %}
+  {% set webmentions = micropub.webmentions %}
 {% endif %}
 
 {% set mfObject = "entry" %}
@@ -82,16 +83,6 @@
       {% endif %}
     </div>
   </div>
-  <div class="metadata">
-    <a href="{{ rootpath }}{{ path }}" class="u-url">
-      <time class="dt-published" datetime="{{ date | date() }}">{{ date | date("YYYY-MM-DD HH:mm:ss Z") }}</time>
-    </a>
-    {% asyncEach link in syndication %}
-    {% if link.destination %}
-      <a href="{{ link.url }}" class="u-syndication icon-{{ link.destination }}">{{ link.destination }}</a>
-    {% else %}
-      <a href="{{ link }}" class="u-syndication">{{ link }}</a>
-    {% endif %}
-    {% endeach %}
-  </div>
+  {% block metadata %}{% endblock %}
+  {% block engagement %}{% endblock %}
 </div>
