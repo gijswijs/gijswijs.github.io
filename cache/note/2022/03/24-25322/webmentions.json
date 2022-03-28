@@ -1,0 +1,52 @@
+{
+  "lastFetched": "2022-03-28T03:45:20.044Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gijs van Dam",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e6dd6e8cb27bc1e8bedd6c85f5c42a220dd1201fa36f5d674772dc0c9ff05d55.jpg",
+        "url": "https://twitter.com/gijswijs"
+      },
+      "url": "https://twitter.com/gijswijs/status/1506891413958672388",
+      "published": "2022-03-24T07:11:24+00:00",
+      "wm-received": "2022-03-25T07:12:12Z",
+      "wm-id": 1368803,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1506889372578332674/1506891413958672388",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/24-25322/",
+      "content": {
+        "html": "timeouts, but they are gone now. Maybe something network related. Thanks for the quick reply tho!\n<a class=\"u-mention\" href=\"http://webmentions.io/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/aaronpk\"></a>",
+        "text": "timeouts, but they are gone now. Maybe something network related. Thanks for the quick reply tho!"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/note/2022/03/24-25322/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Aaron Parecki",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/69491c0a7cf1f6dd2243922244a7267a5a16a53f946df1246e411344a7aceeaa.jpg",
+        "url": "https://twitter.com/aaronpk"
+      },
+      "url": "https://twitter.com/aaronpk/status/1506889706839035908",
+      "published": "2022-03-24T07:04:37+00:00",
+      "wm-received": "2022-03-25T07:12:12Z",
+      "wm-id": 1368804,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1506889372578332674/1506889706839035908",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/24-25322/",
+      "content": {
+        "html": "It looks like it's still up to me, what error are you getting?\n<a class=\"u-mention\" href=\"http://webmentions.io/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "It looks like it's still up to me, what error are you getting?"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/note/2022/03/24-25322/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 2,
+  "like-count": 0,
+  "repost-count": 0
+}

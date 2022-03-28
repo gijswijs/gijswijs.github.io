@@ -1,0 +1,126 @@
+{
+  "lastFetched": "2022-03-28T03:45:22.621Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Chris Wesseling",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/81ec57535e1e71cf6d72ff598b305c1fb17b34e138eddb4836973198ea4f655a.jpg",
+        "url": "https://twitter.com/CharString"
+      },
+      "url": "https://twitter.com/CharString/status/1494572469805592577",
+      "published": "2022-02-18T07:20:19+00:00",
+      "wm-received": "2022-02-18T09:01:24Z",
+      "wm-id": 1353044,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1494238092978438147/1494572469805592577",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
+      "content": {
+        "html": "Don't forget to mint NFTs when you're done. 🙈\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "Don't forget to mint NFTs when you're done. 🙈"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jonī Kyasshu",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/19270e80fee372ab231d49f4da76961b6fabe70a27373cce71ac81e4e47d1f33.jpg",
+        "url": "https://twitter.com/Joni_Kyasshu"
+      },
+      "url": "https://twitter.com/gijswijs/status/1494238092978438147#favorited-by-1455096946759278611",
+      "published": null,
+      "wm-received": "2022-02-17T20:06:36Z",
+      "wm-id": 1352760,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1494238092978438147/1455096946759278611",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jonī Kyasshu",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/19270e80fee372ab231d49f4da76961b6fabe70a27373cce71ac81e4e47d1f33.jpg",
+        "url": "https://twitter.com/Joni_Kyasshu"
+      },
+      "url": "https://twitter.com/Joni_Kyasshu/status/1494294236778405889",
+      "published": "2022-02-17T12:54:43+00:00",
+      "wm-received": "2022-02-17T20:06:10Z",
+      "wm-id": 1352759,
+      "wm-source": "https://brid.gy/repost/twitter/gijswijs/1494238092978438147/1494294236778405889",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
+      "video": [
+        "https://video.twimg.com/tweet_video/FLyZoHuXwAAudbP.mp4"
+      ],
+      "content": {
+        "text": "I am working on some animations to explain basic Lightning Network concepts. Needless to say, I'm not quite there yet.. (gijsvandam.nl/photo/2022/02/…)"
+      },
+      "repost-of": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stijn",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e906f2c4fd16d78c42e0bf09e9cf186556633f1f901081f44cd4ec9aacaab8de.jpg",
+        "url": "https://twitter.com/StijnBtc"
+      },
+      "url": "https://twitter.com/gijswijs/status/1494238092978438147#favorited-by-1057942464118616064",
+      "published": null,
+      "wm-received": "2022-02-17T20:06:07Z",
+      "wm-id": 1352758,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1494238092978438147/1057942464118616064",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sergei Tikhomirov",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/75225f624dec40fb2035d22b256b2a614338faecc3093fd86f1fa55ee1c2f1fe.jpg",
+        "url": "https://twitter.com/serg_tikhomirov"
+      },
+      "url": "https://twitter.com/gijswijs/status/1494238092978438147#favorited-by-2591881526",
+      "published": null,
+      "wm-received": "2022-02-17T12:34:43Z",
+      "wm-id": 1352631,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1494238092978438147/2591881526",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "IPY 🟩 ⚡️🌋🍌🍞 ∞/21M 🇮🇩",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/867c2ada3295dcb91a44aeaa178acd3f9683eb5f6d50382fdf4940e8aee612d6.jpg",
+        "url": "https://twitter.com/imanpyudha"
+      },
+      "url": "https://twitter.com/gijswijs/status/1494238092978438147#favorited-by-96440501",
+      "published": null,
+      "wm-received": "2022-02-17T12:34:43Z",
+      "wm-id": 1352632,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1494238092978438147/96440501",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/02/17-33011/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 1,
+  "like-count": 4,
+  "repost-count": 1
+}

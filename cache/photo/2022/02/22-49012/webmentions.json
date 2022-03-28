@@ -1,0 +1,248 @@
+{
+  "lastFetched": "2022-03-28T03:45:23.642Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "allforabit",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/70757619d384c52e860df85c235ea26c1ee9b2dd587c098ee0373d0d5bc35f04.jpg",
+        "url": "https://twitter.com/allforabit"
+      },
+      "url": "https://twitter.com/gijswijs/status/1496117169511403527#favorited-by-17810612",
+      "published": null,
+      "wm-received": "2022-02-24T00:49:44Z",
+      "wm-id": 1355210,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1496117169511403527/17810612",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matt Pocock",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7cecbcd1dde86e55bf1051440a52e1ad8fbe3c5b8639d2934826067cc88b889c.jpg",
+        "url": "https://twitter.com/mpocock1"
+      },
+      "url": "https://twitter.com/gijswijs/status/1496117169511403527#favorited-by-346640777",
+      "published": null,
+      "wm-received": "2022-02-23T17:17:29Z",
+      "wm-id": 1355090,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1496117169511403527/346640777",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Edgar Rodríguez",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/789ff855fc0f65fe31ad7be9139792ed9c35f24cf6038999037a77029d2088ce.jpg",
+        "url": "https://twitter.com/codingedgar"
+      },
+      "url": "https://twitter.com/codingedgar/status/1496481440854589442",
+      "published": "2022-02-23T13:45:53+00:00",
+      "wm-received": "2022-02-23T17:17:29Z",
+      "wm-id": 1355091,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1496117169511403527/1496481440854589442",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "content": {
+        "html": "I thought it had a name already, Invoke Callback.\n\nIt is my xstate-best-friend btw, I find it the most versatile of services invocation patterns ✨\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/statelyai\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "I thought it had a name already, Invoke Callback.\n\nIt is my xstate-best-friend btw, I find it the most versatile of services invocation patterns ✨"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Farzad Yousefzadeh",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f18aac169a7b0cb02cec53fa5634d23ef53e0c8009e9efbf4bc3bf597638735f.jpg",
+        "url": "https://twitter.com/farzad_yz"
+      },
+      "url": "https://twitter.com/gijswijs/status/1496117169511403527#favorited-by-304289713",
+      "published": null,
+      "wm-received": "2022-02-23T10:32:05Z",
+      "wm-id": 1354977,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1496117169511403527/304289713",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gijs van Dam",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e6dd6e8cb27bc1e8bedd6c85f5c42a220dd1201fa36f5d674772dc0c9ff05d55.jpg",
+        "url": "https://twitter.com/gijswijs"
+      },
+      "url": "https://twitter.com/gijswijs/status/1496382713263235076",
+      "published": "2022-02-23T07:13:34+00:00",
+      "wm-received": "2022-02-23T10:32:04Z",
+      "wm-id": 1354975,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1496117169511403527/1496382713263235076",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "content": {
+        "html": "I like it! I can think of a few use cases. There will be a day in the near future where I am going to use it, for sure.\n<a class=\"u-mention\" href=\"https://twitter.com/statelyai\"></a>",
+        "text": "I like it! I can think of a few use cases. There will be a day in the near future where I am going to use it, for sure."
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Patrick Smith",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3eb22fd90d3f4fff56f8c3047f7586824350608e169a0c56f24c36db853a7ea1.jpg",
+        "url": "https://twitter.com/royalicing"
+      },
+      "url": "https://twitter.com/gijswijs/status/1496117169511403527#favorited-by-1667831797",
+      "published": null,
+      "wm-received": "2022-02-23T10:32:04Z",
+      "wm-id": 1354976,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1496117169511403527/1667831797",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "João Silva",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/115a744e14966cb49297c1c69fec923ab9b638f70d4f28b92e2099b97f052462.jpg",
+        "url": "https://twitter.com/kappyzor"
+      },
+      "url": "https://twitter.com/kappyzor/status/1496420247359864835",
+      "published": "2022-02-23T09:42:43+00:00",
+      "wm-received": "2022-02-23T10:32:03Z",
+      "wm-id": 1354973,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1496117169511403527/1496420247359864835",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "content": {
+        "html": "It has a signature, the \"e\" is an argument.\nCall it lambda, or eventhandler, or pointer to function then, eheheh\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/statelyai\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "It has a signature, the \"e\" is an argument.\nCall it lambda, or eventhandler, or pointer to function then, eheheh"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stately",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7f1cbdd6de5760ad577f30ac7d25bd5eb91e0e5badca8c06fb877f41c7cb58ec.jpg",
+        "url": "https://twitter.com/statelyai"
+      },
+      "url": "https://twitter.com/statelyai/status/1496315939142447104",
+      "published": "2022-02-23T02:48:14+00:00",
+      "wm-received": "2022-02-23T04:09:29Z",
+      "wm-id": 1354857,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1496117169511403527/1496315939142447104",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "content": {
+        "html": "You can think of this as a \"partial actor model\" pattern, if you squint 🧐\n\nHere, you can:\n📥 Receive messages \n📤 Send messages to parent\n🗒️ Keep local state in the closure\n\nBut you can't spawn or talk to other actors.\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "You can think of this as a \"partial actor model\" pattern, if you squint 🧐\n\nHere, you can:\n📥 Receive messages \n📤 Send messages to parent\n🗒️ Keep local state in the closure\n\nBut you can't spawn or talk to other actors."
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stately",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7f1cbdd6de5760ad577f30ac7d25bd5eb91e0e5badca8c06fb877f41c7cb58ec.jpg",
+        "url": "https://twitter.com/statelyai"
+      },
+      "url": "https://twitter.com/gijswijs/status/1496117169511403527#favorited-by-1214951331942850562",
+      "published": null,
+      "wm-received": "2022-02-23T04:09:29Z",
+      "wm-id": 1354858,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1496117169511403527/1214951331942850562",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gijs van Dam",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e6dd6e8cb27bc1e8bedd6c85f5c42a220dd1201fa36f5d674772dc0c9ff05d55.jpg",
+        "url": "https://twitter.com/gijswijs"
+      },
+      "url": "https://twitter.com/gijswijs/status/1496301128371343362",
+      "published": "2022-02-23T01:49:23+00:00",
+      "wm-received": "2022-02-23T04:09:28Z",
+      "wm-id": 1354856,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1496117169511403527/1496301128371343362",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "content": {
+        "html": "When are we allowed to call something a pattern? :D I'm not sure if you could call it a delegate. It's a function, not a function signature that is passed along with onReceive. But delegation is a confusing term: <a href=\"https://www.saturnflyer.com/blog/the-gang-of-four-is-wrong-and-you-dont-understand-delegation\">saturnflyer.com/blog/the-gang-…</a> (<a href=\"https://www.gijsvandam.nl/reply/2022/02/23-6487\">gijsvandam.nl/reply/2022/02/…</a>)\n<a class=\"u-mention\" href=\"https://twitter.com/kappyzor\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/statelyai\"></a>",
+        "text": "When are we allowed to call something a pattern? :D I'm not sure if you could call it a delegate. It's a function, not a function signature that is passed along with onReceive. But delegation is a confusing term: saturnflyer.com/blog/the-gang-… (gijsvandam.nl/reply/2022/02/…)"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rindingvijk",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/222fb6adc34a515db71e762700d783e3a3f795e19e481f46484ab2ad5bcfc5e3.jpg",
+        "url": "https://twitter.com/rindingvijk"
+      },
+      "url": "https://twitter.com/gijswijs/status/1496117169511403527#favorited-by-1346427432010735616",
+      "published": null,
+      "wm-received": "2022-02-22T22:27:43Z",
+      "wm-id": 1354744,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1496117169511403527/1346427432010735616",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "João Silva",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/115a744e14966cb49297c1c69fec923ab9b638f70d4f28b92e2099b97f052462.jpg",
+        "url": "https://twitter.com/kappyzor"
+      },
+      "url": "https://twitter.com/kappyzor/status/1496141348415721472",
+      "published": "2022-02-22T15:14:29+00:00",
+      "wm-received": "2022-02-22T15:17:13Z",
+      "wm-id": 1354561,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1496117169511403527/1496141348415721472",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "content": {
+        "html": "Not a JS expert, but I don't think it's a pattern. onReceive is just a delegate for your own function. Like map or filter\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/statelyai\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "Not a JS expert, but I don't think it's a pattern. onReceive is just a delegate for your own function. Like map or filter"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/photo/2022/02/22-49012/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 6,
+  "like-count": 6,
+  "repost-count": 0
+}

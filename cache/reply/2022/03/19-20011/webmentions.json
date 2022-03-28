@@ -1,0 +1,30 @@
+{
+  "lastFetched": "2022-03-28T03:45:27.638Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "edisonjsapps",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ec99640c8f606f8d588bc37aef543af55156cb79e6a4ade1c27305a2cb0fc296.jpg",
+        "url": "https://twitter.com/edisonjsapps"
+      },
+      "url": "https://twitter.com/edisonjsapps/status/1505065197316317186",
+      "published": "2022-03-19T06:14:40+00:00",
+      "wm-received": "2022-03-23T10:30:06Z",
+      "wm-id": 1368009,
+      "wm-source": "https://brid.gy/repost/twitter/gijswijs/1505055135357190147/1505065197316317186",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/03/19-20011/",
+      "content": {
+        "html": "But you _can_ drag &amp; drop PDFs into your collection which achieves almost the same thing. Some quirks still require getting used to, but I'm happy so far. @zotero couldn't have timed this release any better. Also importing from Mendeley was a breeze. Bye bye @mendeley_com.",
+        "text": "But you _can_ drag & drop PDFs into your collection which achieves almost the same thing. Some quirks still require getting used to, but I'm happy so far. @zotero couldn't have timed this release any better. Also importing from Mendeley was a breeze. Bye bye @mendeley_com."
+      },
+      "repost-of": "https://www.gijsvandam.nl/reply/2022/03/19-20011/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 0,
+  "like-count": 0,
+  "repost-count": 1
+}

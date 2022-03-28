@@ -1,0 +1,153 @@
+{
+  "lastFetched": "2022-03-28T03:45:19.622Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gijs van Dam",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e6dd6e8cb27bc1e8bedd6c85f5c42a220dd1201fa36f5d674772dc0c9ff05d55.jpg",
+        "url": "https://twitter.com/gijswijs"
+      },
+      "url": "https://twitter.com/gijswijs/status/1505053325401763847",
+      "published": "2022-03-19T05:27:29+00:00",
+      "wm-received": "2022-03-19T07:25:38Z",
+      "wm-id": 1365660,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1503558547140972547/1505053325401763847",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "content": {
+        "html": "6.0 just came out of beta! <a href=\"https://www.zotero.org/blog/zotero-6/\">zotero.org/blog/zotero-6/</a> I jumped into the deep end, and _switched_. @zotero 6.0 has a PDF reader, which was the main thing holding me back. Renaming, bibtex sync, deduplication all works out of the gate or with plugins. Only thing missing: watch folder\n<a class=\"u-mention\" href=\"https://twitter.com/electronjs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/loravilag\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/mendeley_com\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/zotero\"></a>",
+        "text": "6.0 just came out of beta! zotero.org/blog/zotero-6/ I jumped into the deep end, and _switched_. @zotero 6.0 has a PDF reader, which was the main thing holding me back. Renaming, bibtex sync, deduplication all works out of the gate or with plugins. Only thing missing: watch folder"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lorena Ávila",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/10cc1052c29e2c82452f24d42a92077f2202546764f8e388ea8101275d199641.jpg",
+        "url": "https://twitter.com/loravilag"
+      },
+      "url": "https://twitter.com/loravilag/status/1504739266357780484",
+      "published": "2022-03-18T08:39:32+00:00",
+      "wm-received": "2022-03-18T11:07:11Z",
+      "wm-id": 1365325,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1503558547140972547/1504739266357780484",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "content": {
+        "html": "Is the time to think about the moving, at least. Zotero 6.0 (beta) has good reviews\n<a class=\"u-mention\" href=\"https://twitter.com/electronjs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/mendeley_com\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/zotero\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "Is the time to think about the moving, at least. Zotero 6.0 (beta) has good reviews"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gijs van Dam",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e6dd6e8cb27bc1e8bedd6c85f5c42a220dd1201fa36f5d674772dc0c9ff05d55.jpg",
+        "url": "https://twitter.com/gijswijs"
+      },
+      "url": "https://twitter.com/gijswijs/status/1504635208448024577",
+      "published": "2022-03-18T01:46:03+00:00",
+      "wm-received": "2022-03-18T02:04:07Z",
+      "wm-id": 1365190,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1503558547140972547/1504635208448024577",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "content": {
+        "html": "Maybe now is the time to switch to <a href=\"https://twitter.com/zotero\">@zotero</a>? The things missing from @mendeley_com Reference Manager can be handled with Zotero plugins afaik.\n<a class=\"u-mention\" href=\"https://twitter.com/electronjs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/loravilag\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/mendeley_com\"></a>",
+        "text": "Maybe now is the time to switch to @zotero? The things missing from @mendeley_com Reference Manager can be handled with Zotero plugins afaik."
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lorena Ávila",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/10cc1052c29e2c82452f24d42a92077f2202546764f8e388ea8101275d199641.jpg",
+        "url": "https://twitter.com/loravilag"
+      },
+      "url": "https://twitter.com/loravilag/status/1504150169742462976",
+      "published": "2022-03-16T17:38:40+00:00",
+      "wm-received": "2022-03-16T18:51:34Z",
+      "wm-id": 1364365,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1503558547140972547/1504150169742462976",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "content": {
+        "html": "Check for duplicates😔\n<a class=\"u-mention\" href=\"https://twitter.com/electronjs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/mendeley_com\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "Check for duplicates😔"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lorena Ávila",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/10cc1052c29e2c82452f24d42a92077f2202546764f8e388ea8101275d199641.jpg",
+        "url": "https://twitter.com/loravilag"
+      },
+      "url": "https://twitter.com/gijswijs/status/1503558547140972547#favorited-by-1504100097029820421",
+      "published": null,
+      "wm-received": "2022-03-16T18:51:05Z",
+      "wm-id": 1364364,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1503558547140972547/1504100097029820421",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "like-of": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "edisonjsapps",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ec99640c8f606f8d588bc37aef543af55156cb79e6a4ade1c27305a2cb0fc296.jpg",
+        "url": "https://twitter.com/edisonjsapps"
+      },
+      "url": "https://twitter.com/edisonjsapps/status/1503576781856595970",
+      "published": "2022-03-15T03:40:14+00:00",
+      "wm-received": "2022-03-15T03:47:24Z",
+      "wm-id": 1363405,
+      "wm-source": "https://brid.gy/repost/twitter/gijswijs/1503558547140972547/1503576781856595970",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "content": {
+        "text": "The @mendeley_com Reference Manager is a step backwards from Mendeley Desktop. Wrapping your web app in @electronjs and market it as \"efficient, flexible and responsive\" just isn't cutting it. Stuff missing at first glance:\n\n  * watched folders\n  * rename files\n  * BibTeX…"
+      },
+      "repost-of": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "IPY (memeboy) 🟩 ⚡️🌋🍌🍞 ∞/21M 🇮🇩",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/867c2ada3295dcb91a44aeaa178acd3f9683eb5f6d50382fdf4940e8aee612d6.jpg",
+        "url": "https://twitter.com/imanpyudha"
+      },
+      "url": "https://twitter.com/gijswijs/status/1503558547140972547#favorited-by-96440501",
+      "published": null,
+      "wm-received": "2022-03-15T02:48:48Z",
+      "wm-id": 1363387,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1503558547140972547/96440501",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "like-of": "https://www.gijsvandam.nl/note/2022/03/15-8786/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 4,
+  "like-count": 2,
+  "repost-count": 1
+}

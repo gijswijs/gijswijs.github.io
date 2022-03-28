@@ -1,0 +1,84 @@
+{
+  "lastFetched": "2022-03-28T03:45:18.357Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "wout",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e3aef656b01c19cddf3640c4783a6290ccf1138700af586b1213745c38c81cdb.jpg",
+        "url": "https://twitter.com/_wout_"
+      },
+      "url": "https://twitter.com/gijswijs/status/1497022907641434115#favorited-by-1118224736549515266",
+      "published": null,
+      "wm-received": "2022-02-25T10:18:25Z",
+      "wm-id": 1355715,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1497022907641434115/1118224736549515266",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/02/25-5777/",
+      "like-of": "https://www.gijsvandam.nl/note/2022/02/25-5777/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "wout",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e3aef656b01c19cddf3640c4783a6290ccf1138700af586b1213745c38c81cdb.jpg",
+        "url": "https://twitter.com/_wout_"
+      },
+      "url": "https://twitter.com/_wout_/status/1497113084703477767",
+      "published": "2022-02-25T07:35:49+00:00",
+      "wm-received": "2022-02-25T10:18:24Z",
+      "wm-id": 1355713,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1497022907641434115/1497113084703477767",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/02/25-5777/",
+      "content": {
+        "html": "I don't like semicolons; what can I say? ;)\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "I don't like semicolons; what can I say? ;)"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/note/2022/02/25-5777/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "S T E E L",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e6424251df3a6f8132c4deb73c7d58654da08cb576fc8c2750031a7c381b6f3b.jpg",
+        "url": "https://twitter.com/uber_boring_man"
+      },
+      "url": "https://twitter.com/gijswijs/status/1497022907641434115#favorited-by-1392258395588153348",
+      "published": null,
+      "wm-received": "2022-02-25T10:18:24Z",
+      "wm-id": 1355714,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1497022907641434115/1392258395588153348",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/02/25-5777/",
+      "like-of": "https://www.gijsvandam.nl/note/2022/02/25-5777/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "₳rt₳ddict69",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5d4bb26d81c8abecb4bd0b05edad1a0fb29aec711e30abec123f979638114af4.jpg",
+        "url": "https://twitter.com/ArtAddict69"
+      },
+      "url": "https://twitter.com/gijswijs/status/1497022907641434115#favorited-by-18473391",
+      "published": null,
+      "wm-received": "2022-02-25T10:18:23Z",
+      "wm-id": 1355712,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1497022907641434115/18473391",
+      "wm-target": "https://www.gijsvandam.nl/note/2022/02/25-5777/",
+      "like-of": "https://www.gijsvandam.nl/note/2022/02/25-5777/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 1,
+  "like-count": 3,
+  "repost-count": 0
+}

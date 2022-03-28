@@ -1,0 +1,48 @@
+{
+  "lastFetched": "2022-03-28T03:45:24.962Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Edgar Rodríguez",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/789ff855fc0f65fe31ad7be9139792ed9c35f24cf6038999037a77029d2088ce.jpg",
+        "url": "https://twitter.com/codingedgar"
+      },
+      "url": "https://twitter.com/codingedgar/status/1496481440854589442",
+      "published": "2022-02-23T13:45:53+00:00",
+      "wm-received": "2022-03-15T13:42:42Z",
+      "wm-id": 1363542,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1496382713263235076/1496481440854589442",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/02/23-25550/",
+      "content": {
+        "html": "I thought it had a name already, Invoke Callback.\n\nIt is my xstate-best-friend btw, I find it the most versatile of services invocation patterns ✨\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/statelyai\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "I thought it had a name already, Invoke Callback.\n\nIt is my xstate-best-friend btw, I find it the most versatile of services invocation patterns ✨"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2022/02/23-25550/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stately",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7f1cbdd6de5760ad577f30ac7d25bd5eb91e0e5badca8c06fb877f41c7cb58ec.jpg",
+        "url": "https://twitter.com/statelyai"
+      },
+      "url": "https://twitter.com/gijswijs/status/1496382713263235076#favorited-by-1214951331942850562",
+      "published": null,
+      "wm-received": "2022-03-02T01:48:12Z",
+      "wm-id": 1357239,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1496382713263235076/1214951331942850562",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/02/23-25550/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/02/23-25550/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 1,
+  "like-count": 1,
+  "repost-count": 0
+}
