@@ -1,7 +1,44 @@
 {
-  "lastFetched": "2022-03-29T13:10:04.412Z",
-  "children": [],
+  "lastFetched": "2022-03-29T13:30:27.854Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rindingvijk",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/222fb6adc34a515db71e762700d783e3a3f795e19e481f46484ab2ad5bcfc5e3.jpg",
+        "url": "https://twitter.com/rindingvijk"
+      },
+      "url": "https://twitter.com/gijswijs/status/1508697807800221702#favorited-by-1346427432010735616",
+      "published": null,
+      "wm-received": "2022-03-29T07:45:42Z",
+      "wm-id": 1371202,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1508697807800221702/1346427432010735616",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/03/29-24484/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/03/29-24484/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Pete Winn 🌋",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a7b0b13b2cff3cd2643da6499bcbdbbc0f8a75b412bca05254bb49ef124ddde9.jpg",
+        "url": "https://twitter.com/Pete_Winn"
+      },
+      "url": "https://twitter.com/gijswijs/status/1508697807800221702#favorited-by-90594445",
+      "published": null,
+      "wm-received": "2022-03-29T07:45:40Z",
+      "wm-id": 1371201,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1508697807800221702/90594445",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/03/29-24484/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/03/29-24484/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
   "reply-count": 0,
-  "like-count": 0,
+  "like-count": 2,
   "repost-count": 0
 }
