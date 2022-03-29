@@ -26,6 +26,10 @@
       <section class="e-content">
         {{ contents | safe }}
       </section>
+      {% include "miksa/components/micropub/_webmentions.njk" %}
+      {% include "miksa/components/micropub/_reposts.njk" %}
+      {% include "miksa/components/micropub/_likes.njk" %}
+      {% include "miksa/components/micropub/_replies.njk" %}
       {% asyncEach url in libraries %}
       <script src="{{ url }}" ></script>
       {% endeach %}
