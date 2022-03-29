@@ -348,7 +348,7 @@
     { "metalsmith-debug": {} },
     {
       "dump-file": {
-        "filename": "note/2022/03/15-8786/index.html"
+        "filename": "post/image-conversion-resizing-and-compression-with-webassembly/index.html"
       }
     },
     {
