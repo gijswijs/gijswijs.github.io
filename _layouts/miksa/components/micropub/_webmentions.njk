@@ -1,0 +1,19 @@
+{% if webmentions['reply-count'] > 0 or webmentions['like-count'] > 0 or webmentions['repost-count'] > 0  %}
+  <div class="metadata">
+    {% if webmentions['repost-count'] > 0 %}
+      <i class="icon-repost">&nbsp;</i>
+      {{ webmentions['repost-count'] }}
+      {{ 'repost' if webmentions['repost-count'] == 1 else 'reposts' }}
+    {% endif %}
+    {% if webmentions['like-count'] > 0 %}
+      <i class="icon-like">&nbsp;</i>
+      {{ webmentions['like-count'] }}
+      {{ 'like' if webmentions['like-count'] == 1 else 'likes' }}
+    {% endif %}
+    {% if webmentions['reply-count'] > 0 %}
+      <i class="icon-reply">&nbsp;</i>
+      {{ webmentions['reply-count'] }}
+      {{ 'reply' if webmentions['reply-count'] == 1 else 'replies' }}
+    {% endif %}
+  </div>
+{% endif %}

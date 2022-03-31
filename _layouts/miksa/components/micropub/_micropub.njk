@@ -1,0 +1,88 @@
+{% if micropub %}
+  {% set title = micropub.title %}
+  {% set tags = micropub.tags %}
+  {% set contents = micropub.contents %}
+  {% set category = micropub.category %}
+  {% set date = micropub.date %}
+  {% set slug = micropub.slug %}
+  {% set collection = micropub.collection %}
+  {% set path = micropub.path %}
+  {% set media = micropub.media %}
+  {% set syndicateTo = micropub.syndicateTo %}
+  {% set syndication = micropub.syndication %}
+  {% set webmentions = micropub.webmentions %}
+{% endif %}
+
+{% set mfObject = "entry" %}
+{% if collection == "event" %}
+  {% set mfObject = "event" %}
+{% endif %}
+{% if collection == "rsvp" %}
+  {% set mfObject = "event" %}
+{% endif %}
+
+<div class="h-{{ mfObject }}">
+  <div class="tweet-container">
+    <div class="u-author h-card">
+      <a href="{{ rootpath }}" class="u-url"><img
+          src="{{ about_img }}"
+          alt="{{ author }}"
+          class="u-photo p-name"/>
+      </a>
+    </div>
+    <div class="tweet">
+      {% asyncEach link in inreplyto %}
+      <p>In reply to: <a href="{{ link }}" class="u-in-reply-to">{{ link }}</a>
+      </p>
+      {% endeach %}
+      {% asyncEach link in bookmarkof %}
+      {% if title %}
+        <p>
+          <a href="{{ link }}" class="u-bookmark-of h-cite">{{ title }}</a>
+        </p>
+      {% else %}
+        <p>
+          <a href="{{ link }}" class="u-bookmark-of">{{ link }}</a>
+        </p>
+      {% endif %}
+      {% endeach %}
+      {% asyncEach link in repostof %}
+      <p>Repost of: <a href="{{ link }}" class="u-repost-of">{{ link }}</a>
+      </P>
+      {% endeach %}
+      {% asyncEach link in likeof %}
+      <p>Like of: <a href="{{ link }}" class="u-like-of">{{ link }}</a>
+      </P>
+      {% endeach %}
+      {% if title and not bookmarkof %}
+        <h1 class="p-name">{{ title }}</h1>
+      {% endif %}
+      <div class="e-content">
+        {{ contents | safe }}
+        {% if syndicateTo %}
+          {% asyncEach url in syndicateTo %}
+          <a href="{{ url }}"></a>
+          {% endeach %}
+        {% endif %}
+      </div>
+      {% if media %}
+        {% asyncEach item in media %}
+        <a href="{{ rootpath }}{{ path }}">
+          {% if item.value %}
+            <img
+              src="{{ item.value }}"
+              alt="{{ item.alt }}"
+              class="u-photo"/>
+          {% else %}
+            <img
+              src="{{ item }}"
+              class="u-photo"/>
+          {% endif %}
+        </a>
+        {% endeach %}
+      {% endif %}
+    </div>
+  </div>
+  {% block metadata %}{% endblock %}
+  {% block engagement %}{% endblock %}
+</div>

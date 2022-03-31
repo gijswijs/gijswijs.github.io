@@ -1,11 +1,11 @@
 ---
-title: Measuring your writing progress with a git word count.
+title: Measuring your writing progress with a git word count
 date: 2021-02-26
 layout: miksa/post.njk
 tags: boilerplate paper, powershell, git
 ---
 
-Writing a scientific paper is hard. Doing your PhD is hard. Writing your thesis is hard. And to make me feel even more miserable I decided to measure my progress by counting the nett change in words I achieve throughout each day.
+Writing a scientific paper is hard. Doing your PhD is hard. Writing your thesis is hard. And to make me feel even more miserable I decided to measure my progress by counting the net change in words I achieve throughout each day.
 I am by no means a productivity guru and I don't know whether word count is a useful indicator for measuring the progress of a paper. That being said, it is a reality check to see how fast my  work is progressing.
 So without further ado here's the Powershell command that outputs the wordcount for the last 25 days based on git commits.
 
@@ -117,4 +117,4 @@ So this is my progress for the past few days of a particular paper I am writing:
 20210209 382
 ```
 
-I was just busy with other things, OK!
+I guess I was just busy with other things...
