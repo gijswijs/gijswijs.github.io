@@ -16,7 +16,7 @@ So two cool tricks, but the latter breaks the former. This article explains the 
 
 ## Schnorr Signatures
 
-Let's start with a normal, vanilla signature, and then work our way up to adaptor signatures. To create a signature we need a public key and a private key. With Schnorr the private key is just an integer value somewhere between \(0\) and \(\sim2^{256}\). 
+Let's start with a normal, vanilla signature, and then work our way up to adaptor signatures. To create a signature we need a public key and a private key. With Schnorr the private key is just an integer value somewhere between \\(0\\) and \\(\sim2^{256}\\). 
 
 https://github.com/ElementsProject/cross-input-aggregation/blob/master/slides/2021-Q2-halfagg-impl.org
 https://tlu.tarilabs.com/cryptography/introduction-schnorr-signatures
