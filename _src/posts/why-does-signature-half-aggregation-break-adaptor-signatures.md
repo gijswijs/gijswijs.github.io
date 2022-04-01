@@ -45,7 +45,40 @@ It is easy to see why this is proof of the Signer knowing \\(x\\) and having use
 
 ## Adaptor Signatures
 
+Now let's crank things up a bit and create an adaptor signature. An adaptor signature is a normal Schnorr signature with an added secret tweak. This tweak is the secret we want to hide and only reveal upon revealing the signature. The tweak is indicated by the letter \\(t\\). Again, we calculate the public key belonging to \\(t\\) with \\(T=tG\\). The challenge and the signature are now slightly different because of the tweak:
 
+\\[e=H(P||R+T||m)\\]
+\\[s=r+t+ex\\]
+
+The adaptor signature \\(s'\\) is the signature minus the secret tweak, so \\(s'=s-t\\). instead of releasing the signature as we did with the vanilla Schnorr signature, we now published the adaptor signature as \\((s',R,T)\\).
+
+The Verifier can still be sure that the Signer owns the secret key \\(x\\). Remember \\(s'=s-t\\), so:
+
+\\[s'=s-t\\]
+\\[s'=r+t+ex-t\\]
+\\[s'=r+ex\\]
+
+Which means that verification didn't really change for the Verifier. The Verifier only needs to add \\(R\\) and \\(T\\) because of the challenge, but apart from that verification remains the same:
+
+\\[s'G = R + Pe\\]
+\\[s'G = rG + xGe\\]
+\\[s'G = (r + ex)G\\]
+
+When the Verifier receives the untweaked signature \\(s\\) it can calculate the secret tweak: \\(t=s-s'\\). Likewise, when the Signer releases the secret tweak, the Verifier can calculate the untweaked signature \\(s=s'+t\\).
+
+This construction is the building block of things like [private Coinswap](https://reyify.com/blog/flipping-the-scriptless-script-on-schnorr), and Cross-chain Swaps.
+
+## Signature Half Aggregation
+
+Now, let's try to understand Signature Half Aggregation. The basic concept of Signature Half Aggregation is to take the \\(i\\) signatures \\((s_{i}, R_{i})\\) that we want to aggregate, and then concatenate all the \\(R\\)-values and sum all the\\(s\\)-values. But as it turned out, that construction [wasn't safe](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-May/014306.html). But with a small adjustment we can make a construction that *is* safe. Instead of summing all the\\(s\\)-values, we sum up all the\\(s\\)-values *after* multiplying them with unpredictable values.
+
+Assume we have \\(n\\) Schnorr signatures we want to aggregate. For each signature, we create an unpredictable value \\(z_{i}\\). So, for \\(i = 1 .. n\\) we calculate the following value:
+
+\\[z_{i}=H(P_{1}||R_{1}||m_{1}||...||P_{n}||R_{n}||m_{n}||i)\\]
+
+Our aggregate signature now becomes:
+
+\\[s_{agg}=\sum_{i=1}^{n}z_{i}s_{i}\\]
 
 https://github.com/ElementsProject/cross-input-aggregation/blob/master/slides/2021-Q2-halfagg-impl.org
 https://tlu.tarilabs.com/cryptography/introduction-schnorr-signatures
