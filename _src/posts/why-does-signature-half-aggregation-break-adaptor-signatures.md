@@ -37,6 +37,8 @@ A Verifier can now verify whether the Signer knows the private key \\(x\\). It o
 
 \\[sG = R + Pe\\]
 
+The verification should fail if that equality doesn't hold.
+
 It is easy to see why this is proof of the Signer knowing \\(x\\) and having used it to sign \\(m\\):
 
 \\[sG = R + Pe\\]
@@ -61,6 +63,10 @@ The Verifier can still be sure that the Signer owns the secret key \\(x\\). Reme
 Which means that verification didn't really change for the Verifier. The Verifier only needs to add \\(R\\) and \\(T\\) because of the challenge, but apart from that verification remains the same:
 
 \\[s'G = R + Pe\\]
+
+And the proof of the correctness is similar as well: 
+
+\\[s'G = R + Pe\\]
 \\[s'G = rG + xGe\\]
 \\[s'G = (r + ex)G\\]
 
@@ -79,6 +85,18 @@ Assume we have \\(n\\) Schnorr signatures we want to aggregate. For each signatu
 Our aggregate signature now becomes:
 
 \\[s_{agg}=\sum_{i=1}^{n}z_{i}s_{i}\\]
+
+The signature is published as \\((s_{agg}, R_{1}...R_{n})\\). It doesn't have to be one (or all) of the Signers of the original signatures that has to do the aggregation. It can be any third party because this construction is non-interactive. It doesn't require the cooperation of the Signers after they have published their own signature.
+
+Verification now becomes slightly different, but it is still easy to prove its correctness:
+
+\\[s_{agg}G = \sum_{i=1}^{n} z_{i}(R_{i}+P_{i}e_{i})\\
+s_{agg}G = \sum_{i=1}^{n} z_{i}(r_{i}G+x_{i}Ge_{i})\\
+s_{agg}G = \sum_{i=1}^{n} z_{i}(r_{i}+x_{i}e_{i})G\\
+s_{agg}G = \sum_{i=1}^{n} z_{i}s_{i}G\\]
+
+## Signature Half Aggregation Breaks Adaptor Signatures
+
 
 https://github.com/ElementsProject/cross-input-aggregation/blob/master/slides/2021-Q2-halfagg-impl.org
 https://tlu.tarilabs.com/cryptography/introduction-schnorr-signatures
