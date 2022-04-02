@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2022-04-02T07:06:26.708Z",
+  "lastWmId": 1371619,
   "children": [
     {
       "type": "entry",
@@ -36,9 +36,27 @@
       "like-of": "https://www.gijsvandam.nl/photo/2022/03/29-24484/",
       "wm-property": "like-of",
       "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "⚡ crispy ⚡",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1b263e9135580729b96c73112d6ecc669b48a03378a15020e14f13502959232b.jpg",
+        "url": "https://twitter.com/bitcoin_crispy"
+      },
+      "url": "https://twitter.com/gijswijs/status/1508697807800221702#favorited-by-256249358",
+      "published": null,
+      "wm-received": "2022-03-30T00:49:49Z",
+      "wm-id": 1371619,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1508697807800221702/256249358",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/03/29-24484/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/03/29-24484/",
+      "wm-property": "like-of",
+      "wm-private": false
     }
   ],
   "reply-count": 0,
-  "like-count": 2,
+  "like-count": 3,
   "repost-count": 0
 }
