@@ -26,7 +26,7 @@ Now let's sign a message with this private key, and validate the signature with 
 \\[
 \begin{align}
 R&=rG \\\\
-[e&=H(P||R||m)
+e&=H(P||R||m)
 \end{align}
 \\]
 
@@ -122,4 +122,4 @@ s_{agg}G &= \sum_{i=1}^{n} z_{i}(R_{i}+P_{i}e_{i}) \\\\
 
 So why does Signature Half Agrregation when used for blockwide signature aggregation in Bitcoin break Adaptor Signatures? Well, we need that untweaked signature \\(s\\) to calculate the secret tweak \\(t=s-s'\\). But the untweaked signature \\(s\\) is lost inside the aggregate signature \\(s_{agg}\\). The only thing we have is the tweaked signature \\(s'\\), with \\(R\\) and \\(T\\), since those were given to us, but the untweaked signature \\(s\\) should have been revealed when published on-chain. Instead we are given the \\(s_{agg}\\) which allows us to verify that all inputs inside the block have been signed, but it doesn't allow us to know the exact value of \\(s\\).
 
-And that's why Signature Half Aggregation Breaks Adaptor Signatures.
+And that's why Signature Half Aggregation breaks Adaptor Signatures.
