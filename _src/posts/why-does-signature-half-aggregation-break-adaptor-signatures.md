@@ -1,17 +1,16 @@
 ---
 title: Why does signature half aggregation break adaptor signatures?
-date: 2022-01-28
+date: 2022-04-04
 layout: miksa/post.njk
 tags: cryptography, lightning network, bitcoin
 math: true
-publish: draft
 ---
 
 There is this cool trick you can do with Schnorr signatures. It is called Adaptor Signature (AS). An adaptor signature is an extra signature that, combined with the original signature, allow for revealing a value that was previously hidden. You can use this trick to solve trust problems as they appear in atomic swaps, coin swaps and Discreet Log Contracts (DLCs).
 
 Signature Aggregation (SA) is a way to aggregate multiple signatures into a single signature. The single aggregate signature is smaller (in bytes) than the original signatures combined. It reduces transaction weight, meaning we can have more transactions per block, which is always a good thing. It's like 7zip for transactions. Signature *Half* Aggregation is a variant of SA that only aggregates half of each signature. It offers less compression, but it has the benefit of not requiring any interaction with the signers, whereas full aggregation does require cooperation of all the signers. 
 
-So two cool tricks, but the latter breaks the former. This article explains the math behind it and why SA breaks AS
+So two cool tricks, but the latter breaks the former when it is used for blockwide signature aggregation. This article explains the math behind it and why SA breaks AS
 <!-- more -->
 
 ## Schnorr Signatures
@@ -27,7 +26,7 @@ Now let's sign a message with this private key, and validate the signature with 
 \\[
 \begin{align}
 R&=rG \\\\
-[e&=H(P||R||m)
+e&=H(P||R||m)
 \end{align}
 \\]
 
@@ -112,7 +111,7 @@ Verification now becomes slightly different, but it is still easy to prove its c
 
 \\[
 \begin{align}
-s_{agg}G = \sum_{i=1}^{n} z_{i}(R_{i}+P_{i}e_{i}) \\\\
+s_{agg}G &= \sum_{i=1}^{n} z_{i}(R_{i}+P_{i}e_{i}) \\\\
 &= \sum_{i=1}^{n} z_{i}(r_{i}G+x_{i}Ge_{i}) \\\\
 &= \sum_{i=1}^{n} z_{i}(r_{i}+x_{i}e_{i})G \\\\
 &= \sum_{i=1}^{n} z_{i}s_{i}G
@@ -121,9 +120,6 @@ s_{agg}G = \sum_{i=1}^{n} z_{i}(R_{i}+P_{i}e_{i}) \\\\
 
 ## Signature Half Aggregation Breaks Adaptor Signatures
 
+So why does Signature Half Agrregation when used for blockwide signature aggregation in Bitcoin break Adaptor Signatures? Well, we need that untweaked signature \\(s\\) to calculate the secret tweak \\(t=s-s'\\). But the untweaked signature \\(s\\) is lost inside the aggregate signature \\(s_{agg}\\). The only thing we have is the tweaked signature \\(s'\\), with \\(R\\) and \\(T\\), since those were given to us, but the untweaked signature \\(s\\) should have been revealed when published on-chain. Instead we are given the \\(s_{agg}\\) which allows us to verify that all inputs inside the block have been signed, but it doesn't allow us to know the exact value of \\(s\\).
 
-https://github.com/ElementsProject/cross-input-aggregation/blob/master/slides/2021-Q2-halfagg-impl.org
-https://tlu.tarilabs.com/cryptography/introduction-schnorr-signatures
-https://bitcoinops.org/en/topics/adaptor-signatures/
-https://medium.com/crypto-garage/adaptor-signature-on-ecdsa-cac148dfa3ad
-
+And that's why Signature Half Aggregation breaks Adaptor Signatures.
