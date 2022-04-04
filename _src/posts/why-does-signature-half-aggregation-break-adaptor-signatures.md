@@ -4,6 +4,45 @@ date: 2022-04-04
 layout: miksa/post.njk
 tags: cryptography, lightning network, bitcoin
 math: true
+syndication:
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918789403398144
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918791940947969
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918794453319681
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918800178561035
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918802615451652
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918807032066052
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918811977129987
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918816905437188
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918821825048582
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918827449626629
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918832319504385
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918837453324293
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918843275018244
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918848580841473
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918851021910018
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918855564328969
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918861646090246
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918864326230016
+  - destination: twitter
+    url: https://twitter.com/gijswijs/status/1510918866771529729
 ---
 
 There is this cool trick you can do with Schnorr signatures. It is called Adaptor Signature (AS). An adaptor signature is an extra signature that, combined with the original signature, allow for revealing a value that was previously hidden. You can use this trick to solve trust problems as they appear in atomic swaps, coin swaps and Discreet Log Contracts (DLCs).
