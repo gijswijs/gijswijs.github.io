@@ -169,8 +169,12 @@
 <p>\[P=xG\]</p>
 <p>You might be tempted to think that it might be easy to calculate the private key <em>x</em> if you know the public key <em>P</em> and the base point <em>G</em>, because \(x=\frac{P}{G}\). But while addition (and multiplication) over an elliptic curve is easy, division (undoing multiplication) is hard. In fact it is so hard, that it is completely infeasible to calculate the private key, given the public key. This is at the foundation of all elliptic curve cryptography.</p>
 <p>Now let&#39;s sign a message with this private key, and validate the signature with the public key. To sign a message we need a <em>challenge</em> and a <em>nonce</em>. A nonce is a random number that we use only one time for signing a single message. We use the letter \(r\) to indicate our nonce. We calculate the public key \(R\) that pairs with \(r\). The challenge is a hash-value that depends on the message we are signing. It all fits together like this:</p>
-<p>\[R=rG\]
-\[e=H(P||R||m)\]</p>
+<p>\[
+\begin{align}
+R&amp;=rG \
+[e&amp;=H(P||R||m)
+\end{align}
+\]</p>
 <p>The hashing function is indicated by \(H()\) and it is chosen in such a way that it returns a value that of the same scale as our private keys. That is why SHA256 is a great choice for the hashing function. It&#39;s important to understand that a hash is <em>just</em> a number. We can us it as such and do some elliptic curve calculations with it to come up with our signature:</p>
 <p>\[s=r + ex\]</p>
 <p>The signature is published by the Signer as \((s, R)\). </p>
@@ -178,24 +182,40 @@
 <p>\[sG = R + Pe\]</p>
 <p>The verification should fail if that equality doesn&#39;t hold.</p>
 <p>It is easy to see why this is proof of the Signer knowing \(x\) and having used it to sign \(m\):</p>
-<p>\[sG = R + Pe\]
-\[sG = rG + xGe\]
-\[sG = (r + ex)G\]</p>
+<p>\[
+\begin{align}
+sG &amp;= R + Pe \
+&amp;= rG + xGe \
+&amp;= (r + ex)G
+\end{align}
+\]</p>
 <h2 id="adaptor-signatures">Adaptor Signatures</h2>
 <p>Now let&#39;s crank things up a bit and create an adaptor signature. An adaptor signature is a normal Schnorr signature with an added secret tweak. This tweak is the secret we want to hide and only reveal upon revealing the signature. The tweak is indicated by the letter \(t\). Again, we calculate the public key belonging to \(t\) with \(T=tG\). The challenge and the signature are now slightly different because of the tweak:</p>
-<p>\[e=H(P||R+T||m)\]
-\[s=r+t+ex\]</p>
+<p>\[
+\begin{align} \
+e&amp;=H(P||R+T||m) \
+s&amp;=r+t+ex
+\end{align}
+\]</p>
 <p>The adaptor signature \(s&#39;\) is the signature minus the secret tweak, so \(s&#39;=s-t\). instead of releasing the signature as we did with the vanilla Schnorr signature, we now published the adaptor signature as \((s&#39;,R,T)\).</p>
 <p>The Verifier can still be sure that the Signer owns the secret key \(x\). Remember \(s&#39;=s-t\), so:</p>
-<p>\[s&#39;=s-t\]
-\[s&#39;=r+t+ex-t\]
-\[s&#39;=r+ex\]</p>
+<p>\[
+\begin{align}
+s&#39;&amp;=s-t \
+&amp;=r+t+ex-t \
+&amp;=r+ex
+\end{align}
+\]</p>
 <p>Which means that verification didn&#39;t really change for the Verifier. The Verifier only needs to add \(R\) and \(T\) because of the challenge, but apart from that verification remains the same:</p>
 <p>\[s&#39;G = R + Pe\]</p>
 <p>And the proof of the correctness is similar as well: </p>
-<p>\[s&#39;G = R + Pe\]
-\[s&#39;G = rG + xGe\]
-\[s&#39;G = (r + ex)G\]</p>
+<p>\[
+\begin{align}
+s&#39;G &amp;= R + Pe \
+&amp;= rG + xGe \
+&amp;= (r + ex)G
+\end{align}
+\]</p>
 <p>When the Verifier receives the untweaked signature \(s\) it can calculate the secret tweak: \(t=s-s&#39;\). Likewise, when the Signer releases the secret tweak, the Verifier can calculate the untweaked signature \(s=s&#39;+t\).</p>
 <p>This construction is the building block of things like <a href="https://reyify.com/blog/flipping-the-scriptless-script-on-schnorr">private Coinswap</a>, and Cross-chain Swaps.</p>
 <h2 id="signature-half-aggregation">Signature Half Aggregation</h2>
@@ -206,10 +226,14 @@
 <p>\[s_{agg}=\sum_{i=1}^{n}z_{i}s_{i}\]</p>
 <p>The signature is published as \((s_{agg}, R_{1}...R_{n})\). It doesn&#39;t have to be one (or all) of the Signers of the original signatures that has to do the aggregation. It can be any third party because this construction is non-interactive. It doesn&#39;t require the cooperation of the Signers after they have published their own signature.</p>
 <p>Verification now becomes slightly different, but it is still easy to prove its correctness:</p>
-<p>\[s_{agg}G = \sum_{i=1}^{n} z_{i}(R_{i}+P_{i}e_{i})\
-s_{agg}G = \sum_{i=1}^{n} z_{i}(r_{i}G+x_{i}Ge_{i})\
-s_{agg}G = \sum_{i=1}^{n} z_{i}(r_{i}+x_{i}e_{i})G\
-s_{agg}G = \sum_{i=1}^{n} z_{i}s_{i}G\]</p>
+<p>\[
+\begin{align}
+s_{agg}G = \sum_{i=1}^{n} z_{i}(R_{i}+P_{i}e_{i}) \
+&amp;= \sum_{i=1}^{n} z_{i}(r_{i}G+x_{i}Ge_{i}) \
+&amp;= \sum_{i=1}^{n} z_{i}(r_{i}+x_{i}e_{i})G \
+&amp;= \sum_{i=1}^{n} z_{i}s_{i}G
+\end{align}
+\]</p>
 <h2 id="signature-half-aggregation-breaks-adaptor-signatures">Signature Half Aggregation Breaks Adaptor Signatures</h2>
 <p><a href="https://github.com/ElementsProject/cross-input-aggregation/blob/master/slides/2021-Q2-halfagg-impl.org">https://github.com/ElementsProject/cross-input-aggregation/blob/master/slides/2021-Q2-halfagg-impl.org</a>
 <a href="https://tlu.tarilabs.com/cryptography/introduction-schnorr-signatures">https://tlu.tarilabs.com/cryptography/introduction-schnorr-signatures</a>
