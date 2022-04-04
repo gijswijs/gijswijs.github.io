@@ -30,6 +30,13 @@
       {% include "miksa/components/micropub/_reposts.njk" %}
       {% include "miksa/components/micropub/_likes.njk" %}
       {% include "miksa/components/micropub/_replies.njk" %}
+      {% asyncEach link in syndication %}
+        {% if link.destination %}
+          <a href="{{ link.url }}" class="u-syndication icon-{{ link.destination }}">{{ link.destination }}</a>
+        {% else %}
+         <a href="{{ link }}" class="u-syndication">{{ link }}</a>
+        {% endif %}
+      {% endeach %}
       {% asyncEach url in libraries %}
       <script src="{{ url }}" ></script>
       {% endeach %}
