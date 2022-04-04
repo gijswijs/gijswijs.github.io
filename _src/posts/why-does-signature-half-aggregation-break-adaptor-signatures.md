@@ -24,8 +24,12 @@ You might be tempted to think that it might be easy to calculate the private key
 
 Now let's sign a message with this private key, and validate the signature with the public key. To sign a message we need a *challenge* and a *nonce*. A nonce is a random number that we use only one time for signing a single message. We use the letter \\(r\\) to indicate our nonce. We calculate the public key \\(R\\) that pairs with \\(r\\). The challenge is a hash-value that depends on the message we are signing. It all fits together like this:
 
-\\[R=rG\\]
-\\[e=H(P||R||m)\\]
+\\[
+\begin{align}
+R&=rG \\
+[e&=H(P||R||m)
+\end{align}
+\\]
 
 The hashing function is indicated by \\(H()\\) and it is chosen in such a way that it returns a value that of the same scale as our private keys. That is why SHA256 is a great choice for the hashing function. It's important to understand that a hash is *just* a number. We can us it as such and do some elliptic curve calculations with it to come up with our signature:
 
@@ -41,24 +45,36 @@ The verification should fail if that equality doesn't hold.
 
 It is easy to see why this is proof of the Signer knowing \\(x\\) and having used it to sign \\(m\\):
 
-\\[sG = R + Pe\\]
-\\[sG = rG + xGe\\]
-\\[sG = (r + ex)G\\]
+\\[
+\begin{align}
+sG &= R + Pe \\
+&= rG + xGe \\
+&= (r + ex)G
+\end{align}
+\\]
 
 ## Adaptor Signatures
 
 Now let's crank things up a bit and create an adaptor signature. An adaptor signature is a normal Schnorr signature with an added secret tweak. This tweak is the secret we want to hide and only reveal upon revealing the signature. The tweak is indicated by the letter \\(t\\). Again, we calculate the public key belonging to \\(t\\) with \\(T=tG\\). The challenge and the signature are now slightly different because of the tweak:
 
-\\[e=H(P||R+T||m)\\]
-\\[s=r+t+ex\\]
+\\[
+\begin{align} \\
+e&=H(P||R+T||m) \\
+s&=r+t+ex
+\end{align}
+\\]
 
 The adaptor signature \\(s'\\) is the signature minus the secret tweak, so \\(s'=s-t\\). instead of releasing the signature as we did with the vanilla Schnorr signature, we now published the adaptor signature as \\((s',R,T)\\).
 
 The Verifier can still be sure that the Signer owns the secret key \\(x\\). Remember \\(s'=s-t\\), so:
 
-\\[s'=s-t\\]
-\\[s'=r+t+ex-t\\]
-\\[s'=r+ex\\]
+\\[
+\begin{align}
+s'&=s-t \\
+&=r+t+ex-t \\
+&=r+ex
+\end{align}
+\\]
 
 Which means that verification didn't really change for the Verifier. The Verifier only needs to add \\(R\\) and \\(T\\) because of the challenge, but apart from that verification remains the same:
 
@@ -66,9 +82,13 @@ Which means that verification didn't really change for the Verifier. The Verifie
 
 And the proof of the correctness is similar as well: 
 
-\\[s'G = R + Pe\\]
-\\[s'G = rG + xGe\\]
-\\[s'G = (r + ex)G\\]
+\\[
+\begin{align}
+s'G &= R + Pe \\
+&= rG + xGe \\
+&= (r + ex)G
+\end{align}
+\\]
 
 When the Verifier receives the untweaked signature \\(s\\) it can calculate the secret tweak: \\(t=s-s'\\). Likewise, when the Signer releases the secret tweak, the Verifier can calculate the untweaked signature \\(s=s'+t\\).
 
@@ -90,10 +110,14 @@ The signature is published as \\((s_{agg}, R_{1}...R_{n})\\). It doesn't have to
 
 Verification now becomes slightly different, but it is still easy to prove its correctness:
 
-\\[s_{agg}G = \sum_{i=1}^{n} z_{i}(R_{i}+P_{i}e_{i})\\
-s_{agg}G = \sum_{i=1}^{n} z_{i}(r_{i}G+x_{i}Ge_{i})\\
-s_{agg}G = \sum_{i=1}^{n} z_{i}(r_{i}+x_{i}e_{i})G\\
-s_{agg}G = \sum_{i=1}^{n} z_{i}s_{i}G\\]
+\\[
+\begin{align}
+s_{agg}G = \sum_{i=1}^{n} z_{i}(R_{i}+P_{i}e_{i}) \\
+&= \sum_{i=1}^{n} z_{i}(r_{i}G+x_{i}Ge_{i}) \\
+&= \sum_{i=1}^{n} z_{i}(r_{i}+x_{i}e_{i})G \\
+&= \sum_{i=1}^{n} z_{i}s_{i}G
+\end{align}
+\\]
 
 ## Signature Half Aggregation Breaks Adaptor Signatures
 
