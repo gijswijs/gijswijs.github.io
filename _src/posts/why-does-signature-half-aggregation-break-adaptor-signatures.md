@@ -26,7 +26,7 @@ Now let's sign a message with this private key, and validate the signature with 
 
 \\[
 \begin{align}
-R&=rG \\
+R&=rG \\\\
 [e&=H(P||R||m)
 \end{align}
 \\]
@@ -47,8 +47,8 @@ It is easy to see why this is proof of the Signer knowing \\(x\\) and having use
 
 \\[
 \begin{align}
-sG &= R + Pe \\
-&= rG + xGe \\
+sG &= R + Pe \\\\
+&= rG + xGe \\\\
 &= (r + ex)G
 \end{align}
 \\]
@@ -58,8 +58,8 @@ sG &= R + Pe \\
 Now let's crank things up a bit and create an adaptor signature. An adaptor signature is a normal Schnorr signature with an added secret tweak. This tweak is the secret we want to hide and only reveal upon revealing the signature. The tweak is indicated by the letter \\(t\\). Again, we calculate the public key belonging to \\(t\\) with \\(T=tG\\). The challenge and the signature are now slightly different because of the tweak:
 
 \\[
-\begin{align} \\
-e&=H(P||R+T||m) \\
+\begin{align} \\\\
+e&=H(P||R+T||m) \\\\
 s&=r+t+ex
 \end{align}
 \\]
@@ -70,8 +70,8 @@ The Verifier can still be sure that the Signer owns the secret key \\(x\\). Reme
 
 \\[
 \begin{align}
-s'&=s-t \\
-&=r+t+ex-t \\
+s'&=s-t \\\\
+&=r+t+ex-t \\\\
 &=r+ex
 \end{align}
 \\]
@@ -84,8 +84,8 @@ And the proof of the correctness is similar as well:
 
 \\[
 \begin{align}
-s'G &= R + Pe \\
-&= rG + xGe \\
+s'G &= R + Pe \\\\
+&= rG + xGe \\\\
 &= (r + ex)G
 \end{align}
 \\]
@@ -112,9 +112,9 @@ Verification now becomes slightly different, but it is still easy to prove its c
 
 \\[
 \begin{align}
-s_{agg}G = \sum_{i=1}^{n} z_{i}(R_{i}+P_{i}e_{i}) \\
-&= \sum_{i=1}^{n} z_{i}(r_{i}G+x_{i}Ge_{i}) \\
-&= \sum_{i=1}^{n} z_{i}(r_{i}+x_{i}e_{i})G \\
+s_{agg}G = \sum_{i=1}^{n} z_{i}(R_{i}+P_{i}e_{i}) \\\\
+&= \sum_{i=1}^{n} z_{i}(r_{i}G+x_{i}Ge_{i}) \\\\
+&= \sum_{i=1}^{n} z_{i}(r_{i}+x_{i}e_{i})G \\\\
 &= \sum_{i=1}^{n} z_{i}s_{i}G
 \end{align}
 \\]
