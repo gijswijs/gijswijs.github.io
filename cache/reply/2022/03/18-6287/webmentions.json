@@ -1,5 +1,5 @@
 {
-  "lastWmId": 1368010,
+  "lastWmId": 1375010,
   "children": [
     {
       "type": "entry",
@@ -21,9 +21,53 @@
       "repost-of": "https://www.gijsvandam.nl/reply/2022/03/18-6287/",
       "wm-property": "repost-of",
       "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gijs van Dam",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e6dd6e8cb27bc1e8bedd6c85f5c42a220dd1201fa36f5d674772dc0c9ff05d55.jpg",
+        "url": "https://twitter.com/gijswijs"
+      },
+      "url": "https://twitter.com/gijswijs/status/1505053325401763847",
+      "published": "2022-03-19T05:27:29+00:00",
+      "wm-received": "2022-04-04T14:29:07Z",
+      "wm-id": 1375010,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1504635208448024577/1505053325401763847",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/03/18-6287/",
+      "content": {
+        "html": "6.0 just came out of beta! <a href=\"https://www.zotero.org/blog/zotero-6/\">zotero.org/blog/zotero-6/</a> I jumped into the deep end, and _switched_. @zotero 6.0 has a PDF reader, which was the main thing holding me back. Renaming, bibtex sync, deduplication all works out of the gate or with plugins. Only thing missing: watch folder\n<a class=\"u-mention\" href=\"https://twitter.com/electronjs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/loravilag\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/mendeley_com\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/zotero\"></a>",
+        "text": "6.0 just came out of beta! zotero.org/blog/zotero-6/ I jumped into the deep end, and _switched_. @zotero 6.0 has a PDF reader, which was the main thing holding me back. Renaming, bibtex sync, deduplication all works out of the gate or with plugins. Only thing missing: watch folder"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2022/03/18-6287/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lorena Ávila",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/10cc1052c29e2c82452f24d42a92077f2202546764f8e388ea8101275d199641.jpg",
+        "url": "https://twitter.com/loravilag"
+      },
+      "url": "https://twitter.com/loravilag/status/1504739266357780484",
+      "published": "2022-03-18T08:39:32+00:00",
+      "wm-received": "2022-04-04T14:29:04Z",
+      "wm-id": 1375009,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1504635208448024577/1504739266357780484",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/03/18-6287/",
+      "content": {
+        "html": "Is the time to think about the moving, at least. Zotero 6.0 (beta) has good reviews\n<a class=\"u-mention\" href=\"https://twitter.com/electronjs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/mendeley_com\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/zotero\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "Is the time to think about the moving, at least. Zotero 6.0 (beta) has good reviews"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2022/03/18-6287/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
     }
   ],
-  "reply-count": 0,
+  "reply-count": 2,
   "like-count": 0,
   "repost-count": 1
 }

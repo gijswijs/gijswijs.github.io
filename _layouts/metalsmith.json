@@ -112,7 +112,7 @@
           "reverse": true
         },
         "stream": {
-          "pattern": "stream/**/*.md",
+          "pattern": ["stream/**/*.md", "posts/**/*.md"],
           "sortBy": "date",
           "reverse": true
         },
