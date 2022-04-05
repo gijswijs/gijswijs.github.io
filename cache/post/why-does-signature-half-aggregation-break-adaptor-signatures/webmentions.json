@@ -1,7 +1,26 @@
 {
-  "lastWmId": null,
-  "children": [],
+  "lastWmId": 1374994,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "IPY (memeboy)🟩 ⚡️🌋🍌🍞 ∞/21M 🇮🇩",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/867c2ada3295dcb91a44aeaa178acd3f9683eb5f6d50382fdf4940e8aee612d6.jpg",
+        "url": "https://twitter.com/imanpyudha"
+      },
+      "url": "https://twitter.com/gijswijs/status/1510918789403398144#favorited-by-96440501",
+      "published": null,
+      "wm-received": "2022-04-04T13:34:11Z",
+      "wm-id": 1374994,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1510918789403398144/96440501",
+      "wm-target": "https://www.gijsvandam.nl/post/why-does-signature-half-aggregation-break-adaptor-signatures/",
+      "like-of": "https://www.gijsvandam.nl/post/why-does-signature-half-aggregation-break-adaptor-signatures/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
   "reply-count": 0,
-  "like-count": 0,
+  "like-count": 1,
   "repost-count": 0
 }
