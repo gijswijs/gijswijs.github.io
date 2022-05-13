@@ -11,7 +11,6 @@
   {% set syndicateTo = micropub.syndicateTo %}
   {% set syndication = micropub.syndication %}
   {% set webmentions = micropub.webmentions %}
-  {% set excerpt = micropub.excerpt %}
 {% endif %}
 
 {% set mfObject = "entry" %}
@@ -47,10 +46,12 @@
         </p>
       {% endif %}
       {% endeach %}
-      {% asyncEach link in repostof %}
-      <p>Repost of: <a href="{{ link }}" class="u-repost-of">{{ link }}</a>
-      </P>
-      {% endeach %}
+      {% if contents | length == 0 and repostof %}
+        {% asyncEach link in repostof %}
+        <p>Repost of: <a href="{{ link }}" class="u-repost-of">{{ link }}</a>
+        </P>
+        {% endeach %}
+      {% endif %}y
       {% asyncEach link in likeof %}
       <p>Like of: <a href="{{ link }}" class="u-like-of">{{ link }}</a>
       </P>
@@ -59,15 +60,18 @@
         <h1 class="p-name">{{ title }}</h1>
       {% endif %}
       <div class="e-content">
-        {% if excerpt %}
-        	{{ excerpt | safe }}
-        {% else %}
-        	{{ contents | safe }}
-        	{% if syndicateTo %}
-          	{% asyncEach url in syndicateTo %}
-          	<a href="{{ url }}"></a>
-          	{% endeach %}
-        	{% endif %}
+        {{ contents | safe }}
+        {% if contents | length > 0 and repostof %}
+          <cite class="h-cite u-quotation-of">
+            {% asyncEach link in repostof %}
+            <a href="{{ link }}" class="u-url">{{ link }}</a>
+            {% endeach %}
+          </cite>
+        {% endif %}
+        {% if syndicateTo %}
+          {% asyncEach url in syndicateTo %}
+          <a href="{{ url }}"></a>
+          {% endeach %}
         {% endif %}
       </div>
       {% if media %}
