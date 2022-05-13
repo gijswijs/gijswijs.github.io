@@ -11,6 +11,7 @@
   {% set syndicateTo = micropub.syndicateTo %}
   {% set syndication = micropub.syndication %}
   {% set webmentions = micropub.webmentions %}
+  {% set excerpt = micropub.excerpt %}
 {% endif %}
 
 {% set mfObject = "entry" %}
@@ -60,7 +61,11 @@
         <h1 class="p-name">{{ title }}</h1>
       {% endif %}
       <div class="e-content">
-        {{ contents | safe }}
+        {% if excerpt %}
+          {{ excerpt | safe }}
+        {% else  %}
+          {{ contents | safe }}
+        {% endif %}
         {% if contents | length > 0 and repostof %}
           <cite class="h-cite u-quotation-of">
             {% asyncEach link in repostof %}
