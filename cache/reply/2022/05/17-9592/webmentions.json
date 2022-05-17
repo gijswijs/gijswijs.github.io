@@ -1,7 +1,485 @@
 {
-  "lastWmId": null,
-  "children": [],
+  "lastWmId": 1399651,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Cory Doctorow",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/81f6a9f0482fd169a2ff3e1f64cf7f03d53adce1d934bf123102eda2c7365b80.jpg",
+        "url": "https://twitter.com/doctorow"
+      },
+      "url": "https://twitter.com/doctorow/status/1526392454236123138",
+      "published": "2022-05-17T02:41:34+00:00",
+      "wm-received": "2022-05-17T05:59:50Z",
+      "wm-id": 1399651,
+      "wm-source": "https://brid.gy/repost/twitter/gijswijs/1526392373034553346/1526392454236123138",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "content": {
+        "text": "Voting with your wallet: Now I am somehow responsible for working conditions and the env footprint of the companies I buy from. Don't like it? You should have enforced it better with your wallet!\n\nI prefer to put people in office to do that for me."
+      },
+      "repost-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Fudo Myoö",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a6459a6e288dbe0723ec3185ca56638d5aa989da2d360e70de927b40727e0808.jpg",
+        "url": "https://twitter.com/OccamsTazer"
+      },
+      "url": "https://twitter.com/OccamsTazer/status/1526394710645932032",
+      "published": "2022-05-17T02:50:32+00:00",
+      "wm-received": "2022-05-17T05:59:49Z",
+      "wm-id": 1399650,
+      "wm-source": "https://brid.gy/repost/twitter/gijswijs/1526392373034553346/1526394710645932032",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "content": {
+        "text": "Voting with your wallet: Now I am somehow responsible for working conditions and the env footprint of the companies I buy from. Don't like it? You should have enforced it better with your wallet!\n\nI prefer to put people in office to do that for me."
+      },
+      "repost-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kathrin Thalhammer",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2fcd5aabbdaf619a87c6c13d23819f0f5ec0bcc38bb38903e0b2682a69a6070c.jpg",
+        "url": "https://twitter.com/puzzledpeaces"
+      },
+      "url": "https://twitter.com/puzzledpeaces/status/1526435266763931648",
+      "published": "2022-05-17T05:31:42+00:00",
+      "wm-received": "2022-05-17T05:59:48Z",
+      "wm-id": 1399649,
+      "wm-source": "https://brid.gy/repost/twitter/gijswijs/1526392373034553346/1526435266763931648",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "content": {
+        "text": "Voting with your wallet: Now I am somehow responsible for working conditions and the env footprint of the companies I buy from. Don't like it? You should have enforced it better with your wallet!\n\nI prefer to put people in office to do that for me."
+      },
+      "repost-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ben Goren",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3c9749da883e23eda37b99379c47216b9871b574a8aefff84c4b8ad27c24b3e3.png",
+        "url": "https://twitter.com/BanGaoRen"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-1326967123",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:46Z",
+      "wm-id": 1399647,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/1326967123",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kevin Slavin",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4d2f252cdf16898567221808d0409531770adc83d97ff20f7efd2f7548ccb32f.jpg",
+        "url": "https://twitter.com/slavin_fpo"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-17561826",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:46Z",
+      "wm-id": 1399648,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/17561826",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "AetherFang 🐉🖋️🍵",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ffe1ba0fb012e502dcbeaf46678d02c377a0a000c50ef29e87f412e226fd1d77.jpg",
+        "url": "https://twitter.com/TaniaRichter"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-27786968",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:45Z",
+      "wm-id": 1399646,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/27786968",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andrés Diplotti (vacunado💉💉)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ee25c5b5a46501992ed5e452cb4bc0913ade460ce43917014a773a3664ac6ffe.png",
+        "url": "https://twitter.com/adiplotti"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-12191132",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:43Z",
+      "wm-id": 1399645,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/12191132",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jackie Henriques",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5e380ed457aa748f5a64bd36182917261605e9f6fdcb19e9883f3f02d556f503.jpg",
+        "url": "https://twitter.com/PsychicCensor"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-37871378",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:42Z",
+      "wm-id": 1399644,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/37871378",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kathrin Thalhammer",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2fcd5aabbdaf619a87c6c13d23819f0f5ec0bcc38bb38903e0b2682a69a6070c.jpg",
+        "url": "https://twitter.com/puzzledpeaces"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-179474068",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:41Z",
+      "wm-id": 1399643,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/179474068",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adam Johnson",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/092c610d3330de99e941d37072fcc6d4a7454faa36877d884dc993bd7d655c58.jpg",
+        "url": "https://twitter.com/AdamJohnsonKY"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-157545978",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:38Z",
+      "wm-id": 1399642,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/157545978",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "OhNowWhat?",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/009b1e5ea83fe962055f62b7c51236f3bff89f0e3474b5edf9259f575e569bf2.jpg",
+        "url": "https://twitter.com/paigejiffy"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-2730987470",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:37Z",
+      "wm-id": 1399640,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/2730987470",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "KansasWoman",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0d47a1864f87f05d31d328d262da9310b60cca0a8e0c590ed30685fa308f7876.jpg",
+        "url": "https://twitter.com/WomanKansas"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-1046386052355817473",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:37Z",
+      "wm-id": 1399641,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/1046386052355817473",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Peter Wood",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7e8d2e633091342bde46d8d9d1e0e14fc5781fce35cfcac4bbd9d5b685b80737.jpg",
+        "url": "https://twitter.com/peter_j_wood"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-19075335",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:36Z",
+      "wm-id": 1399639,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/19075335",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marc Jacobs",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0654375d1ce62d971d5ad30d799733a5f6b8c54a57128e5ebe4aa1d399c9b99c.jpg",
+        "url": "https://twitter.com/trollball"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-62743784",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:35Z",
+      "wm-id": 1399637,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/62743784",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "allisonhenle",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/9d5c7c02a43d15ce30baeb2bf74035ba3b908edb3bc3572d9ba86448b8b8b491.jpg",
+        "url": "https://twitter.com/allisonhenle"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-16872501",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:35Z",
+      "wm-id": 1399638,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/16872501",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Fudo Myoö",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a6459a6e288dbe0723ec3185ca56638d5aa989da2d360e70de927b40727e0808.jpg",
+        "url": "https://twitter.com/OccamsTazer"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-136019527",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:34Z",
+      "wm-id": 1399636,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/136019527",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kirk Murphy 🇺🇦",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/9c26f68ae4dac4105b76e7b00ce5e792df3af769e471038d90bd98b6377c7ec2.png",
+        "url": "https://twitter.com/kirkmurphy"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-16088941",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:33Z",
+      "wm-id": 1399634,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/16088941",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gasper Kohek",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fbcd06cc4925f935ecd221979bcd7851b06c608d5ef271e8c46dbb5701878426.jpg",
+        "url": "https://twitter.com/G_Show00"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-960946807978315776",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:33Z",
+      "wm-id": 1399635,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/960946807978315776",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mr Brown Patches",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d2866fc384ebcba0258f1ce13f2c3276d5f67006dd853c7d221f20e76f315699.jpg",
+        "url": "https://twitter.com/mrbrownpatches"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-1371909999455264768",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:32Z",
+      "wm-id": 1399633,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/1371909999455264768",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "C F",
+        "photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+        "url": "https://twitter.com/firesheep67"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-114887319",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:31Z",
+      "wm-id": 1399631,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/114887319",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "The Gryphon King, Larry Dixon",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0c691c3437adb5ee49ee508eb1a1a1d17e010890b5d0adfa4a6657fc3857693e.jpg",
+        "url": "https://twitter.com/LarryDixonTGK"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-918649719198330880",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:31Z",
+      "wm-id": 1399632,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/918649719198330880",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tracy Erickson",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c68e8f82a609c3e02dc382ece1efd8a244ccab404bfba24eed4a979b355cad3e.jpg",
+        "url": "https://twitter.com/fantasymiscell1"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-1008524768482455553",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:30Z",
+      "wm-id": 1399629,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/1008524768482455553",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nathan is: well-caffeinated!",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c1a7503f5ab49febe84acc2c0afa88782bf0c8d546d41d516b94c158cda2bf1a.jpg",
+        "url": "https://twitter.com/uBer_Poutine"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-205549313",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:30Z",
+      "wm-id": 1399630,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/205549313",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Karina",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5a4949232c287e0148a4ce55dd446a6c00f82026a1253b6bcd95eb9c11cf15ee.jpg",
+        "url": "https://twitter.com/NNss72"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-2863260743",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:29Z",
+      "wm-id": 1399628,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/2863260743",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Steve Cartwright",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ba23f60e9831b0d8036c24c5edbba597bac7f1a46b86c28261d0eca7fe0d6260.jpg",
+        "url": "https://twitter.com/chompmancobra"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-4440187113",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:28Z",
+      "wm-id": 1399626,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/4440187113",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "letsbegaypirates",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a98073faa089f70b8277b94e4c9b45f83c3d752dffa7c0788b5260d533983f89.jpg",
+        "url": "https://twitter.com/letsbekind2"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-1187872291440381953",
+      "published": null,
+      "wm-received": "2022-05-17T05:59:28Z",
+      "wm-id": 1399627,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/1187872291440381953",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
   "reply-count": 0,
-  "like-count": 0,
-  "repost-count": 0
+  "like-count": 23,
+  "repost-count": 3
 }
