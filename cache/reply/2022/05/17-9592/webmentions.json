@@ -1,5 +1,5 @@
 {
-  "lastWmId": 1399651,
+  "lastWmId": 1399760,
   "children": [
     {
       "type": "entry",
@@ -477,9 +477,161 @@
       "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
       "wm-property": "like-of",
       "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shanti Maharaj",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ec1b5e3a1a33e8bf47a7cf611c7127a63c4809d469d37a069af44c7771335fd3.jpg",
+        "url": "https://twitter.com/EbookTherapist"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-302171346",
+      "published": null,
+      "wm-received": "2022-05-17T12:48:32Z",
+      "wm-id": 1399760,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/302171346",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Aroha Nui (We All Breathe the Same air everywhere)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/501c597d10646c2f325e17cb998c80f8249775f5221d9e59242995344990faac.jpg",
+        "url": "https://twitter.com/SaulArohaNuiTea"
+      },
+      "url": "https://twitter.com/SaulArohaNuiTea/status/1526530490127228928",
+      "published": "2022-05-17T11:50:05+00:00",
+      "wm-received": "2022-05-17T12:48:31Z",
+      "wm-id": 1399759,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1526392373034553346/1526530490127228928",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "content": {
+        "html": "It's an inevitable thing\n\nIf one doesn't consciously investigate sources in consumer activity :\n\nThen the unscrupulous will find a way to take advantage of that apathy by cutting corners and abusing the various ecosystems to get the dollars \n\nAlso inevitable : politicians lie\n<a class=\"u-mention\" href=\"https://twitter.com/doctorow\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "It's an inevitable thing\n\nIf one doesn't consciously investigate sources in consumer activity :\n\nThen the unscrupulous will find a way to take advantage of that apathy by cutting corners and abusing the various ecosystems to get the dollars \n\nAlso inevitable : politicians lie"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dracomorph",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a30a14b4e0d7964f528129e2b07c2a7be9bcfe5b9b713a532814a015041100cc.jpg",
+        "url": "https://twitter.com/dracomorph"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-1572107281",
+      "published": null,
+      "wm-received": "2022-05-17T12:48:03Z",
+      "wm-id": 1399757,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/1572107281",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "SharklessCereal",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0b429c0a326d4107464bb9b275a53df99631cd81f0059a9e83f122eff7ca72dc.jpg",
+        "url": "https://twitter.com/SharklessC"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-1267808725009604609",
+      "published": null,
+      "wm-received": "2022-05-17T12:48:03Z",
+      "wm-id": 1399758,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/1267808725009604609",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lal",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d25b1c7cbc7e40e0c5d9e51d4fa79fb55c17d32c61ec0ed83878aa84dc84153c.jpg",
+        "url": "https://twitter.com/spacesuitpig"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-1516181181754138624",
+      "published": null,
+      "wm-received": "2022-05-17T09:22:00Z",
+      "wm-id": 1399701,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/1516181181754138624",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Godefroid Chapelle",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1c1e22e849518ac7dfce540a81523fae87619acf6a4c920bbd91984fc0cae3e3.png",
+        "url": "https://twitter.com/__gotcha"
+      },
+      "url": "https://twitter.com/__gotcha/status/1526456015763427332",
+      "published": "2022-05-17T06:54:08+00:00",
+      "wm-received": "2022-05-17T09:22:00Z",
+      "wm-id": 1399702,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1526392373034553346/1526456015763427332",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "content": {
+        "html": "I used to think that people in office would do the work.\n\nSomewhere in the 2000s, I came to the sad realization that it is not the case and that my micro power is to vote with my money.\n\nWhich lead to spend more time to think about the functioning of money. 1/2\n<a class=\"u-mention\" href=\"https://twitter.com/doctorow\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "I used to think that people in office would do the work.\n\nSomewhere in the 2000s, I came to the sad realization that it is not the case and that my micro power is to vote with my money.\n\nWhich lead to spend more time to think about the functioning of money. 1/2"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "👨‍🚀 Víctor J. Merino 👨‍🔬 HULL BREACH 👩‍🚀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/422d15421294504836bca16ac2114d02bec6fc45a64ebabd092d39cc366b1a34.jpg",
+        "url": "https://twitter.com/Victor_el_DM"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-361185171",
+      "published": null,
+      "wm-received": "2022-05-17T09:21:59Z",
+      "wm-id": 1399700,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/361185171",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bernd Haar + 3x mRNA",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b763574686aa804578ac01af6cd968109bb07b184c52f2463bc8299e2e05d744.jpg",
+        "url": "https://twitter.com/berndhaar"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526392373034553346#favorited-by-402024970",
+      "published": null,
+      "wm-received": "2022-05-17T09:21:55Z",
+      "wm-id": 1399699,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526392373034553346/402024970",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/17-9592/",
+      "wm-property": "like-of",
+      "wm-private": false
     }
   ],
-  "reply-count": 0,
-  "like-count": 23,
+  "reply-count": 2,
+  "like-count": 29,
   "repost-count": 3
 }
