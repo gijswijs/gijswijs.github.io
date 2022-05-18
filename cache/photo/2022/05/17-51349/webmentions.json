@@ -1,7 +1,44 @@
 {
-  "lastWmId": null,
-  "children": [],
+  "lastWmId": 1399971,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "João Silva",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/115a744e14966cb49297c1c69fec923ab9b638f70d4f28b92e2099b97f052462.jpg",
+        "url": "https://twitter.com/kappyzor"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526567524741042176#favorited-by-21319427",
+      "published": null,
+      "wm-received": "2022-05-17T21:08:23Z",
+      "wm-id": 1399971,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526567524741042176/21319427",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/05/17-51349/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/05/17-51349/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "David Keeble 🇺🇦",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1cdee4eb3562d59753a2f01d4b52871b5253612d1290dc6ac15132eb499f0754.jpg",
+        "url": "https://twitter.com/drtkeebl"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526567524741042176#favorited-by-15297459",
+      "published": null,
+      "wm-received": "2022-05-17T16:49:49Z",
+      "wm-id": 1399853,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526567524741042176/15297459",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/05/17-51349/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/05/17-51349/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
   "reply-count": 0,
-  "like-count": 0,
+  "like-count": 2,
   "repost-count": 0
 }
