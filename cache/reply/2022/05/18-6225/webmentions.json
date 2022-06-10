@@ -1,7 +1,44 @@
 {
-  "lastWmId": null,
-  "children": [],
+  "lastWmId": 1400077,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Rene Pickhardt",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/97938d23c41b179950cd02d4f1496a635bde52a8070fd8c5bbd6078f8120897f.jpg",
+        "url": "https://twitter.com/renepickhardt"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526740618696966144#favorited-by-232760709",
+      "published": null,
+      "wm-received": "2022-05-18T07:39:57Z",
+      "wm-id": 1400077,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526740618696966144/232760709",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/18-6225/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/18-6225/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "DJ Seeds",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bb56fd9d7f335074c4ed5499009e9a508dbd83ee80d02ddb7c4cb66c8952ce48.jpg",
+        "url": "https://twitter.com/dj_seeds"
+      },
+      "url": "https://twitter.com/gijswijs/status/1526740618696966144#favorited-by-1098769443306450944",
+      "published": null,
+      "wm-received": "2022-05-18T04:28:24Z",
+      "wm-id": 1400053,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1526740618696966144/1098769443306450944",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/05/18-6225/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/05/18-6225/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
   "reply-count": 0,
-  "like-count": 0,
+  "like-count": 2,
   "repost-count": 0
 }

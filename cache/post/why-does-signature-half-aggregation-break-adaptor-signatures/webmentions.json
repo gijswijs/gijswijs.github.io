@@ -1,5 +1,5 @@
 {
-  "lastWmId": 1374994,
+  "lastWmId": 1408352,
   "children": [
     {
       "type": "entry",
@@ -18,9 +18,48 @@
       "like-of": "https://www.gijsvandam.nl/post/why-does-signature-half-aggregation-break-adaptor-signatures/",
       "wm-property": "like-of",
       "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "BIG | ZPrize.io: Zero-Knowledge Proof Competition",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/320e513145d03307e7b6eee9ae93fc4730a72ef6219c52143eb51abe990d337a.jpg",
+        "url": "https://twitter.com/BIG_ZPrize"
+      },
+      "url": "https://twitter.com/BIG_ZPrize/status/1532212826407743488",
+      "published": "2022-06-02T04:09:39+00:00",
+      "wm-received": "2022-06-02T06:10:47Z",
+      "wm-id": 1408352,
+      "wm-source": "https://brid.gy/repost/twitter/gijswijs/1510918802615451652/1532212826407743488",
+      "wm-target": "https://www.gijsvandam.nl/post/why-does-signature-half-aggregation-break-adaptor-signatures/",
+      "content": {
+        "text": "You might be tempted to think that it is easy to calculate the private key 'x' if you know the public key 'P' and the base point 'G'. But in elliptic curve cryptography addition (and multiplication) is easy and division (undoing multiplication) is impossibly hard."
+      },
+      "repost-of": "https://www.gijsvandam.nl/post/why-does-signature-half-aggregation-break-adaptor-signatures/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "BIG | ZPrize.io: Zero-Knowledge Proof Competition",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/320e513145d03307e7b6eee9ae93fc4730a72ef6219c52143eb51abe990d337a.jpg",
+        "url": "https://twitter.com/BIG_ZPrize"
+      },
+      "url": "https://twitter.com/gijswijs/status/1510918802615451652#favorited-by-1452473728340660226",
+      "published": null,
+      "wm-received": "2022-06-02T06:10:46Z",
+      "wm-id": 1408351,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1510918802615451652/1452473728340660226",
+      "wm-target": "https://www.gijsvandam.nl/post/why-does-signature-half-aggregation-break-adaptor-signatures/",
+      "like-of": "https://www.gijsvandam.nl/post/why-does-signature-half-aggregation-break-adaptor-signatures/",
+      "wm-property": "like-of",
+      "wm-private": false
     }
   ],
   "reply-count": 0,
-  "like-count": 1,
-  "repost-count": 0
+  "like-count": 2,
+  "repost-count": 1
 }
