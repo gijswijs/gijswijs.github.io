@@ -1,7 +1,44 @@
 {
-  "lastWmId": null,
-  "children": [],
+  "lastWmId": 1417790,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ramon",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/222fb6adc34a515db71e762700d783e3a3f795e19e481f46484ab2ad5bcfc5e3.jpg",
+        "url": "https://twitter.com/rindingvijk"
+      },
+      "url": "https://twitter.com/gijswijs/status/1536906140394586114#favorited-by-1346427432010735616",
+      "published": null,
+      "wm-received": "2022-06-16T11:41:17Z",
+      "wm-id": 1417790,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1536906140394586114/1346427432010735616",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/06/15-10659/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/06/15-10659/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Micħel Brinckman",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/52f7c9f82b00db2e8b2584d26214963a8d70785b71223e2a0af7c4cfe6f55f27.jpg",
+        "url": "https://twitter.com/michelbrinckman"
+      },
+      "url": "https://twitter.com/gijswijs/status/1536906140394586114#favorited-by-31397790",
+      "published": null,
+      "wm-received": "2022-06-16T11:41:17Z",
+      "wm-id": 1417791,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1536906140394586114/31397790",
+      "wm-target": "https://www.gijsvandam.nl/photo/2022/06/15-10659/",
+      "like-of": "https://www.gijsvandam.nl/photo/2022/06/15-10659/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
   "reply-count": 0,
-  "like-count": 0,
+  "like-count": 2,
   "repost-count": 0
 }
