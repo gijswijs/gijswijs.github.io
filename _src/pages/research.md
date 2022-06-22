@@ -10,14 +10,14 @@ sortId: 2
 
 | year | paper                                                                                                                                                                                                                |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2022 | van Dam, G. & Kadir, R. A. (2022). Hiding Payments in Lightning Network with Approximate Differentially Private Payment Channels, in Computers & Security, 2022 (in press) |                                                                                 |
-| 2020 | <a name="vandam2020"></a>van Dam G., Kadir R.A., Nohuddin P.N.E., Zaman H.B. (2020) Improvements of the Balance Discovery Attack on Lightning Network Payment Channels. In: H&ouml;lbl M., Rannenberg K., Welzer T. (eds) ICT Systems Security and Privacy Protection. SEC 2020. IFIP Advances in Information and Communication Technology, vol 580. Springer, Cham. https://doi.org/10.1007/978-3-030-58201-2_21 |
+| 2022 | van Dam, G. & Kadir, R. A. (2022). Hiding Payments in Lightning Network with Approximate Differentially Private Payment Channels, in Computers & Security, vol. 115, Apr. 2022, doi: [10.1016/j.cose.2022.102623](https://doi.org/10.1016/j.cose.2022.102623) |                                                                                 |
+| 2020 | <a name="vandam2020"></a>van Dam G., Kadir R.A., Nohuddin P.N.E., Zaman H.B. (2020) Improvements of the Balance Discovery Attack on Lightning Network Payment Channels. In: H&ouml;lbl M., Rannenberg K., Welzer T. (eds) ICT Systems Security and Privacy Protection. SEC 2020. IFIP Advances in Information and Communication Technology, vol 580. Springer, Cham. doi: [10.1007/978-3-030-58201-2_21](https://doi.org/10.1007/978-3-030-58201-2_21) |
 
 ## Preprints
 
 | year | paper                                                                                                                                                                                                                |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2019 | van Dam, G., Kadir, R. A., Nohuddin, P. N. E., & Zaman, H. B. (2019). Improvements of the Balance Discovery Attack on Lightning Network Payment Channels. Cryptology ePrint Archive, Report 2019/1385. https://ia.cr/2019/1385 ([peer reviewed version](#vandam2020))|
+| 2019 | van Dam, G., Kadir, R. A., Nohuddin, P. N. E., & Zaman, H. B. (2019). Improvements of the Balance Discovery Attack on Lightning Network Payment Channels. Cryptology ePrint Archive, Report 2019/1385. [https://ia.cr/2019/1385](https://ia.cr/2019/1385) ([peer reviewed version](#vandam2020))|
 
 ## Talks
 
