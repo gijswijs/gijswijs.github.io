@@ -1,7 +1,62 @@
 {
-  "lastWmId": null,
-  "children": [],
+  "lastWmId": 1418947,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bali Saani",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c1a4c3b054d8826735ad1ddc0ced0b3e54329fc3f9507db88d252dc9b10697ee.jpg",
+        "url": "https://twitter.com/Balisaani"
+      },
+      "url": "https://twitter.com/gijswijs/status/1537377203683577856#favorited-by-333104924",
+      "published": null,
+      "wm-received": "2022-06-18T01:27:04Z",
+      "wm-id": 1418947,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1537377203683577856/333104924",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/06/16-36570/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/06/16-36570/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Chris Cambron",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/54d41a43aeb115eb21baa2637196a258af4d248bc4128fc36f8b73b986d2e40f.jpg",
+        "url": "https://twitter.com/ccambron"
+      },
+      "url": "https://twitter.com/gijswijs/status/1537377203683577856#favorited-by-24124209",
+      "published": null,
+      "wm-received": "2022-06-17T02:45:26Z",
+      "wm-id": 1418199,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1537377203683577856/24124209",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/06/16-36570/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/06/16-36570/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "marypmadigan",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/02599f7547d8ced72b300a4e64427bc72f7d43ddc248dd323d682fede372c847.jpg",
+        "url": "https://twitter.com/marypmadigan"
+      },
+      "url": "https://twitter.com/gijswijs/status/1537377203683577856#favorited-by-15723179",
+      "published": null,
+      "wm-received": "2022-06-17T02:45:25Z",
+      "wm-id": 1418198,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1537377203683577856/15723179",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/06/16-36570/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/06/16-36570/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
   "reply-count": 0,
-  "like-count": 0,
+  "like-count": 3,
   "repost-count": 0
 }

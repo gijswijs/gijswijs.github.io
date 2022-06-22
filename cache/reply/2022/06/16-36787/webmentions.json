@@ -1,7 +1,26 @@
 {
-  "lastWmId": null,
-  "children": [],
+  "lastWmId": 1418200,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "marypmadigan",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/02599f7547d8ced72b300a4e64427bc72f7d43ddc248dd323d682fede372c847.jpg",
+        "url": "https://twitter.com/marypmadigan"
+      },
+      "url": "https://twitter.com/gijswijs/status/1537378090581737472#favorited-by-15723179",
+      "published": null,
+      "wm-received": "2022-06-17T02:45:27Z",
+      "wm-id": 1418200,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1537378090581737472/15723179",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/06/16-36787/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/06/16-36787/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
   "reply-count": 0,
-  "like-count": 0,
+  "like-count": 1,
   "repost-count": 0
 }
