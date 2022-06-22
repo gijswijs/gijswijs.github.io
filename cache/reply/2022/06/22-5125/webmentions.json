@@ -1,7 +1,30 @@
 {
-  "lastWmId": null,
-  "children": [],
-  "reply-count": 0,
+  "lastWmId": 1420744,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Cassandra Schadenfreude",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/21e4938d0a7e57ce18c11b8817968f4c0789d3b7111fbf921a6d4a82b84328d9.jpg",
+        "url": "https://twitter.com/Frances_Coppola"
+      },
+      "url": "https://twitter.com/Frances_Coppola/status/1539423257904001025",
+      "published": "2022-06-22T01:41:20+00:00",
+      "wm-received": "2022-06-22T02:09:52Z",
+      "wm-id": 1420744,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1539419642535583746/1539423257904001025",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/06/22-5125/",
+      "content": {
+        "html": "Unfortunately the unscrupulous will always seize on any new innovation in finance.\n<a class=\"u-mention\" href=\"https://twitter.com/JHWeissmann\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gladstein\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "Unfortunately the unscrupulous will always seize on any new innovation in finance."
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2022/06/22-5125/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 1,
   "like-count": 0,
   "repost-count": 0
 }

@@ -1,7 +1,30 @@
 {
-  "lastWmId": null,
-  "children": [],
-  "reply-count": 0,
+  "lastWmId": 1420747,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Wiebe de Jager",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/690b8e4e14122340fd315e7513c46de2868bb5d0750fbf1c49f490f20e128a16.jpg",
+        "url": "https://twitter.com/wdejager"
+      },
+      "url": "https://twitter.com/wdejager/status/1538846335163674624",
+      "published": "2022-06-20T11:28:51+00:00",
+      "wm-received": "2022-06-22T02:09:54Z",
+      "wm-id": 1420747,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1538845756383236096/1538846335163674624",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/06/20-41110/",
+      "content": {
+        "html": "Ja, en dan je tussenstand moeten saven op een cassette, ondanks dat je MSX een diskdrive had… Ik herinner me nog steeds die muziek, jij ook? <a href=\"https://www.youtube.com/watch?v=ehlAMTh42Ko\">youtube.com/watch?v=ehlAMT…</a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "Ja, en dan je tussenstand moeten saven op een cassette, ondanks dat je MSX een diskdrive had… Ik herinner me nog steeds die muziek, jij ook? youtube.com/watch?v=ehlAMT…"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2022/06/20-41110/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 1,
   "like-count": 0,
   "repost-count": 0
 }

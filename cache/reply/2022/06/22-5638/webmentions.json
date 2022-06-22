@@ -1,7 +1,48 @@
 {
-  "lastWmId": null,
-  "children": [],
-  "reply-count": 0,
-  "like-count": 0,
+  "lastWmId": 1420746,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Brian Clark",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d571f82ad006ee25466cbfceed5ea5cc495a009a3d2ddcce4fa0d3f0b74520fa.jpg",
+        "url": "https://twitter.com/BrianClark"
+      },
+      "url": "https://twitter.com/BrianClark/status/1539422105418313729",
+      "published": "2022-06-22T01:36:45+00:00",
+      "wm-received": "2022-06-22T02:09:53Z",
+      "wm-id": 1420746,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1539421791415844865/1539422105418313729",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/06/22-5638/",
+      "content": {
+        "html": "That’s a start.\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "That’s a start."
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2022/06/22-5638/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Brian Clark",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d571f82ad006ee25466cbfceed5ea5cc495a009a3d2ddcce4fa0d3f0b74520fa.jpg",
+        "url": "https://twitter.com/BrianClark"
+      },
+      "url": "https://twitter.com/gijswijs/status/1539421791415844865#favorited-by-10367",
+      "published": null,
+      "wm-received": "2022-06-22T02:09:52Z",
+      "wm-id": 1420745,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1539421791415844865/10367",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/06/22-5638/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/06/22-5638/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 1,
+  "like-count": 1,
   "repost-count": 0
 }

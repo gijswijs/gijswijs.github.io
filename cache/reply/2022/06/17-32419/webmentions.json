@@ -1,7 +1,44 @@
 {
-  "lastWmId": null,
-  "children": [],
+  "lastWmId": 1420748,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Thomas Ardal 🇺🇦 elmah.io",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/7088fbac80f97c4a0bb2a6f404bbac05ae7934c5f654fb4811f3fee0ef9bd33e.jpg",
+        "url": "https://twitter.com/ThomasArdal"
+      },
+      "url": "https://twitter.com/gijswijs/status/1537722139457077251#favorited-by-39706548",
+      "published": null,
+      "wm-received": "2022-06-22T02:09:55Z",
+      "wm-id": 1420748,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1537722139457077251/39706548",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/06/17-32419/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/06/17-32419/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "ASP.NET Boilerplate",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6aa5049414a01e312aff05b627fbfe7f7b463a3aec59cce9ad7f6cdee3b63110.jpg",
+        "url": "https://twitter.com/aspboilerplate"
+      },
+      "url": "https://twitter.com/gijswijs/status/1537722139457077251#favorited-by-2396051970",
+      "published": null,
+      "wm-received": "2022-06-22T02:09:55Z",
+      "wm-id": 1420749,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1537722139457077251/2396051970",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/06/17-32419/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/06/17-32419/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
   "reply-count": 0,
-  "like-count": 0,
+  "like-count": 2,
   "repost-count": 0
 }
