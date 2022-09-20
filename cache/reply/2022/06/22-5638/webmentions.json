@@ -1,5 +1,5 @@
 {
-  "lastWmId": 1420746,
+  "lastWmId": 1420925,
   "children": [
     {
       "type": "entry",
@@ -40,9 +40,45 @@
       "like-of": "https://www.gijsvandam.nl/reply/2022/06/22-5638/",
       "wm-property": "like-of",
       "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Fernando Labastida",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/740b73215c05f93fc6d5de837f57ce22bd0b2bccc6fe87c06d732ba17e925772.jpg",
+        "url": "https://twitter.com/flabastida"
+      },
+      "url": "https://twitter.com/gijswijs/status/1539421791415844865#favorited-by-14212466",
+      "published": null,
+      "wm-received": "2022-06-22T14:28:18Z",
+      "wm-id": 1420925,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1539421791415844865/14212466",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/06/22-5638/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/06/22-5638/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sonia Simone 🌻",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/da2e65be203126bceccca46f09d7f49f0c4c05b37d39cc4e21ddb0fa604bea97.jpg",
+        "url": "https://twitter.com/soniasimone"
+      },
+      "url": "https://twitter.com/gijswijs/status/1539421791415844865#favorited-by-9232572",
+      "published": null,
+      "wm-received": "2022-06-22T14:28:13Z",
+      "wm-id": 1420924,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1539421791415844865/9232572",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/06/22-5638/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/06/22-5638/",
+      "wm-property": "like-of",
+      "wm-private": false
     }
   ],
   "reply-count": 1,
-  "like-count": 1,
+  "like-count": 3,
   "repost-count": 0
 }

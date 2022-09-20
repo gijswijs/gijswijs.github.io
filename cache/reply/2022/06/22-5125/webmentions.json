@@ -1,5 +1,5 @@
 {
-  "lastWmId": 1420744,
+  "lastWmId": 1421205,
   "children": [
     {
       "type": "entry",
@@ -22,9 +22,31 @@
       "in-reply-to": "https://www.gijsvandam.nl/reply/2022/06/22-5125/",
       "wm-property": "in-reply-to",
       "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Inevitable Bitcoin",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d11bf2292d4a1248e533a9ea336d75e1c1bdc76028191ea3aa6b46f4a6429111.png",
+        "url": "https://twitter.com/ReuScherf"
+      },
+      "url": "https://twitter.com/ReuScherf/status/1539689838223495168",
+      "published": "2022-06-22T19:20:38+00:00",
+      "wm-received": "2022-06-22T19:22:24Z",
+      "wm-id": 1421205,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1539419642535583746/1539689838223495168",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/06/22-5125/",
+      "content": {
+        "html": "If you stayed focused on Bitcoin your fine.\n<a class=\"u-mention\" href=\"https://twitter.com/Frances_Coppola\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JHWeissmann\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gladstein\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "If you stayed focused on Bitcoin your fine."
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2022/06/22-5125/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
     }
   ],
-  "reply-count": 1,
+  "reply-count": 2,
   "like-count": 0,
   "repost-count": 0
 }
