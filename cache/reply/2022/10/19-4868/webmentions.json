@@ -1,7 +1,106 @@
 {
-  "lastWmId": null,
-  "children": [],
-  "reply-count": 0,
-  "like-count": 0,
+  "lastWmId": 1541322,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Pete S",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8f91b2c284b7b497904bf87eb784bb67fb17cb6b75675dd36df332b4760f5e70.jpg",
+        "url": "https://twitter.com/siento"
+      },
+      "url": "https://twitter.com/gijswijs/status/1582542747671486464#favorited-by-26878402",
+      "published": null,
+      "wm-received": "2022-10-19T02:37:54Z",
+      "wm-id": 1541322,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1582542747671486464/26878402",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/10/19-4868/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/10/19-4868/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matthew",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c9d90245e1931e510f4aa44c23ffbfcf79b036bb09496465f4e756834c8cae48.jpg",
+        "url": "https://twitter.com/midwesthideout"
+      },
+      "url": "https://twitter.com/gijswijs/status/1582542747671486464#favorited-by-1535041520709009412",
+      "published": null,
+      "wm-received": "2022-10-19T02:37:53Z",
+      "wm-id": 1541320,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1582542747671486464/1535041520709009412",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/10/19-4868/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/10/19-4868/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Noah Smith 🐇🇺🇦",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/27130031eea683fb7cd5c171ecec6bf6cd082161e8000f68f2c6ac427ef959bc.jpg",
+        "url": "https://twitter.com/Noahpinion"
+      },
+      "url": "https://twitter.com/gijswijs/status/1582542747671486464#favorited-by-281877818",
+      "published": null,
+      "wm-received": "2022-10-19T02:37:53Z",
+      "wm-id": 1541321,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1582542747671486464/281877818",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/10/19-4868/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/10/19-4868/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matthew",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c9d90245e1931e510f4aa44c23ffbfcf79b036bb09496465f4e756834c8cae48.jpg",
+        "url": "https://twitter.com/midwesthideout"
+      },
+      "url": "https://twitter.com/midwesthideout/status/1582543556614402048",
+      "published": "2022-10-19T01:26:00+00:00",
+      "wm-received": "2022-10-19T02:37:52Z",
+      "wm-id": 1541318,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1582542747671486464/1582543556614402048",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/10/19-4868/",
+      "content": {
+        "html": "Interesting to learn this because Sanrio is EXTREMELY protective of its IP as we've gotten our one and only lifetime cease-and-desist letter from my wife teaching 7 year olds how to draw a few of the characters\n<a class=\"u-mention\" href=\"https://twitter.com/Noahpinion\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "Interesting to learn this because Sanrio is EXTREMELY protective of its IP as we've gotten our one and only lifetime cease-and-desist letter from my wife teaching 7 year olds how to draw a few of the characters"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2022/10/19-4868/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gijs van Dam",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e6dd6e8cb27bc1e8bedd6c85f5c42a220dd1201fa36f5d674772dc0c9ff05d55.jpg",
+        "url": "https://twitter.com/gijswijs"
+      },
+      "url": "https://twitter.com/gijswijs/status/1582545861594202112",
+      "published": "2022-10-19T01:35:10+00:00",
+      "wm-received": "2022-10-19T02:37:52Z",
+      "wm-id": 1541319,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1582542747671486464/1582545861594202112",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/10/19-4868/",
+      "content": {
+        "html": "ill doers are ill deemers, it seems. There's a Dutch saying for this, which translates to: \"How the innkeeper is, that’s how he trusts his guests.\"\n<a class=\"u-mention\" href=\"https://twitter.com/Noahpinion\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/midwesthideout\"></a>",
+        "text": "ill doers are ill deemers, it seems. There's a Dutch saying for this, which translates to: \"How the innkeeper is, that’s how he trusts his guests.\""
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2022/10/19-4868/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 2,
+  "like-count": 3,
   "repost-count": 0
 }

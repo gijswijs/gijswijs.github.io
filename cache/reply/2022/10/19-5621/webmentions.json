@@ -1,7 +1,26 @@
 {
-  "lastWmId": null,
-  "children": [],
+  "lastWmId": 1541323,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matthew",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c9d90245e1931e510f4aa44c23ffbfcf79b036bb09496465f4e756834c8cae48.jpg",
+        "url": "https://twitter.com/midwesthideout"
+      },
+      "url": "https://twitter.com/gijswijs/status/1582545861594202112#favorited-by-1535041520709009412",
+      "published": null,
+      "wm-received": "2022-10-19T02:38:21Z",
+      "wm-id": 1541323,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1582545861594202112/1535041520709009412",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/10/19-5621/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/10/19-5621/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
   "reply-count": 0,
-  "like-count": 0,
+  "like-count": 1,
   "repost-count": 0
 }
