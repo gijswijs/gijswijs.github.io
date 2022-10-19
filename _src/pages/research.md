@@ -23,6 +23,7 @@ sortId: 2
 
 | year | talk                                                                                                                                                                                                                |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2022 | Understanding Bitcoin Series: Payment Split & Switch plugin demo, Bitcoiner Malaysia, Kuala Lumpur |
 | 2021 | Differential private payment channels in Lightning Network, Bitcoin Sydney Socratic Seminar ([video](https://rumble.com/vl31wc-differentially-private-payment-channels.html)) |
 | 2021 | Privacy and Security Risks in the Lightning Network, National University of Singapore |
 | 2020 | Improvements of the Balance Discovery Attack on Lightning Network Payment Channels, IFIP Information Security Conference & Privacy Conference |
