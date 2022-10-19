@@ -1,7 +1,62 @@
 {
-  "lastWmId": null,
-  "children": [],
+  "lastWmId": 1523458,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "wi͛llcl-ark",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fe5bb789aee2105688a02c5604fefd0483d816ecf2202da5909b4045b68a160b.jpg",
+        "url": "https://twitter.com/willcl_ark"
+      },
+      "url": "https://twitter.com/gijswijs/status/1567802297563889664#favorited-by-23053631",
+      "published": null,
+      "wm-received": "2022-09-20T13:09:01Z",
+      "wm-id": 1523458,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1567802297563889664/23053631",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/09/08-32881/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/09/08-32881/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dan Gould",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/cf60195be102f1358eb3da10680ff19dc67d2b6b3afc569a5d98094d5d58c226.jpg",
+        "url": "https://twitter.com/bitgould"
+      },
+      "url": "https://twitter.com/gijswijs/status/1567802297563889664#favorited-by-319799517",
+      "published": null,
+      "wm-received": "2022-09-20T13:09:00Z",
+      "wm-id": 1523457,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1567802297563889664/319799517",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/09/08-32881/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/09/08-32881/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bitcoiner Malaysia",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/16586ea7de5eff840434ef1ef3cc8ee38c973e1507cdb75f0814d5f8bdb9601a.jpg",
+        "url": "https://twitter.com/BitcoinerMY"
+      },
+      "url": "https://twitter.com/gijswijs/status/1567802297563889664#favorited-by-1547418581239222272",
+      "published": null,
+      "wm-received": "2022-09-20T13:08:59Z",
+      "wm-id": 1523456,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1567802297563889664/1547418581239222272",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/09/08-32881/",
+      "like-of": "https://www.gijsvandam.nl/reply/2022/09/08-32881/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
   "reply-count": 0,
-  "like-count": 0,
+  "like-count": 3,
   "repost-count": 0
 }
