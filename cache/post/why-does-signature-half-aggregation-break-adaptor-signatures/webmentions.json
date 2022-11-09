@@ -1,5 +1,5 @@
 {
-  "lastWmId": 1408352,
+  "lastWmId": 1546245,
   "children": [
     {
       "type": "entry",
@@ -57,9 +57,27 @@
       "like-of": "https://www.gijsvandam.nl/post/why-does-signature-half-aggregation-break-adaptor-signatures/",
       "wm-property": "like-of",
       "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "lightcoin.btc",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/dd646af6fe90ad0b6a28568c3b2e893b15fab3b6974fa0fbc82579dead4d5890.jpg",
+        "url": "https://twitter.com/lightcoin"
+      },
+      "url": "https://twitter.com/gijswijs/status/1510918866771529729#favorited-by-1210952893",
+      "published": null,
+      "wm-received": "2022-10-28T16:41:45Z",
+      "wm-id": 1546245,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1510918866771529729/1210952893",
+      "wm-target": "https://www.gijsvandam.nl/post/why-does-signature-half-aggregation-break-adaptor-signatures/",
+      "like-of": "https://www.gijsvandam.nl/post/why-does-signature-half-aggregation-break-adaptor-signatures/",
+      "wm-property": "like-of",
+      "wm-private": false
     }
   ],
   "reply-count": 0,
-  "like-count": 2,
+  "like-count": 3,
   "repost-count": 1
 }
