@@ -1,7 +1,30 @@
 {
-  "lastWmId": null,
-  "children": [],
-  "reply-count": 0,
+  "lastWmId": 1554118,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Quintin Schevernels",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e25082656b7e785cf8b7b413e1d0862a2959c07f9850d4065013b1b8433a1ad1.jpg",
+        "url": "https://twitter.com/Quintin24"
+      },
+      "url": "https://twitter.com/Quintin24/status/1584891792083734530",
+      "published": "2022-10-25T12:57:03+00:00",
+      "wm-received": "2022-11-09T07:04:49Z",
+      "wm-id": 1554118,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1584845695055437824/1584891792083734530",
+      "wm-target": "https://www.gijsvandam.nl/reply/2022/10/25-35544/",
+      "content": {
+        "html": "Merk bouwen, impact, etc.\n<a class=\"u-mention\" href=\"https://twitter.com/dirkminnebo\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "Merk bouwen, impact, etc."
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2022/10/25-35544/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 1,
   "like-count": 0,
   "repost-count": 0
 }
