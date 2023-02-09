@@ -69,7 +69,7 @@ e&=H(P||R||m)
 \end{align}
 \\]
 
-The hashing function is indicated by \\(H()\\) and it is chosen in such a way that it returns a value that of the same scale as our private keys. That is why SHA256 is a great choice for the hashing function. It's important to understand that a hash is *just* a number. We can us it as such and do some elliptic curve calculations with it to come up with our signature:
+The hashing function is indicated by \\(H()\\) and it is chosen in such a way that it returns a value that is of the same scale as our private keys. That is why SHA256 is a great choice for the hashing function. It's important to understand that a hash is *just* a number. We can us it as such and do some elliptic curve calculations with it to come up with our signature:
 
 \\[s=r + ex\\]
 
@@ -134,7 +134,7 @@ This construction is the building block of things like [private Coinswap](https:
 
 ## Signature Half Aggregation
 
-Now, let's try to understand Signature Half Aggregation. The basic concept of Signature Half Aggregation is to take the \\(i\\) signatures \\((s_{i}, R_{i})\\) that we want to aggregate, and then concatenate all the \\(R\\)-values and sum all the\\(s\\)-values. But as it turned out, that construction [wasn't safe](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-May/014306.html). But with a small adjustment we can make a construction that *is* safe. Instead of summing all the\\(s\\)-values, we sum up all the\\(s\\)-values *after* multiplying them with unpredictable values.
+Now, let's try to understand Signature Half Aggregation. The basic concept of Signature Half Aggregation is to take the \\(i\\) signatures \\((s_{i}, R_{i})\\) that we want to aggregate, and then concatenate all the \\(R\\)-values and sum all the \\(s\\)-values. But as it turned out, that construction [wasn't safe](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-May/014306.html). But with a small adjustment we can make a construction that *is* safe. Instead of summing all the \\(s\\)-values, we sum up all the \\(s\\)-values *after* multiplying them with unpredictable values.
 
 Assume we have \\(n\\) Schnorr signatures we want to aggregate. For each signature, we create an unpredictable value \\(z_{i}\\). So, for \\(i = 1 .. n\\) we calculate the following value:
 
@@ -159,6 +159,6 @@ s_{agg}G &= \sum_{i=1}^{n} z_{i}(R_{i}+P_{i}e_{i}) \\\\
 
 ## Signature Half Aggregation Breaks Adaptor Signatures
 
-So why does Signature Half Agrregation when used for blockwide signature aggregation in Bitcoin break Adaptor Signatures? Well, we need that untweaked signature \\(s\\) to calculate the secret tweak \\(t=s-s'\\). But the untweaked signature \\(s\\) is lost inside the aggregate signature \\(s_{agg}\\). The only thing we have is the tweaked signature \\(s'\\), with \\(R\\) and \\(T\\), since those were given to us, but the untweaked signature \\(s\\) should have been revealed when published on-chain. Instead we are given the \\(s_{agg}\\) which allows us to verify that all inputs inside the block have been signed, but it doesn't allow us to know the exact value of \\(s\\).
+So why does Signature Half Agrregation when used for blockwide signature aggregation in Bitcoin break Adaptor Signatures? Well, we need that untweaked signature \\(s'\\) to calculate the secret tweak \\(t=s-s'\\). But the untweaked signature \\(s'\\) is lost inside the aggregate signature \\(s_{agg}\\). The only thing we have is the tweaked signature \\(s\\), with \\(R\\) and \\(T\\), since those were given to us, but the untweaked signature \\(s'\\) should have been revealed when published on-chain. Instead we are given the \\(s_{agg}\\) which allows us to verify that all inputs inside the block have been signed, but it doesn't allow us to know the exact value of \\(s'\\).
 
 And that's why Signature Half Aggregation breaks Adaptor Signatures.
