@@ -1,7 +1,66 @@
 {
-  "lastWmId": null,
-  "children": [],
-  "reply-count": 0,
-  "like-count": 0,
+  "lastWmId": 1619486,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "medjedowo",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8742937141d920edb38076427f43dcebbf56a6515b88c7b093e20bdafc97a4df.jpg",
+        "url": "https://twitter.com/medjedowo"
+      },
+      "url": "https://twitter.com/medjedowo/status/1623461448495030272",
+      "published": "2023-02-08T23:19:06+00:00",
+      "wm-received": "2023-02-09T23:20:24Z",
+      "wm-id": 1619486,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1623240921927000064/1623461448495030272",
+      "wm-target": "https://www.gijsvandam.nl/reply/2023/02/08-31285/",
+      "content": {
+        "html": "probably because financial literacy in American politics is negative\n<a class=\"u-mention\" href=\"https://twitter.com/Noahpinion\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "probably because financial literacy in American politics is negative"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2023/02/08-31285/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Noah Smith 🐇🇺🇦",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/27130031eea683fb7cd5c171ecec6bf6cd082161e8000f68f2c6ac427ef959bc.jpg",
+        "url": "https://twitter.com/Noahpinion"
+      },
+      "url": "https://twitter.com/gijswijs/status/1623240921927000064#favorited-by-281877818",
+      "published": null,
+      "wm-received": "2023-02-09T23:20:19Z",
+      "wm-id": 1619483,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1623240921927000064/281877818",
+      "wm-target": "https://www.gijsvandam.nl/reply/2023/02/08-31285/",
+      "like-of": "https://www.gijsvandam.nl/reply/2023/02/08-31285/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Trog",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bf7a81342e460967ac58088d738968548072a4d295f19d16ce4736dac363c6af.jpg",
+        "url": "https://twitter.com/PonderingTrog"
+      },
+      "url": "https://twitter.com/gijswijs/status/1623240921927000064#favorited-by-196868562",
+      "published": null,
+      "wm-received": "2023-02-09T23:20:19Z",
+      "wm-id": 1619484,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1623240921927000064/196868562",
+      "wm-target": "https://www.gijsvandam.nl/reply/2023/02/08-31285/",
+      "like-of": "https://www.gijsvandam.nl/reply/2023/02/08-31285/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 1,
+  "like-count": 2,
   "repost-count": 0
 }
