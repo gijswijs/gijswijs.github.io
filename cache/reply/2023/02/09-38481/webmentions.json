@@ -1,7 +1,70 @@
 {
-  "lastWmId": null,
-  "children": [],
-  "reply-count": 0,
-  "like-count": 0,
+  "lastWmId": 1619997,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Imran S 🌐",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/819b78bfb3f792d927aee2521e4e6e8a902eb59b9902c4ccaaca5e5d3b4c6387.jpg",
+        "url": "https://twitter.com/AsiaAnalyst47"
+      },
+      "url": "https://twitter.com/AsiaAnalyst47/status/1623633884838760450",
+      "published": "2023-02-09T10:44:18+00:00",
+      "wm-received": "2023-02-10T17:51:35Z",
+      "wm-id": 1619997,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1623633468276998145/1623633884838760450",
+      "wm-target": "https://www.gijsvandam.nl/reply/2023/02/09-38481/",
+      "content": {
+        "html": "How so? Different climatic conditions?\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "How so? Different climatic conditions?"
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2023/02/09-38481/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Gijs van Dam",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e6dd6e8cb27bc1e8bedd6c85f5c42a220dd1201fa36f5d674772dc0c9ff05d55.jpg",
+        "url": "https://twitter.com/gijswijs"
+      },
+      "url": "https://twitter.com/gijswijs/status/1623636960278446080",
+      "published": "2023-02-09T10:56:31+00:00",
+      "wm-received": "2023-02-10T17:51:34Z",
+      "wm-id": 1619996,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1623633468276998145/1623636960278446080",
+      "wm-target": "https://www.gijsvandam.nl/reply/2023/02/09-38481/",
+      "content": {
+        "html": "Yes, desert climate in the north, (sub)tropical climate in sub-saharan Africa. But I am not suggesting it is a good case to make. Look at the deserts of Namibia for instance.\n<a class=\"u-mention\" href=\"https://twitter.com/AsiaAnalyst47\"></a>",
+        "text": "Yes, desert climate in the north, (sub)tropical climate in sub-saharan Africa. But I am not suggesting it is a good case to make. Look at the deserts of Namibia for instance."
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2023/02/09-38481/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Imran S 🌐",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/819b78bfb3f792d927aee2521e4e6e8a902eb59b9902c4ccaaca5e5d3b4c6387.jpg",
+        "url": "https://twitter.com/AsiaAnalyst47"
+      },
+      "url": "https://twitter.com/gijswijs/status/1623633468276998145#favorited-by-495508593",
+      "published": null,
+      "wm-received": "2023-02-10T17:51:30Z",
+      "wm-id": 1619995,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1623633468276998145/495508593",
+      "wm-target": "https://www.gijsvandam.nl/reply/2023/02/09-38481/",
+      "like-of": "https://www.gijsvandam.nl/reply/2023/02/09-38481/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 2,
+  "like-count": 1,
   "repost-count": 0
 }

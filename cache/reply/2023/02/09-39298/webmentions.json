@@ -1,7 +1,26 @@
 {
-  "lastWmId": null,
-  "children": [],
+  "lastWmId": 1619998,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Imran S 🌐",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/819b78bfb3f792d927aee2521e4e6e8a902eb59b9902c4ccaaca5e5d3b4c6387.jpg",
+        "url": "https://twitter.com/AsiaAnalyst47"
+      },
+      "url": "https://twitter.com/gijswijs/status/1623636960278446080#favorited-by-495508593",
+      "published": null,
+      "wm-received": "2023-02-10T17:51:37Z",
+      "wm-id": 1619998,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1623636960278446080/495508593",
+      "wm-target": "https://www.gijsvandam.nl/reply/2023/02/09-39298/",
+      "like-of": "https://www.gijsvandam.nl/reply/2023/02/09-39298/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
   "reply-count": 0,
-  "like-count": 0,
+  "like-count": 1,
   "repost-count": 0
 }

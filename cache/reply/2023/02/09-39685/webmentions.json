@@ -1,7 +1,44 @@
 {
-  "lastWmId": null,
-  "children": [],
+  "lastWmId": 1619994,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Vidar Masson",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/45c19ca15431b5d66c5bea785dc9158170fa0e917d40a63b84731edeec2bff63.jpg",
+        "url": "https://twitter.com/vidarmasson"
+      },
+      "url": "https://twitter.com/gijswijs/status/1623638542327943170#favorited-by-5563962",
+      "published": null,
+      "wm-received": "2023-02-10T17:51:29Z",
+      "wm-id": 1619994,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1623638542327943170/5563962",
+      "wm-target": "https://www.gijsvandam.nl/reply/2023/02/09-39685/",
+      "like-of": "https://www.gijsvandam.nl/reply/2023/02/09-39685/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "João Silva",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/115a744e14966cb49297c1c69fec923ab9b638f70d4f28b92e2099b97f052462.jpg",
+        "url": "https://twitter.com/kappyzor"
+      },
+      "url": "https://twitter.com/gijswijs/status/1623638542327943170#favorited-by-21319427",
+      "published": null,
+      "wm-received": "2023-02-10T17:51:28Z",
+      "wm-id": 1619993,
+      "wm-source": "https://brid.gy/like/twitter/gijswijs/1623638542327943170/21319427",
+      "wm-target": "https://www.gijsvandam.nl/reply/2023/02/09-39685/",
+      "like-of": "https://www.gijsvandam.nl/reply/2023/02/09-39685/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ],
   "reply-count": 0,
-  "like-count": 0,
+  "like-count": 2,
   "repost-count": 0
 }
