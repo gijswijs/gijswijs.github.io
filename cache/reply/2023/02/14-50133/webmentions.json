@@ -1,7 +1,30 @@
 {
-  "lastWmId": null,
-  "children": [],
-  "reply-count": 0,
+  "lastWmId": 1622783,
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Caroline Reeders",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/cfd10ced060f7d3b9e756c1c56be18b040f72b017b6b1e986d91e000a037d1d3.jpg",
+        "url": "https://twitter.com/CarolineReeders"
+      },
+      "url": "https://twitter.com/CarolineReeders/status/1625509439779340289",
+      "published": "2023-02-14T14:57:05+00:00",
+      "wm-received": "2023-02-14T15:01:51Z",
+      "wm-id": 1622783,
+      "wm-source": "https://brid.gy/comment/twitter/gijswijs/1625494305359159298/1625509439779340289",
+      "wm-target": "https://www.gijsvandam.nl/reply/2023/02/14-50133/",
+      "content": {
+        "html": "Daarvoor moet je bij De Arbeiderspers zijn.\n<a class=\"u-mention\" href=\"https://twitter.com/gijswijs\"></a>\n<a class=\"u-mention\" href=\"https://www.gijsvandam.nl/\"></a>",
+        "text": "Daarvoor moet je bij De Arbeiderspers zijn."
+      },
+      "in-reply-to": "https://www.gijsvandam.nl/reply/2023/02/14-50133/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    }
+  ],
+  "reply-count": 1,
   "like-count": 0,
   "repost-count": 0
 }
