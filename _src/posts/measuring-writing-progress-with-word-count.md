@@ -2,12 +2,12 @@
 title: Measuring your writing progress with a git word count
 date: 2021-02-26
 layout: miksa/post.njk
-tags: boilerplate paper, powershell, git
+tags: boilerplate paper, powershell, git, bash
 ---
 
 Writing a scientific paper is hard. Doing your PhD is hard. Writing your thesis is hard. And to make me feel even more miserable I decided to measure my progress by counting the net change in words I achieve throughout each day.
 I am by no means a productivity guru and I don't know whether word count is a useful indicator for measuring the progress of a paper. That being said, it is a reality check to see how fast my  work is progressing.
-So without further ado here's the Powershell command that outputs the wordcount for the last 25 days based on git commits.
+So without further ado here's the Powershell command that outputs the wordcount for the last 25 days based on git commits. (For the bash command, see the bottom of this post)
 
 ```powershell
 for($i = 0; $i -lt 25; $i++){$j = $i + 1; Write-Host (get-date (get-date).addDays(-$i) -UFormat "%Y%m%d") ((git diff --word-diff=porcelain "@{$j days ago}" "@{$i days ago}"   -- "***.md"| Select-String -Pattern "^\+.*" | Measure-Object -word | select -ExpandProperty Words) - (git diff --word-diff=porcelain "@{$j days ago}" "@{$i days ago}"  -- "***.md"| Select-String -Pattern "^-.*" | Measure-Object -word | select -ExpandProperty Words)) }
@@ -118,3 +118,9 @@ So this is my progress for the past few days of a particular paper I am writing:
 ```
 
 I guess I was just busy with other things...
+
+Update 2023-03-10: Since writing this article I switched to Linux almost exclusively, so I have transpiled this command to bash:
+
+```bash
+for i in {0..24}; do j=$(($i+1)); a=$(git diff --word-diff=porcelain "@{$j days ago}" "@{$i days ago}"   -- '***.md' | grep '^+' | grep -v '^+++'| wc -w) ; b=$(git diff --word-diff=porcelain "@{$j days ago}" "@{$i days ago}"   -- '***.md' | grep '^-' | grep -v '^---'| wc -w) ; echo $(($a - $b)); done
+```
