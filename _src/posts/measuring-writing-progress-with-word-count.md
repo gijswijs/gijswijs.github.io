@@ -120,7 +120,8 @@ So this is my progress for the past few days of a particular paper I am writing:
 I guess I was just busy with other things...
 
 Update 2023-03-10: Since writing this article I switched to Linux almost exclusively, so I have transpiled this command to bash:
+Update 2023-07-24: Added date to bash command output 
 
 ```bash
-for i in {0..24}; do j=$(($i+1)); a=$(git diff --word-diff=porcelain "@{$j days ago}" "@{$i days ago}"   -- '***.md' | grep '^+' | grep -v '^+++'| wc -w) ; b=$(git diff --word-diff=porcelain "@{$j days ago}" "@{$i days ago}"   -- '***.md' | grep '^-' | grep -v '^---'| wc -w) ; echo $(($a - $b)); done
+for i in {0..24}; do j=$(($i+1)); a=$(git diff --word-diff=porcelain "@{$j days ago}" "@{$i days ago}"   -- '***.md' | grep '^+' | grep -v '^+++'| wc -w) ; b=$(git diff --word-diff=porcelain "@{$j days ago}" "@{$i days ago}"   -- '***.md' | grep '^-' | grep -v '^---'| wc -w) ; d=$(date +%Y%m%d -d "$i days ago") ; echo $d $(($a - $b)); done
 ```
