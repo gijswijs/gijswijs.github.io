@@ -32,12 +32,6 @@
         "name": "Mastodon",
         "me": true
       },
-      "twitter": {
-        "url": "https://www.twitter.com/gijswijs",
-        "icon": "twitter",
-        "name": "Twitter",
-        "me": true
-      },
       "stream": {
         "url": "/feed",
         "name": "Stream",
