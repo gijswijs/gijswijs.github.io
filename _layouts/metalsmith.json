@@ -26,12 +26,6 @@
         "name": "ResearchGate",
         "me": true
       },
-      "mastodon": {
-        "url": "https://bitcoinhackers.org/@gijswijs",
-        "icon": "mastodon",
-        "name": "Mastodon",
-        "me": true
-      },
       "stream": {
         "url": "/feed",
         "name": "Stream",
