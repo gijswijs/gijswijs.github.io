@@ -55,6 +55,10 @@ PSS is similar to Link MPP in that two channel partners along a route agree to f
 
 My plugin is just a proof of concept and should definitely not be used with an actual `core lightning` node, but it did allow me to use it for my research on Balance Discovery Attacks and it had some real interesting implications. More on that in my next post.
 
+## Summary
+
+So that's MPP for you. Only Base MPP is a real thing, and maybe Link MPP is too and I just don't know about it. OG AMP has never come to fruition, but High AMP might once PTLCs become a thing. Meanwhile PSS is like Link MPP on steroids and it has a completely *not* battle tested plugin that shows it can work.
+
 [ln-post]: /post/how-do-payments-in-lightning-network-work/ "How do payments in Lightning Network work?"
 [optech]: https://bitcoinops.org/en/topics/multipath-payments/ "Bitcoin Optech: Multipath payments"
 [boltmpp]: https://github.com/lightning/bolts/blob/master/04-onion-routing.md#basic-multi-part-payments "BOLT #4: Basic Multi-Part Payments"
