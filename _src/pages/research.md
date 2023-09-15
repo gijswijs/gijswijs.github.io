@@ -18,6 +18,7 @@ sortId: 2
 | year | paper                                                                                                                                                                                                                |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2019 | van Dam, G., Kadir, R. A., Nohuddin, P. N. E., & Zaman, H. B. (2019). Improvements of the Balance Discovery Attack on Lightning Network Payment Channels. Cryptology ePrint Archive, Report 2019/1385. [https://ia.cr/2019/1385](https://ia.cr/2019/1385) ([peer reviewed version](#vandam2020))|
+| 2023 | van Dam (2023). Payment Splitting in Lightning Network as a Mitigation Against Balance Discovery Attacks. Cryptology ePrint Archive, Paper 2023/1360. [https://ia.cr/2023/1360](https://ia.cr/2023/1360)|
 
 ## Talks
 
