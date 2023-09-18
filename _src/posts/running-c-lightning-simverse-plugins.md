@@ -2,7 +2,7 @@
 title: "Running c-lightning in Simverse with plugins"
 date: 2020-12-02
 layout: miksa/post.njk
-tags: simverse, c-lightning
+tags: simverse, c-lightning, lightning network
 ---
 
 The goal is to run c-lightning with plugins in a local testing cluster. For my cluster I use [Simverse](https://github.com/darwin/simverse).

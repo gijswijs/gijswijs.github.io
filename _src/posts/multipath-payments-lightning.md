@@ -3,7 +3,7 @@ title: Multipath payments in Lightning Network
 date: 2021-08-05
 publish: draft
 layout: miksa/post.njk
-tags: lightning, amp
+tags: lightning network, amp
 ---
 
 Base-AMP

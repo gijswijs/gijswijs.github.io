@@ -2,7 +2,7 @@
 title: Debugging LND while running a local cluster
 date: 2020-11-16
 layout: miksa/post.njk
-tags: lnd, simverse, vscode
+tags: lnd, simverse, vscode, lightning network
 ---
 
 If you want to debug LND, or if you want to take a real deep dive into LND, you probably want to be able to set breakpoints in the source code to see what is actually happening. Not only that, you also want to have the node run in a local cluster of other nodes, so that you can perform some real Lightning actions like opening a channel and make payments. This post takes you through the setup I use based on [Delve](https://github.com/go-delve/delve) and [Simverse](https://github.com/darwin/simverse).
