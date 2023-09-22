@@ -49,7 +49,11 @@ Secondly, the attacker needs to consider every possible split of payment over th
 
 We can still capture this in a geometrical model. Again we start with a (hyper-)rectangle. But instead of the parallel channels in a hop, we need to consider all routes possible routes from one node to the next. But here the attacker has to make an assumption, with regards to the length of the routes it is willing to consider. In my research I made the assumption that PSS was only feasible over alternative routes with one intermediary hop. Every possible route from one hop to the next is now a dimension of our (hyper-)rectangle. This includes all parallel channels if there are any, but now also alternative routes with a single intermediary hop.
 
+![The geometrical model assuming PSS](/images/geo-pss-start.png "The geometrical model assuming PSS")
+
 The attacker also needs to change it interpretation of the probing results. A sucessful probe is still grounds for adjusting the lower bounds, but before we could cut away a rectangle (the balances of both channels can't _both_ be lower than the probing amount). But with PSS it's different. A succesful probe in PSS means that the balances of both channels can't _together_ be lower than the probing amount. Geometrically this means we can cut away a triangle containing all points in our (hyper-)rectangle that _together_ are less than the probing amount. A failed probe indicates an upper bound where we can cut away all points that _together_ are more than the probing amount.
+
+![The geometrical model after a sucessful and failed probe](/images/geo-pss-after-probes.png "The geometrical model after a sucessful and failed probe")
 
 So instead of chipping away squares we are now chipping away triangles that are half the size of those squares. A BDA still reduces the set of possible balances quite drastically, but it does it less than without the assumption of PSS. In other words, a (hyper-)rectangle with the same amount of dimensions and the same size is reduced to a bigger set with the assumption of PSS. Moreover, the (hyper-)rectangle have more dimensions to begin with because of the alternative routes that need to be considered, making the resulting set of possible balances even bigger than that set in the same setting but without PSS.
 
