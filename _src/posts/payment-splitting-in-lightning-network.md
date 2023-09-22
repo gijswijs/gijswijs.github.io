@@ -1,5 +1,5 @@
 ---
-title: All types of multi-part payments in Lightning Network explained.
+title: All types of multi-part payments in Lightning Network explained
 date: 2023-09-15
 layout: miksa/post.njk
 tags: PSS, lightning network, bitcoin, MPP, AMP
