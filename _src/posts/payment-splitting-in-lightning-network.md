@@ -53,7 +53,11 @@ To understand what the PSS plugin does, and how it's different from Link MPP, yo
 
 PSS is similar to Link MPP in that two channel partners along a route agree to forward a payment in parts between them. One partner breaks up the payment in parts, the other reassembles them and forwards them as a single HTLC, as if nothing happened. Where PSS and Link MPP differ is that Link MPP only works with parallel channels, PSS also works with multi-hop routes.
 
-My plugin is just a proof of concept and should definitely not be used with an actual `core lightning` node, but it did allow me to use it for my research on Balance Discovery Attacks and it had some real interesting implications. More on that in my next post.
+My plugin is just a proof of concept and should definitely not be used with an actual `core lightning` node, but it did allow me to use it for my research on Balance Discovery Attacks and it had some real interesting implications. More on that in my [next post][next-post].
+
+You can see the plugin at work in the screencast below:
+
+<script async id="asciicast-520416" src="https://asciinema.org/a/520416.js"></script>
 
 ## Summary
 
@@ -71,3 +75,4 @@ So that's MPP for you. Only Base MPP is a real thing, and maybe Link MPP is too 
 [jit]: https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-March/001891.html "Just in Time Routing (JIT-Routing) and a channel rebalancing heuristic as an add on for improved routing success in BOLT 1.0"
 [ln-dev4]: https://lists.linuxfoundation.org/pipermail/lightning-dev/2021-August/003144.html "Revisiting Link-level payment splitting via intermediary rendezvous nodes"
 [pss-plugin]: https://github.com/gijswijs/plugins/tree/master/pss "Payment Splitting & Switching plugin"
+[next-post]: /post/the-effect-of-multi-part-payments-on-the-balance-disovery-attack/ "The effect of multi-part payments on the Balance Disovery Attack"
