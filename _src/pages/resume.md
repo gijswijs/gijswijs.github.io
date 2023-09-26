@@ -10,7 +10,9 @@ sortId: 5
 
 | year         | position                                                                        |
 |--------------|---------------------------------------------------------------------------------|
-| 2017-present | Freelance IT consultant, Kuala Lumpur, Malaysia                                 |
+| 2023-2023    | web3 cyber security researcher, Freelance, Amsterdam                            |
+| 2023-2023    | Protocol Security Team Lead, Heliax, Remote                                     |
+| 2017-2022    | IT consultant, Freelance, Kuala Lumpur, Malaysia                                |
 | 2002-present | Founder/Owner, Mindbus Webdevelopment, Leiden, The Netherlands/Lisbon, Portugal |
 | 2000-2002    | Project Manager, Valoris, The Hague, The Netherlands/Antwerp, Belgium           |
 | 2000-2000    | Web Developer, Websilon, The Hague, The Netherlands                             |
@@ -28,7 +30,8 @@ sortId: 5
 
 | year | publication                                                                                                                                                                                                          |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2022 | van Dam, G. & Kadir, R. A. (2022). Hiding Payments in Lightning Network with Approximate Differentially Private Payment Channels, in Computers & Security, 2022 (in press) | 
+| 2023 | van Dam (2023). Payment Splitting in Lightning Network as a Mitigation Against Balance Discovery Attacks (preprint). Cryptology ePrint Archive, Paper 2023/1360. [https://ia.cr/2023/1360](https://ia.cr/2023/1360)| 
+| 2022 | van Dam, G. & Kadir, R. A. (2022). Hiding Payments in Lightning Network with Approximate Differentially Private Payment Channels, in Computers & Security, 2022  | 
 | 2020 | van Dam, G., Kadir, R. A., Nohuddin, P. N. E., & Zaman, H. B. (2020). Improvements of the Balance Discovery Attack on Lightning Network Payment Channels (pp. 313-323). https://doi.org/10.1007/978-3-030-58201-2_21 |
 | 2014 | Whitepaper: Your company future-proof with ecommerce (dutch)                                                                                                                                                         |
 
