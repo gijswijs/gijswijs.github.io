@@ -61,7 +61,9 @@ You can see the plugin at work in the screencast below:
 
 ## Summary
 
-So that's MPP for you. Only Base MPP is a real thing, and maybe Link MPP is too and I just don't know about it. OG AMP has never come to fruition, but High AMP might once PTLCs become a thing. Meanwhile PSS is like Link MPP on steroids and it has a completely *not* battle tested plugin that shows it can work.
+So that's MPP for you. Only Base MPP is widely supported and OG AMP is supported by LND since [v0.13.0][lnd]. Maybe Link MPP is supported and I just don't know about it, because covertness is in the nature of Link MPP. High AMP might come to fruition once PTLCs become a thing. Meanwhile PSS is like Link MPP on steroids and it has a completely *not* battle tested plugin that shows it could work.
+
+Update: In an earlier version of this post I stated that OG AMP is not supported, but that is not true. [LND][lnd] does support it. The text now reflects that fact. h/t [David A. Harding][dtrt]
 
 [ln-post]: /post/how-do-payments-in-lightning-network-work/ "How do payments in Lightning Network work?"
 [optech]: https://bitcoinops.org/en/topics/multipath-payments/ "Bitcoin Optech: Multipath payments"
@@ -75,4 +77,6 @@ So that's MPP for you. Only Base MPP is a real thing, and maybe Link MPP is too 
 [jit]: https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-March/001891.html "Just in Time Routing (JIT-Routing) and a channel rebalancing heuristic as an add on for improved routing success in BOLT 1.0"
 [ln-dev4]: https://lists.linuxfoundation.org/pipermail/lightning-dev/2021-August/003144.html "Revisiting Link-level payment splitting via intermediary rendezvous nodes"
 [pss-plugin]: https://github.com/gijswijs/plugins/tree/master/pss "Payment Splitting & Switching plugin"
+[dtrt]: https://dtrt.org/ "David A. Harding"
 [next-post]: /post/the-effect-of-multi-part-payments-on-the-balance-disovery-attack/ "The effect of multi-part payments on the Balance Disovery Attack"
+[lnd]: https://github.com/lightningnetwork/lnd/releases/tag/v0.13.0-beta.rc5 "Release lnd v0.13.0-beta.rc5"
