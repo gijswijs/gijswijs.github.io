@@ -18,7 +18,7 @@ I was always a computer nerd, and from 1995 onwards focussed on web development 
 
 We moved to Malaysia in January 2017. My wife and I always had this dream of living in a foreign country for a few years. So when she could get a job as an assistant professor at a Malaysian university we didn't have to think twice about it. We moved with our kids, then 5 months and 4 years old.
 
-In an unexpected way moving to Malaysia opened up the opportunity to make a career switch. I wasn't spending as much time on Mindbus anymore (and it thrived, so I am not sure what that says about my involvement) and the cost of living was such that I could afford to do a full-time PhD at the National University of Malaysia. So that's what I am doing now: A PhD in computer science. My research is on privacy in the context of second layer cryptocurrency solutions.
+In an unexpected way moving to Malaysia opened up the opportunity to make a career switch. I wasn't spending as much time on Mindbus anymore (and it thrived, so I am not sure what that says about my involvement) and the cost of living was such that I could afford to do a full-time PhD at the National University of Malaysia. I completed my PhD in 2024. My research is on privacy in the context of second layer cryptocurrency solutions.
 
 In December 2022 we moved back to The Netherlands.
 

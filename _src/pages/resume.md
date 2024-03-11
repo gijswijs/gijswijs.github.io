@@ -21,10 +21,10 @@ sortId: 5
 
 ## Education
 
-| year         | education                                                                                      |
-|--------------|------------------------------------------------------------------------------------------------|
-| 2018-present | PhD Computer Science, National University of Malaysia, Institute of IR 4.0, Malaysia (ongoing) |
-| 1995-2000    | MSc Veterinary Science, Utrecht University, The Netherlands                                    |
+| year      | education                                                                              |
+|-----------|----------------------------------------------------------------------------------------|
+| 2018-2024 | PhD Computer Science, National University of Malaysia, Institute of Visual Informatics |
+| 1995-2000 | MSc Veterinary Science, Utrecht University, The Netherlands                            |
 
 ## Publications & Whitepapers
 
@@ -39,6 +39,7 @@ sortId: 5
 
 | year      | training/certification                                                                    |
 |-----------|-------------------------------------------------------------------------------------------|
+| 2024      | Start Your Career in Bitcoin FOSS, Chaincode Labs, New York (online)                       |
 | 2021      | Lightning Network Seminar Series, Chaincode Labs, New York (online)                       |
 | 2021      | An Introduction To Probability In Computing, IIT Madras (online)                          |
 | 2020      | iFintell workshop series: R language, Python, STATA & MATLAB, Big Data analytics, AI & ML |
