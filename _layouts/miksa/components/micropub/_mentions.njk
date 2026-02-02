@@ -1,0 +1,99 @@
+{# Mentions - pages that linked to this content without being a reply, like, or repost #}
+{% set mentionCount = 0 %}
+{% set bookmarkCount = 0 %}
+{% if webmentions and webmentions.children %}
+  {% for child in webmentions.children %}
+    {% if child['wm-property'] == 'mention-of' %}
+      {% set mentionCount = mentionCount + 1 %}
+    {% endif %}
+    {% if child['wm-property'] == 'bookmark-of' %}
+      {% set bookmarkCount = bookmarkCount + 1 %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if mentionCount > 0 %}
+<section class="mentions" aria-label="Mentions">
+  <h3 class="mentions-heading">
+    <i class="icon-link" aria-hidden="true">&nbsp;</i>
+    {{ mentionCount }} {{ 'Mention' if mentionCount == 1 else 'Mentions' }}
+  </h3>
+  <ul class="mention-list">
+    {% for mention in webmentions.children %}
+    {% if mention['wm-property'] == 'mention-of' %}
+    <li class="mention-item h-cite">
+      {% if mention.author and mention.author.photo %}
+      <img src="{{ mention.author.photo }}"
+           alt=""
+           class="mention-avatar u-photo"
+           loading="lazy"
+           width="24"
+           height="24">
+      {% endif %}
+      <a href="{{ mention.url or mention['wm-source'] }}"
+         class="mention-link u-url"
+         rel="nofollow noopener">
+        {% if mention.author and mention.author.name %}
+        <span class="p-author">{{ mention.author.name }}</span>
+        {% else %}
+        {{ mention['wm-source'] | truncate(50) }}
+        {% endif %}
+      </a>
+      {% if mention.published or mention['wm-received'] %}
+      <time class="mention-date dt-published"
+            datetime="{{ mention.published or mention['wm-received'] }}">
+        {{ (mention.published or mention['wm-received']) | date("MMM D, YYYY") }}
+      </time>
+      {% endif %}
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{# Bookmarks - people who bookmarked this content #}
+{% if bookmarkCount > 0 %}
+<section class="bookmarks" aria-label="Bookmarks">
+  <h3 class="bookmarks-heading">
+    <i class="icon-bookmark" aria-hidden="true">&nbsp;</i>
+    Bookmarked by {{ bookmarkCount }}
+  </h3>
+  <ul class="webmention-avatars">
+    {% for bookmark in webmentions.children %}
+    {% if bookmark['wm-property'] == 'bookmark-of' %}
+    <li class="p-bookmark h-cite">
+      {% if bookmark.author %}
+      <a href="{{ bookmark.author.url or bookmark.url or bookmark['wm-source'] }}"
+         class="u-url"
+         title="{{ bookmark.author.name or 'Anonymous' }} bookmarked this"
+         rel="nofollow noopener">
+        <span class="p-author h-card">
+          {% if bookmark.author.photo %}
+          <img src="{{ bookmark.author.photo }}"
+               alt="{{ bookmark.author.name or 'Anonymous' }}"
+               class="u-photo"
+               loading="lazy"
+               width="48"
+               height="48">
+          {% else %}
+          <span class="avatar-placeholder" aria-hidden="true">
+            {{ (bookmark.author.name or '?') | first | upper }}
+          </span>
+          {% endif %}
+        </span>
+      </a>
+      {% else %}
+      <a href="{{ bookmark.url or bookmark['wm-source'] }}"
+         class="u-url"
+         title="Bookmarked"
+         rel="nofollow noopener">
+        <span class="avatar-placeholder" aria-hidden="true">?</span>
+      </a>
+      {% endif %}
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

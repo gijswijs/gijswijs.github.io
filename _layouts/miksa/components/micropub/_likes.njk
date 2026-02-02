@@ -1,16 +1,39 @@
-{% if webmentions['like-count'] > 0 %}
-  <ul class="likes ">
-    {% asyncEach child in webmentions.children | reverse %}
-    {% if child['wm-property'] == 'like-of' %}
-      <li class="p-like h-cite">
-        <a href="{{ child.url }}" class="u-url">
-          <div class="p-author h-card">
-            <img src="{{ child.author.photo }}" alt="{{ child.author.name }}" title="{{ child.author.name }}" class="u-photo">
-            <a class="p-name u-url" href="{{ child.author.url }}">{{ child.author.name }}</a>
-          </div>
-        </a>
-      </li>
+{# Likes - avatar grid of people who liked this #}
+{% if webmentions and webmentions['like-count'] > 0 %}
+<ul class="likes">
+  {% for like in webmentions.children %}
+  {% if like['wm-property'] == 'like-of' %}
+  <li class="p-like h-cite">
+    {% if like.author %}
+    <a href="{{ like.author.url or like.url or like['wm-source'] }}"
+       class="u-url"
+       title="{{ like.author.name or 'Anonymous' }}"
+       rel="nofollow noopener">
+      <div class="p-author h-card">
+        {% if like.author.photo %}
+        <img src="{{ like.author.photo }}"
+             alt="{{ like.author.name or 'Anonymous' }}"
+             class="u-photo"
+             loading="lazy"
+             width="48"
+             height="48">
+        {% else %}
+        <span class="avatar-placeholder">{{ (like.author.name or '?') | first | upper }}</span>
+        {% endif %}
+      </div>
+    </a>
+    {% else %}
+    <a href="{{ like.url or like['wm-source'] }}"
+       class="u-url"
+       title="Anonymous"
+       rel="nofollow noopener">
+      <div class="p-author h-card">
+        <span class="avatar-placeholder">?</span>
+      </div>
+    </a>
     {% endif %}
-    {% endeach %}
-  </ul>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
 {% endif %}

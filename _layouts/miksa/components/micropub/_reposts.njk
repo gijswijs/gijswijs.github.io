@@ -1,16 +1,39 @@
-{% if webmentions['repost-count'] > 0 %}
-  <ul class="reposts ">
-    {% asyncEach child in webmentions.children | reverse %}
-    {% if child['wm-property'] == 'repost-of' %}
-      <li class="p-repost h-cite">
-        <a href="{{ child.url }}" class="u-url">
-          <div class="p-author h-card">
-            <img src="{{ child.author.photo }}" alt="{{ child.author.name }}" title="{{ child.author.name }}" class="u-photo">
-            <a class="p-name u-url" href="{{ child.author.url }}">{{ child.author.name }}</a>
-          </div>
-        </a>
-      </li>
+{# Reposts - avatar grid of people who reposted this #}
+{% if webmentions and webmentions['repost-count'] > 0 %}
+<ul class="reposts">
+  {% for repost in webmentions.children %}
+  {% if repost['wm-property'] == 'repost-of' %}
+  <li class="p-repost h-cite">
+    {% if repost.author %}
+    <a href="{{ repost.author.url or repost.url or repost['wm-source'] }}"
+       class="u-url"
+       title="{{ repost.author.name or 'Anonymous' }}"
+       rel="nofollow noopener">
+      <div class="p-author h-card">
+        {% if repost.author.photo %}
+        <img src="{{ repost.author.photo }}"
+             alt="{{ repost.author.name or 'Anonymous' }}"
+             class="u-photo"
+             loading="lazy"
+             width="48"
+             height="48">
+        {% else %}
+        <span class="avatar-placeholder">{{ (repost.author.name or '?') | first | upper }}</span>
+        {% endif %}
+      </div>
+    </a>
+    {% else %}
+    <a href="{{ repost.url or repost['wm-source'] }}"
+       class="u-url"
+       title="Anonymous"
+       rel="nofollow noopener">
+      <div class="p-author h-card">
+        <span class="avatar-placeholder">?</span>
+      </div>
+    </a>
     {% endif %}
-    {% endeach %}
-  </ul>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
 {% endif %}

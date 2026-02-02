@@ -1,19 +1,26 @@
-{% if webmentions['reply-count'] > 0 or webmentions['like-count'] > 0 or webmentions['repost-count'] > 0  %}
-  <div class="metadata">
-    {% if webmentions['repost-count'] > 0 %}
-      <i class="icon-repost">&nbsp;</i>
-      {{ webmentions['repost-count'] }}
-      {{ 'repost' if webmentions['repost-count'] == 1 else 'reposts' }}
-    {% endif %}
-    {% if webmentions['like-count'] > 0 %}
-      <i class="icon-like">&nbsp;</i>
-      {{ webmentions['like-count'] }}
-      {{ 'like' if webmentions['like-count'] == 1 else 'likes' }}
-    {% endif %}
-    {% if webmentions['reply-count'] > 0 %}
-      <i class="icon-reply">&nbsp;</i>
-      {{ webmentions['reply-count'] }}
-      {{ 'reply' if webmentions['reply-count'] == 1 else 'replies' }}
-    {% endif %}
-  </div>
+{# Webmention summary counts - displays icons with counts for reposts, likes, replies #}
+{% if webmentions and (webmentions['reply-count'] > 0 or webmentions['like-count'] > 0 or webmentions['repost-count'] > 0) %}
+<div class="webmention-counts metadata" aria-label="Engagement">
+  {% if webmentions['repost-count'] > 0 %}
+  <span class="webmention-count">
+    <i class="icon-repost" aria-hidden="true">&nbsp;</i>
+    <span class="webmention-count__number">{{ webmentions['repost-count'] }}</span>
+    <span class="webmention-count__label">{{ 'repost' if webmentions['repost-count'] == 1 else 'reposts' }}</span>
+  </span>
+  {% endif %}
+  {% if webmentions['like-count'] > 0 %}
+  <span class="webmention-count">
+    <i class="icon-like" aria-hidden="true">&nbsp;</i>
+    <span class="webmention-count__number">{{ webmentions['like-count'] }}</span>
+    <span class="webmention-count__label">{{ 'like' if webmentions['like-count'] == 1 else 'likes' }}</span>
+  </span>
+  {% endif %}
+  {% if webmentions['reply-count'] > 0 %}
+  <span class="webmention-count">
+    <i class="icon-reply" aria-hidden="true">&nbsp;</i>
+    <span class="webmention-count__number">{{ webmentions['reply-count'] }}</span>
+    <span class="webmention-count__label">{{ 'reply' if webmentions['reply-count'] == 1 else 'replies' }}</span>
+  </span>
+  {% endif %}
+</div>
 {% endif %}

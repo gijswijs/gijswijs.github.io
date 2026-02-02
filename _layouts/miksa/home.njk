@@ -15,11 +15,18 @@
           {% set contents = post.contents %}
           {% set tags = post.tags %}
           {% set date = post.date %}
+          {% set webmentions = post.webmentions %}
           {% include "miksa/components/_post-info.njk" %}
         </header>
         <section>
           {{ post.excerpt | safe }}
         </section>
+        {% if post.webmentions and (post.webmentions['reply-count'] > 0 or post.webmentions['like-count'] > 0 or post.webmentions['repost-count'] > 0) %}
+        <footer class="post-engagement">
+          {% set webmentions = post.webmentions %}
+          {% include "miksa/components/micropub/_webmentions.njk" %}
+        </footer>
+        {% endif %}
       </article>
     </li>
     {% endeach %}

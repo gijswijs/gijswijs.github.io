@@ -1,19 +1,59 @@
-{% if webmentions['reply-count'] > 0 %}
-  <ul class="replies">
-    {% asyncEach child in webmentions.children | reverse %}
-    {% if child['wm-property'] == 'in-reply-to' %}
-      <li class="u-comment h-cite">
-        <div class="p-author h-card">
-          <img src="{{ child.author.photo }}" alt="{{ child.author.name }}" class="u-photo">
-          <a class="p-name u-url" href="{{ child.author.url }}">{{ child.author.name }}</a>
-          <a href="{{ child.author.url }}">{{ child.author.url }}</a>
+{# Replies - threaded comments #}
+{% if webmentions and webmentions['reply-count'] > 0 %}
+<section class="replies" aria-label="Replies">
+  <h3 class="replies-heading">
+    <i class="icon-reply" aria-hidden="true">&nbsp;</i>
+    {{ webmentions['reply-count'] }} {{ 'Reply' if webmentions['reply-count'] == 1 else 'Replies' }}
+  </h3>
+  <ol class="reply-thread">
+    {% for reply in webmentions.children %}
+    {% if reply['wm-property'] == 'in-reply-to' %}
+    <li class="u-comment h-cite" id="wm-{{ reply['wm-id'] }}">
+      <article class="reply-content">
+        <header class="reply-header">
+          {% if reply.author %}
+          <a href="{{ reply.author.url or reply['wm-source'] }}"
+             class="reply-author p-author h-card"
+             rel="nofollow noopener">
+            {% if reply.author.photo %}
+            <img src="{{ reply.author.photo }}"
+                 alt=""
+                 class="u-photo reply-avatar"
+                 loading="lazy"
+                 width="40"
+                 height="40">
+            {% else %}
+            <span class="avatar-placeholder avatar-placeholder--small" aria-hidden="true">
+              {{ (reply.author.name or '?') | first | upper }}
+            </span>
+            {% endif %}
+            <span class="p-name">{{ reply.author.name or 'Anonymous' }}</span>
+          </a>
+          {% else %}
+          <span class="reply-author">Anonymous</span>
+          {% endif %}
+          <a href="{{ reply.url or reply['wm-source'] }}"
+             class="reply-permalink u-url"
+             rel="nofollow noopener">
+            <time class="dt-published"
+                  datetime="{{ reply.published or reply['wm-received'] }}">
+              {{ (reply.published or reply['wm-received']) | date("MMMM D, YYYY") }}
+            </time>
+          </a>
+        </header>
+        {% if reply.content %}
+        <div class="p-content reply-body">
+          {% if reply.content.html %}
+          {{ reply.content.html | safe }}
+          {% elif reply.content.text %}
+          <p>{{ reply.content.text }}</p>
+          {% endif %}
         </div>
-        <p class="p-content p-name">{{ child.content.html | safe }}</p>
-        <a href="{{ child.url }}" class="u-url metadata">
-          <time class="dt-published" datetime="{{ child.published | date() }}">{{ child.published | date("YYYY-MM-DD HH:mm:ss Z") }}</time>
-        </a>
-      </li>
+        {% endif %}
+      </article>
+    </li>
     {% endif %}
-    {% endeach %}
-  </ul>
+    {% endfor %}
+  </ol>
+</section>
 {% endif %}

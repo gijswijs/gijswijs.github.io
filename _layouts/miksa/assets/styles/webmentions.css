@@ -1,0 +1,235 @@
+/**
+ * Webmentions Styles for Miksa Theme
+ * Supplements main.css with additional webmention styling
+ */
+
+/* ============================================
+   Avatar Placeholders (for missing photos)
+   ============================================ */
+.avatar-placeholder {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  background: #e0e0e0;
+  color: #666;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.avatar-placeholder--small {
+  width: 40px;
+  height: 40px;
+  font-size: 1rem;
+}
+
+/* ============================================
+   Avatar images - small border radius
+   ============================================ */
+ul.likes img.u-photo,
+ul.reposts img.u-photo {
+  border-radius: 4px;
+}
+
+/* ============================================
+   Webmention Counts (summary display)
+   ============================================ */
+.webmention-counts {
+  text-align: left;
+}
+
+.webmention-count {
+  display: inline;
+}
+
+.webmention-count__number {
+  font-weight: 600;
+}
+
+.webmention-count__label {
+  color: inherit;
+}
+
+/* ============================================
+   Sections (replies, mentions, bookmarks)
+   ============================================ */
+.replies,
+.mentions,
+.bookmarks {
+  margin-top: 1.5rem;
+}
+
+.replies-heading,
+.mentions-heading,
+.bookmarks-heading {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0 0 1rem;
+}
+
+/* ============================================
+   Reply Thread
+   ============================================ */
+.reply-thread {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reply-thread > li {
+  margin-bottom: 1rem;
+}
+
+.reply-content {
+  padding: 1rem;
+  background: #f8f8f8;
+  border-left: 3px solid #ced4da;
+}
+
+.reply-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.reply-author {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #00f;
+}
+
+.reply-author:hover {
+  text-decoration: underline;
+}
+
+.reply-avatar {
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.reply-permalink {
+  color: #6c757d;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.reply-permalink:hover {
+  text-decoration: underline;
+}
+
+.reply-body {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.reply-body p {
+  margin: 0 0 0.5rem;
+}
+
+.reply-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* Deep link highlight for replies */
+.u-comment:target .reply-content {
+  border-left-color: #00f;
+  background: #f0f4ff;
+}
+
+/* ============================================
+   Mentions List
+   ============================================ */
+.mention-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mention-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ced4da;
+  font-size: 1.3rem;
+}
+
+.mention-item:last-child {
+  border-bottom: none;
+}
+
+.mention-avatar {
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.mention-link {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #00f;
+}
+
+.mention-link:hover {
+  text-decoration: underline;
+}
+
+.mention-date {
+  color: #6c757d;
+  white-space: nowrap;
+}
+
+/* ============================================
+   Bookmarks (avatar grid like likes/reposts)
+   ============================================ */
+.bookmarks ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.bookmarks ul li {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.bookmarks img.u-photo {
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
+}
+
+/* ============================================
+   Override main.css centering - align left
+   ============================================ */
+article div.metadata,
+article ul.likes,
+article ul.replies,
+article ul.reposts {
+  margin-left: 0;
+}
+
+/* ============================================
+   Post Engagement Footer (for home page)
+   ============================================ */
+.post-engagement {
+  margin-top: 0.5rem;
+}
+
+.post-engagement .metadata {
+  width: auto;
+  max-width: none;
+  margin-left: 0;
+}

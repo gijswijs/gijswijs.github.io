@@ -2,12 +2,13 @@
   <a href="{{ rootpath }}{{ path }}" class="u-url">
     <time class="dt-published" datetime="{{ date | date() }}">{{ date | date("YYYY-MM-DD HH:mm:ss Z") }}</time>
   </a>
+  {# Syndication links hidden visually but present for Bridgy backfeed #}
   {% if not excerpt %}
   	{% asyncEach link in syndication %}
   	{% if link.destination %}
-    	<a href="{{ link.url }}" class="u-syndication icon-{{ link.destination }}">{{ link.destination }}</a>
+    	<a href="{{ link.url }}" class="u-syndication" hidden>{{ link.destination }}</a>
   	{% else %}
-   	 <a href="{{ link }}" class="u-syndication">{{ link }}</a>
+   	 <a href="{{ link }}" class="u-syndication" hidden>{{ link }}</a>
   	{% endif %}
   	{% endeach %}
   {% endif %}
