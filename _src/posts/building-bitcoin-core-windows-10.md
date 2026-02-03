@@ -21,7 +21,7 @@ Prompt=LTS
 # Change it to:
 Prompt=normal
 ```
-Run
+Run TEST
 ```
 sudo do-release-upgrade
 ```
