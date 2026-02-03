@@ -21,7 +21,7 @@ Prompt=LTS
 # Change it to:
 Prompt=normal
 ```
-Run TEST 5
+Run TEST ZOVEEL!
 ```
 sudo do-release-upgrade
 ```
