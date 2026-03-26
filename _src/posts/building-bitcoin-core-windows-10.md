@@ -47,7 +47,7 @@ Apparently it is useful to copy the compiled executables to a directory on the w
 ```
 sudo make install DESTDIR=/mnt/c/workspace/bitcoin
 ```
-Again, sit back and wait for the process to finish.
+Again, sit back and wait (sigh...) for the process to finish.
 
 After the process has finished successfully, you will find the executables here: C:\workspace\bitcoin\bin
 Starting bitcoin-qt.exe will start Bitcoin Core, the GUI node for Bitcoin.
